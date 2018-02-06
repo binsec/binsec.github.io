@@ -1,0 +1,33 @@
+---
+layout: default
+title: Publications
+---
+
+
+
+<section class="section">
+  <div class="container">
+    <h1 class="title is_primary">Publications
+    </h1>
+
+    {% assign papers = site.data.publications %}
+    {% assign last_year = 1999 %}
+
+    <ul>
+    {% for p in papers %}
+    <li>
+      <div class="article-container">
+        {{ p.title }}
+        {% for a in p.authors %}
+        {{ a.firstname }} {{ a.lastname }}
+        {% endfor %}
+        {{ p.venue }}
+        {{ p.year }}
+      </div>
+    </li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>
+
+

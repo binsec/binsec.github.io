@@ -1,0 +1,50 @@
+---
+
+- id: sbardin
+  firstname: Sébastien
+  lastname: Bardin
+  position: researcher
+  www: sebastien.bardin.free.fr
+  role: leader
+
+- id: rbonichon
+  firstname: Richard
+  lastname: Bonichon
+  position: researcher
+  www: https://rbonichon.github.io
+  role: technical lead
+
+- id: bfarinier
+  firstname: Benjamin
+  lastname: Farinier
+  position: phd
+
+- id: mlemerre
+  firstname: Matthieu
+  lastname: Lemerre
+  position: researcher
+  
+- id: frecoules
+  firstname: Frédéric
+  lastname: Recoules
+  position: phd
+
+- id: drobin
+  firstname: Robin
+  lastname: David
+  position: phd
+  is_past: true
+
+- id: adjoudi
+  firstname: Adel
+  lastname: Djoudi
+  position: phd
+  is_past: true
+
+- id: jfeist
+  firstname: Josselin
+  lastname: Feist
+  position: phd
+  is_past: true
+  
+

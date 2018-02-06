@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<section class="hero is-bold binsec">
+  <div class="hero-body">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <img alt="" src="/assets/img/logo.png"/>
+      </div>
+      <div class="column has-text-centered">
+        <h1 class="title has-text-warning">Semantics to the Rescue! </h1>
+        <a class="button is-warning is-large" href="">
+          <span class="icon">
+            <i class="fas fa-download"></i>
+          </span>
+          <span>Download latest</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">Foo</div>
+      <div class="column">Bar</div>
+      <div class="column">Baz</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">People</h1>
+    <table class="table">
+      {% assign people = site.data.people | sort:"position" %}
+      {% for p in people %}
+      <tr>
+        <td>{{ p.firstname }}</td>
+        <td>{{ p.lastname }}</td>
+        <td>{{ p.position }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <h1 class="is_primary">Foo
+    </h1>
+    {{ content }}
+  </div>
+</section>
+
+
