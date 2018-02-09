@@ -2,13 +2,170 @@
 ---
 
 // 6. Import the rest of Bulma
+// $primary: #f7ca18;
+
 @import "bulma.sass";
 
-section.binsec {
-        background-image: url("/assets/img/emacs-hexedit.png");
-        div.hero-body {
-            background-color: black;
-            opacity:0.85;
-        }
+html {
+  color: $grey-dark;
+  font-size: 14px;
+
+  @media (min-width: 800px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 18px;
+  }
 }
+
+// Select a bit larger default font
+body {
+    color: $grey-dark;
+    font-size: 1.1rem;
+
+  @media (min-width: 800px) {
+    font-size: 1.12rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.15rem;
+  }
+}
+
+a {
+    color : $grey-dark;
+    text-decoration: underline;
+}
+
+a#rss {
+    color : $primary;
+}
+
+section.binsec {
+    background-image: url("/assets/img/emacs-hexedit.png");
+    div.hero-head {
+        background-color: black;
+        opacity:0.85;
+    }
+    div.hero-body {
+        background-color: black;
+        opacity:0.85;
+    }
+}
+
+section.binsec div.column a.download {
+    font-weight: 800;
+    &:hover {
+        color: $black;
+    }
+}
+
+article.news-item {
+    h2 {
+        color: black;
+    }
+}
+
+div.home-post {
+    margin-top: 1rem;
+    border-bottom : 1px solid $primary;
+}
+
+span.lastname, span.date {
+    font-variant: small-caps;
+}
+
+span.date {
+    font-size: smaller;
+}
+
+div.hero-title {
+    padding-bottom: 100px;
+}
+
+#logo {
+    font-family: "Nimbus Sans L", "Fira Sans", sans-serif;
+    color: $primary;
+    font-size: 14rem;
+
+    // Magic:
+    @media (max-width: 1000px) {
+           font-size: 10rem;
+    }
+
+    // Magic:
+    @media (max-width: 800px) {
+           font-size: 8rem;
+    }
+
+    
+    // Magic:
+    @media (max-width: 400px) {
+           font-size: 6rem;
+    }
+}
+
+.is-active {
+    background-color: black;
+}
+
+.navbar-burger {
+    background-color: black;
+}
+
+
+.logo {
+    color: $primary;
+}
+
+
+nav {
+    font-variant: small-caps;
+}
+
+div.navbar-brand {
+    padding-right:4em;
+
+}
+
+section.footer {
+    background-color : $black;
+}
+
+#nav-menu  a {
+    color : $primary;
+    font-weight: 800;
+    &:hover {
+        background-color: $primary;
+        color: $black;
+    }
+}
+
+.news-item a {
+    color : $primary;
+}
+
+.hero .title {
+    color : $primary;
+    font-variant: small-caps;
+}
+
+div.post  {
+    padding-top: 1em;
+    padding-bottom : 2em;
+}
+
+
+.smallcaps {
+    font-variant: small-caps;
+}
+
+.footer {
+    background : $black;
+    color: $primary;
+}
+
+
+
 

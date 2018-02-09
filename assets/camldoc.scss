@@ -1,0 +1,174 @@
+---
+---
+
+// OCamldoc
+
+@import "bulma.sass";
+
+html {
+  color: $grey-dark;
+  font-size: 14px;
+
+  @media (min-width: 800px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 18px;
+  }
+}
+
+// Select a bit larger default font
+body {
+
+    @extend .container;
+    color: $grey-dark;
+    font-size: 1.1rem;
+
+  @media (min-width: 800px) {
+    font-size: 1.12rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.15rem;
+  }
+}
+
+a {
+    color : $grey-dark;
+    text-decoration: underline;
+}
+
+
+.indextable {
+    @extend .table;
+    @extend .is-hoverable;
+    font-size: 1.1rem;
+
+    .info { padding-top: 0; font-size: inherit;}
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul.indexlist {
+    @extend .buttons;
+    list-style-type: none;
+
+    li {
+        a {
+            @extend .button;
+            @extend .is-primary;
+            @extend .is-outlined;
+            @extend .is-rounded;
+        }
+    }
+}
+
+div.navbar {
+    @extend .navbar;
+    @extend .navbar-menu;
+    a {
+        @extend .navbar-item;
+    }
+}
+
+h1 {
+    @extend .is-size-2;
+}
+
+h2 {
+    @extend .is-size-3;
+}
+
+.keyword {
+    color : $primary;
+}
+ 
+.constructor {
+   color : $blue;
+ }
+
+.type {
+    color : $grey-dark;
+}
+
+
+.grey-bg {
+    background-color: white;
+}
+
+table {
+    @extend .table;
+    font-size : 1.1rem;
+}
+
+
+
+pre { 
+    @extend .grey-bg;
+    padding-bottom: 0px;
+}
+
+code {
+    @extend .grey-bg;
+    padding-left : 0;
+    span { padding : 0 0 0 0; }
+}
+
+
+code.code {
+    color: $black;
+}
+
+
+.typetable {
+    @extend .table;
+    @extend .grey-bg;
+    border: none;
+    margin-top : none;
+    margin-bottom : none;
+    margin-left: 50px;
+    font-size: 1.1rem;
+    .info { padding-top: 0; }
+    tr { td { border : none; 
+              @extend .grey-bg; 
+              padding-bottom: 3px;
+              padding-top : 0;
+              padding-left: 0;
+              margin : 0 0 0 0; }}
+}
+
+
+div.sig_block {
+    margin-left : 50px;
+    pre { padding-bottom : 0;}
+}
+
+div.info { 
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 0.8rem;
+    border-left: 2px solid $primary;
+}
+
+div.top {
+    margin-top : 20px;
+}
+
+
+.h7 { @extend .is-size-4; margin-top: 10px;}
+
+// Awk generated constructs
+
+div.record {
+    pre.closing_bracket {
+        margin-top : -13px;
+        padding-top: 0;
+    }
+}
+
+div.typedecl {
+    pre { padding-bottom: 2px;}
+}

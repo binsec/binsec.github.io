@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: BINSEC
 email: binsec@saxifrage.saclay.cea.fr
-description: > # this means to binsec@saxifrage.saclay.cea.frnore newlines until "baseurl:"
-     This is the website of the BINSEC tool
+author: binsec
+description: This is the website of the BINSEC tool
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # github_username:  binsec

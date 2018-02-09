@@ -2,58 +2,146 @@
 layout: default
 ---
 
-<section class="hero is-bold binsec">
+<section class="hero is-bold binsec is-fullheight">
+  <div class="hero-head">
+    {% include header.html %}
+  </div>
+
   <div class="hero-body">
+    <div class="container">
+
+      <div class="columns is-vcentered has-text-centered hero-title">
+        <div class="column is-unselectable">
+          <div>
+            <span id="logo">BINSEC</span>
+          </div>
+          <div>
+            <h2 class="title">
+              Formal methods for binary code analysis
+            </h2>
+          </div>
+        </div>
+      </div>
+      
+      <div class="is-vcentered">
+        <div class="has-text-centered ">
+          <a class="button is-primary is-large is-outlined download"
+             href="https://github.com/binsec/binsec/archive/master.tar.gz">
+            <span class="icon">
+              <i class="fas fa-download"></i>
+            </span>
+            <span>Download latest</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
   <div class="container">
-    <div class="columns">
+    <h1 class="title is-1">News</h1>
+    <hr/>
+
+      {% for post in site.posts limit:9 %}
+    <div class="columns home-post">
+      <div class="column has-background-primary">
+        <a class="inline-post-title subtitle" href="{{ post.url }}">{{ post.title }}</a>
+      </div>
       <div class="column">
-        <img alt="" src="/assets/img/logo.png"/>
+        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
       </div>
-      <div class="column has-text-centered">
-        <h1 class="title has-text-warning">Semantics to the Rescue! </h1>
-        <a class="button is-warning is-large" href="">
-          <span class="icon">
-            <i class="fas fa-download"></i>
-          </span>
-          <span>Download latest</span>
-        </a>
+      <div class="column is-half">
+         {{ post.excerpt }}
       </div>
-    </div>
-  </div>
-  </div>
-</section>
+      <!-- <div class="column">
+       !--   {% for c in post.categories %}
+       !--   <span class="tag is-primary">{{ c }}</span>
+       !--   {% endfor %}
+       !-- </div> -->
 
-<section class="section">
-  <div class="container">
-    <div class="columns">
-      <div class="column">Foo</div>
-      <div class="column">Bar</div>
-      <div class="column">Baz</div>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h1 class="title">People</h1>
-    <table class="table">
-      {% assign people = site.data.people | sort:"position" %}
-      {% for p in people %}
-      <tr>
-        <td>{{ p.firstname }}</td>
-        <td>{{ p.lastname }}</td>
-        <td>{{ p.position }}</td>
-      </tr>
+      <!-- <div class="column is-one-third is-narrow">
+       !--   <article class="message news-item is-primary">
+       !--     <div class="message-header ">
+       !--       <ul>
+       !--         <li>
+       !--       <h2 class="title">
+       !--         <a class="inline-post-title" href="{{ post.url }}">{{ post.title }}</a>
+       !--       </h2>
+       !-- 
+       !--         </li>
+       !--         <li>
+       !--       <h3 class="subtitle">
+       !--         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+       !--       </h3>
+       !-- 
+       !--         </li>
+       !--       </ul>
+       !--       
+       !--     </div>
+       !--   <div class="message-body">
+       !--     {{ post.excerpt }}
+       !--   </div>
+       !--   </article>
+       !-- </div> -->
       {% endfor %}
-    </table>
+    </div>
   </div>
 </section>
+
 <section class="section">
   <div class="container">
-    <h1 class="is_primary">Foo
-    </h1>
-    {{ content }}
+    <h1 class="title is-1">People</h1>
+    <hr/>
+    {% assign people_grp = site.data.people | group_by: 'position' %}
+    {% assign positions = site.data.positions %}
+
+    <div class="columns">
+    {% for g in people_grp %}
+    {% assign position = site.data.positions[g.name].name %}
+    <div class="column">
+      {% assign pos = position %}
+      {% if g.size > 1 %}
+      {% assign pos = position | append: "s" %}
+      {% endif %}
+      <h2 class="subtitle is-2">{{ pos }}</h2>
+
+      {% assign categories = g.items | group_by: 'is_past' %}
+
+      {% for c in categories %}
+      {% assign people = c.items | sort: "lastname" %}
+
+      <div class="content">
+      {% if c.name == "true" %}
+      <hr/> 
+      {% assign pos = position %}
+      {% if people.size > 1 %}
+      {% assign pos = position | append: "s" %}
+      {% endif %}
+      <h4 class="subtitle">Former {{ pos }}</h4>
+      {% endif %}
+      <ul>
+
+        {% for p in people %}
+        <li> 
+          <div>
+          {% if p.www %}
+          <a href="{{ p.www }}"> {{ p.firstname }} <span class="lastname">{{ p.lastname }}</span></a>
+          {% else %}
+          {{ p.firstname }} <span class="lastname">{{ p.lastname }}</span>
+          {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+      </div>
+      {% endfor %}
+
+
+    </div>
+    {% endfor %}
+    </div>
+
   </div>
 </section>
-
-

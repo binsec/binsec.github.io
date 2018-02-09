@@ -1,0 +1,13 @@
+---
+
+researcher:
+  name: Researcher
+  
+phd:
+  name: PhD Student
+
+intern:
+  name: Intern
+
+postdoc:
+  name: Post-Doc
