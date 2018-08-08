@@ -54,7 +54,7 @@ section.binsec {
     }
 }
 
-section.binsec div.column a.download {
+#download {
     font-weight: 800;
     &:hover {
         color: $black;
