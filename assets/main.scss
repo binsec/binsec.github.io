@@ -54,10 +54,30 @@ section.binsec {
     }
 }
 
-#download {
-    font-weight: 800;
+div.download {
+    margin-top: 10px;
+
     &:hover {
-        color: $black;
+        color: black;
+    }
+
+    a.is_outlined {
+        &:hover {
+            color: black;
+        }
+
+        &:focus {
+            color: black;
+        }
+    }
+}
+
+a#download {
+    font-weight: 800;
+    text-decoration:none;
+    
+    &:hover {
+        color: black;
     }
 }
 
@@ -127,6 +147,14 @@ nav {
 div.navbar-brand {
     padding-right:4em;
 
+}
+
+a.navbar-item {
+    text-decoration: none;
+
+    span {
+        margin-left: 4px;
+    }
 }
 
 section.footer {
