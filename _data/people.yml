@@ -82,3 +82,22 @@
   lastname : Girol
   position : intern
   is_past: true
+
+- firstname: Laurent
+  lastname: Mounier
+  position: friend
+  www: http://www-verimag.imag.fr/~mounier/
+
+- firstname: Sylvain
+  lastname: Cecchetto
+  position: friend
+
+- firstname: Jean-Yves
+  lastname: Marion
+  position: friend
+  www: https://members.loria.fr/JYMarion/
+
+- firstname: Marie-Laure
+  lastname: Potet
+  position: friend
+  www:  http://www-verimag.imag.fr/~potet/

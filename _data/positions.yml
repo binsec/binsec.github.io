@@ -11,3 +11,6 @@ intern:
 
 postdoc:
   name: Post-Doc
+
+friend:
+  name: Friend
