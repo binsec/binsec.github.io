@@ -217,3 +217,28 @@ div.container {
         width: 70%;
     }
 }
+
+a.button {
+    i {
+        margin-right: .3em;
+    }
+}
+section.post {
+    div.overview {
+        background-color: $white-ter;
+    }
+    h1 {
+        font-size: $size-3;
+        margin-bottom: 2rem;
+    }
+    h2 {
+        margin-top: 2rem;
+        color: $grey-dark;
+        font-size: $size-4;
+        font-weight: 600;
+    }
+    h3.topic {
+        color: $grey-dark;
+        font-weight: 600;
+    }
+}

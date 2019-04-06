@@ -20,14 +20,27 @@ layout: default-with-nav
       </div>
     </div>
   </div>
-
-  <hr/>
+    <div class="level">
+      <h3 class="subtitle is-3">{{ page.paper-title }}</h3>
+    </div>
+    <hr/>
+    <section class="post">
+      {% if page.topic %}
+      <div class="columns overview">
+        <div class="column is-8">
+          <h3 class="topic">General topic</h3>
+          <p>{{ page.topic }}</p>
+        </div>
+        <div class="column is-offset-1">
+          {% if page.pdf  %}
+          <a href="{ page.pdf }}" class="button is-dark">
+            <i class="fas fa-file-pdf"></i>
+            <span> Download PDF</span></a>
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+      {{ content }}
+    </section>
 </div>
-
-</section>
-
-<section class="section">
-  <div class="container">
-    {{ content }}
-  </div>
 </section>

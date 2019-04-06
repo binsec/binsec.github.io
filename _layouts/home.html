@@ -67,7 +67,6 @@ layout: default
     our <a href="https://rbonichon.github.io/slides/binsec@ssprew.pdf">SSPREW'17
     tutorial</a>. Further examples are bundled in our Docker image (see details
       in how to get it <a href="{% post_url  2018-10-01-v0.2 %}">here</a>).
-
     </p> 
   </div>
 </section>
@@ -85,7 +84,11 @@ layout: default
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
       </div>
       <div class="column is-half">
-         {{ post.excerpt }}
+        {% if post.paper-title %}
+        {{ post.paper-title }}
+        {% else %}
+        {{- post.excerpt }}
+        {% endif %}
       </div>
       <!-- <div class="column">
        !--   {% for c in post.categories %}
