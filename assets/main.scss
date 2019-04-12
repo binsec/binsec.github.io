@@ -225,10 +225,11 @@ a.button {
 }
 
 
-section.post {
     .overview {
         background-color: $white-ter;
     }
+
+section.post {
     
     h1 {
         @extend .is-size-3;
