@@ -12,7 +12,7 @@ layout: default-with-nav
     </div>
     <div class="level-right">
       <div class="levet-item">
-        <h3 class="subtitle">              
+        <h3 class="subtitle">
           <span>
             {{ page.date | date: '%B %d, %Y' }}
           </span>
@@ -33,7 +33,7 @@ layout: default-with-nav
         </div>
         <div class="column is-offset-1">
           {% if page.pdf  %}
-          <a href="{ page.pdf }}" class="button is-dark">
+          <a href="{{ page.pdf }}" class="button is-dark">
             <i class="fas fa-file-pdf"></i>
             <span> Download PDF</span></a>
         </div>
@@ -42,5 +42,19 @@ layout: default-with-nav
       {% endif %}
       {{ content }}
     </section>
+
+      {% if page.from-binsec-version %}
+    <section class="section">
+      <div class="columns overview">
+
+      <div class="column is-6 is-offset-3">
+        <span class="is-success">
+          <i class="fas fa-check-circle"></i>
+         </span>
+         <span>Integrated in BINSEC {{ page.from-binsec-version }}</span>
+      </div>
+     </div>
+    </section>
+      {% endif %}
 </div>
 </section>
