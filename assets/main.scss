@@ -5,6 +5,7 @@
 // $primary: #f7ca18;
 
 @import "bulma.sass";
+@import "pygments.scss";
 
 html {
   color: $grey-dark;
@@ -248,3 +249,5 @@ section.post {
         font-weight: 600;
     }
 }
+
+
