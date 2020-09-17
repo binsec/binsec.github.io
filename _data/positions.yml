@@ -3,14 +3,17 @@
 researcher:
   name: Researcher
   
+postdoc:
+  name: Postdoc
+  
 phd:
   name: PhD Student
 
 intern:
   name: Intern
 
-postdoc:
-  name: Post-Doc
-
 friend:
   name: Friend
+  
+alumnus:
+  name: Former Member

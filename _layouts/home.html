@@ -17,7 +17,7 @@ layout: default
           </div>
           <div>
             <h2 class="title">
-              Formal methods for binary code analysis
+              Binary code analysis for Security
             </h2>
           </div>
         </div>
@@ -41,11 +41,9 @@ layout: default
 
 <section class="section">
   <div class="container">
-    <h1 class="title is-1">About</h1>
-    <hr/>
-
+    <div id="about"></div><h1 class="title is-1">About</h1>
     <p>
-    BINSEC aims at developing an open-source platform filling the gap between
+    BINSEC is an open-source platform filling the gap between
     formal methods over executable code and binary-level security analyses
     currently used in the security industry.
     </p>
@@ -72,7 +70,7 @@ layout: default
 </section>
 <section class="section">
   <div class="container">
-    <h1 class="title is-1">News</h1>
+    <div id="news"></div><h1 class="title is-1">News</h1>
     <hr/>
 
       {% for post in site.posts limit:9 %}
@@ -128,9 +126,58 @@ layout: default
 
 <section class="section">
   <div class="container">
-    <h1 class="title is-1">People</h1>
+    <div id="people"></div><h1 class="title is-1">People</h1>
     <hr/>
-    {% assign people_grp = site.data.people | group_by: 'position' %}
+    {% assign people_grp = site.data.team | group_by: 'position' %}
+    {% assign positions = site.data.positions %}
+
+    <div class="columns">
+    {% for g in people_grp %}
+    {% assign position = site.data.positions[g.name].name %}
+    <div class="column">
+      {% assign pos = position %}
+      {% if g.size > 1 %}
+      {% assign pos = position | append: "s" %}
+      {% endif %}
+      <h2 class="subtitle is-2">{{ pos }}</h2>
+
+      {% assign categories = g.items | group_by: 'is_past' %}
+
+      {% for c in categories %}
+      {% assign people = c.items | sort: "lastname" %}
+
+      <div class="content">
+      {% if c.name == "true" %}
+      <hr/> 
+      {% assign pos = position %}
+      {% if people.size > 1 %}
+      {% assign pos = position | append: "s" %}
+      {% endif %}
+      <h4 class="subtitle">Former {{ pos }}</h4>
+      {% endif %}
+      <ul>
+
+        {% for p in people %}
+        <li> 
+          <div>
+          {% if p.www %}
+          <a href="{{ p.www }}"> {{ p.firstname }} <span class="lastname">{{ p.lastname }}</span></a>
+          {% else %}
+          {{ p.firstname }} <span class="lastname">{{ p.lastname }}</span>
+          {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+      </div>
+      {% endfor %}
+
+
+    </div>
+    {% endfor %}
+    </div>
+    <hr/>
+    {% assign people_grp = site.data.otherpeople | group_by: 'position' %}
     {% assign positions = site.data.positions %}
 
     <div class="columns">

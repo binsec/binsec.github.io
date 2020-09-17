@@ -1,0 +1,52 @@
+---
+
+- firstname: Laurent
+  lastname: Mounier
+  position: friend
+  www: http://www-verimag.imag.fr/~mounier/
+
+- firstname: Sylvain
+  lastname: Cecchetto
+  position: friend
+
+- firstname: Jean-Yves
+  lastname: Marion
+  position: friend
+  www: https://members.loria.fr/JYMarion/
+
+- firstname: Marie-Laure
+  lastname: Potet
+  position: friend
+  www:  http://www-verimag.imag.fr/~potet/
+  
+# FORMER MEMBERS
+
+- id: rbonichon
+  firstname: Richard
+  lastname: Bonichon (Researcher)
+  position: alumnus
+  
+- id: drobin
+  firstname: Robin
+  lastname: David (PhD student)
+  position: alumnus
+
+- id: adjoudi
+  firstname: Adel
+  lastname: Djoudi (PhD student)
+  position: alumnus
+
+- id: jfeist
+  firstname: Josselin
+  lastname: Feist (PhD student)
+  position: alumnus
+  
+- id: bfarinier
+  firstname: Benjamin
+  lastname: Farinier (PhD student)
+  position: alumnus
+
+- id: ggirol
+  firstname: Guillaume
+  lastname : Girol (Intern)
+  position : alumnus 

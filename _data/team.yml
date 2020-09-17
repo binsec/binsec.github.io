@@ -1,0 +1,63 @@
+---
+
+- id: sbardin
+  firstname: Sébastien
+  lastname: Bardin
+  position: researcher
+  www: http://sebastien.bardin.free.fr
+  
+- id: mlemerre
+  firstname: Matthieu
+  lastname: Lemerre
+  position: researcher
+
+- id: mmarcozz
+  firstname: Michaël
+  lastname: Marcozzi
+  position: researcher
+  www: http://www.marcozzi.net
+
+
+# POSTDOCS
+
+
+# PHD STUDENTS
+
+- id: frecoules
+  firstname: Frédéric
+  lastname: Recoules
+  position: phd
+
+- id: yvincont
+  firstname: Yaëlle
+  lastname: Vinçont
+  position: phd
+
+- id: mollivier
+  firstname: Mathilde
+  lastname: Ollivier
+  position: phd
+
+- id: mdnguyen
+  firstname: Manh-Dung
+  lastname: Nguyen
+  position: phd
+  www : http://strongcourage.github.io/
+
+- id: ladaniel
+  firstname: Lesly-Ann
+  lastname: Daniel
+  position: phd
+  www: https://www.leslyann-daniel.fr/
+
+- id: onicole
+  firstname: Olivier
+  lastname: Nicole
+  position: phd
+  www: https://otini.chnik.fr
+
+# INTERNS
+
+
+
+
