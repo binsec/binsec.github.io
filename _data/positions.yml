@@ -14,6 +14,11 @@ intern:
 
 friend:
   name: Friend
+
+alumnus-permanent:
+  name: Former Researcher
   
-alumnus:
-  name: Former Member
+alumnus-temporary:
+  name: Former Junior
+  
+

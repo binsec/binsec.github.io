@@ -55,6 +55,18 @@
   lastname: Nicole
   position: phd
   www: https://otini.chnik.fr
+  
+- id: ggirol
+  firstname: Guillaume
+  lastname : Girol 
+  position : phd 
+
+- id: gmenguy
+  firstname: Grégoire
+  lastname : Menguy 
+  position : phd  
+
+    
 
 # INTERNS
 
