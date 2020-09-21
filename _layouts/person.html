@@ -1,10 +1,10 @@
 ---
 layout: default-with-nav
 ---
-<section class="section">
+<center>
 <p>
-<img src="/assets/img/people/{{ page.picture }}.jpg" alt="{{ page.name }}" hspace="50" height="500" align="left" border="1" width="500">
-<h1 class="title is-1">{{ page.name }}</h1>
+<img src="/assets/img/people/{{ page.picture }}.jpg" alt="{{ page.title }}" hspace="10" height="500" border="1" width="500">
+<h1 class="title is-1">{{ page.title }}</h1>
 <h3 class="subtitle is-3">{{ page.position }}</h3>
 {% if page.topic %}
 <b>Research Topic</b>: {{ page.topic }}
@@ -24,8 +24,7 @@ layout: default-with-nav
 <br>
 <b>Twitter</b>: <a href="{{ page.twitter }}" target="_blank">{{ page.twitter }}</a> 
 {% endif %}
-<br clear="left">
 </p>
 </div>
-</section>
+</center>
 
