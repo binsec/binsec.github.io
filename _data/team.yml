@@ -50,6 +50,7 @@
   firstname: Lesly-Ann
   lastname: Daniel
   position: phd
+  www: "people/1984/07/10/daniel.html"
 
 - id: onicole
   firstname: Olivier
@@ -59,7 +60,8 @@
 - id: ggirol
   firstname: Guillaume
   lastname : Girol 
-  position : phd 
+  position : phd
+  www: "people/1995/06/13/girol.html"
 
 - id: gmenguy
   firstname: Grégoire

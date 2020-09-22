@@ -1,6 +1,29 @@
 ---
-- title: >
-    BINSEC/SE: A Dynamic Symbolic Execution Toolkit for Binary-Level Analysis
-  year: 2016
-  venue: SANER
+
+- year: 2016
+  publications:
+        - title: "BINSEC/SE: A Dynamic Symbolic Execution Toolkit for Binary-Level Analysis"
+          authors:
+               - firstname: Harry
+                 lastname: Potter
+               - firstname: Hermione
+                 lastname: Granger
+          venue-acronym: "SANER'16"
+          venue: "23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering"
+          easy-summary: url
+          pdf: url
+          bibtex: url
+          artefact: url
+          talk-video: url
+          talk-slides: url
+- year: 2015
+  publications:
+        - title: "BINSEC/SE: A Dynamic Symbolic Execution Toolkit for Binary-Level Analysis"
+          authors:
+               - firstname: Harry
+                 lastname: Potter
+               - firstname: Hermione
+                 lastname: Granger
+          venue-acronym: "SANER'16"
+          venue: "23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering"
 

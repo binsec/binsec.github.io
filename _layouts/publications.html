@@ -1,32 +1,38 @@
 ---
-layout: default
-title: Publications
+layout: default-with-nav
+title: Scientific Publications
 ---
-
 
 
 <section class="section">
   <div class="container">
-    <h1 class="title is_primary">Publications
-    </h1>
+    <h1 class="title is_primary">Scientific Publications</h1>
+    <br>
 
     {% assign papers = site.data.publications %}
     {% assign last_year = 1999 %}
 
+    
+    {% for y in papers %}
+    <h3 class="subtitle is-3">{{ y.year }}</h3>
     <ul>
-    {% for p in papers %}
+    {% for p in y.publications %}
     <li>
       <div class="article-container">
-        {{ p.title }}
+        [<b>{{ p.venue-acronym }}</b>] <u>{{ p.title }}</u>
+        <br>
         {% for a in p.authors %}
-        {{ a.firstname }} {{ a.lastname }}
+        <i>{{ a.firstname }} {{ a.lastname }}</i>{% if forloop.last %}{% else %},{% endif %}
         {% endfor %}
+        <br>
         {{ p.venue }}
-        {{ p.year }}
       </div>
     </li>
     {% endfor %}
     </ul>
+    <br>
+    {% endfor %}
+    
   </div>
 </section>
 

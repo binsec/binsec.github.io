@@ -7,22 +7,22 @@ layout: default-with-nav
 <h1 class="title is-1">{{ page.title }}</h1>
 <h3 class="subtitle is-3">{{ page.position }}</h3>
 {% if page.topic %}
-<b>Research Topic</b>: {{ page.topic }}
+<i class="fas fa-search"></i> {{ page.topic }}
 <br>
 <br>
 {% endif %}
-<b>Mail</b>: {{ page.mail }}_at_cea.fr
+<i class="fas fa-at"></i> {{ page.mail }}_at_cea.fr
 {% if page.website %}
 <br>
-<b>Website</b>: <a href="{{ page.website }}" target="_blank">{{ page.website }}</a> 
+<i class="fas fa-home"></i> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a> 
 {% endif %}
 {% if page.linkedin %}
 <br>
-<b>Linkedin</b>: <a href="{{ page.linkedin }}" target="_blank">{{ page.linkedin }}</a> 
+<i class="fab fa-linkedin"></i> <a href="{{ page.linkedin }}" target="_blank">{{ page.linkedin }}</a> 
 {% endif %}
 {% if page.twitter %}
 <br>
-<b>Twitter</b>: <a href="{{ page.twitter }}" target="_blank">{{ page.twitter }}</a> 
+<i class="fab fa-twitter"></i> <a href="{{ page.twitter }}" target="_blank">{{ page.twitter }}</a> 
 {% endif %}
 </p>
 </div>
