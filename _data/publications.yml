@@ -1,29 +1,180 @@
 ---
 
+- year: 2020
+  publications:
+        - title: "Binary-level Directed Fuzzing for Use-After-Free Vulnerabilities"
+          authors:
+               - name: Manh-Dung Nguyen
+               - name: Sébastien Bardin
+               - name: Richard Bonichon
+               - name: Roland Groz
+               - name: Matthieu Lemerre
+          venue-acronym: "To appear at RAID"
+          venue: "The 23rd International Symposium on Research in Attacks, Intrusions and Defenses"
+          ranking: "A"
+          pdf: "/assets/publications/papers/2020-raid.pdf"
+          artefact: "https://github.com/binsec/uafuzz"
+          benchmark: "https://github.com/binsec/uafbench"
+        - title: "About Directed Fuzzing and Use-After-Free: How to Find Complex & Silent Bugs?"
+          authors:
+               - name: Sébastien Bardin
+               - name: Manh-Dung Nguyen
+          venue-acronym: "Black Hat USA"
+          venue: "Black Hat USA 2020"
+          talk-slides: "/assets/publications/slides/2020-blackhatusa.pdf"
+        - title: "Binsec/Rel: Efficient Relational Symbolic Execution for Constant-Time at Binary-Level"
+          authors:
+               - name: Lesly-Ann Daniel
+               - name: Sébastien Bardin
+               - name: Tamara Rezk
+          venue-acronym: "S&P"
+          venue: "The 41st IEEE Symposium on Security and Privacy"
+          ranking: "A*"
+          pdf: "/assets/publications/papers/2020-sp.pdf"
+          bibtex: "/assets/publications/bibtexs/2020-sp.bib"
+          talk-video: "https://www.youtube.com/watch?v=iqmcSGU2itA"
+          talk-slides: "/assets/publications/slides/2020-sp.pdf"
+- year: 2019
+  publications:
+        - title: "Get Rid of Inline Assembly through Verification-Oriented Lifting"
+          authors:
+               - name: Frédéric Recoules
+               - name: Sébastien Bardin
+               - name: Richard Bonichon
+               - name: Laurent Mounier
+               - name: Marie-Laure Potet
+          venue-acronym: "ASE"
+          venue: "The 34th IEEE/ACM International Conference on Automated Software Engineering"
+          ranking: "A"
+          easy-summary: "conference/paper/abstract/2019/12/20/ase.html"
+          pdf: "/assets/publications/papers/2019-ase.pdf"
+          bibtex: "/assets/publications/bibtexs/2019-ase.bib"
+        - title: "How to Kill Symbolic Deobfuscation for Free (or: Unleashing the Potential of Path-Oriented Protections)"
+          authors:
+               - name: Mathilde Ollivier
+               - name: Sébastien Bardin
+               - name: Richard Bonichon
+               - name: Jean-Yves Marion
+          venue-acronym: "ACSAC"
+          venue: "The 35th Annual Computer Security Applications Conference"
+          pdf: "/assets/publications/papers/2019-acsac.pdf"
+          bibtex: "/assets/publications/bibtexs/2019-acsac.bib"
+- year: 2018
+  publications:
+        - title: "Arrays Made Simpler: An Efficient, Scalable and Thorough Preprocessing"
+          authors:
+               - name: Benjamin Farinier
+               - name: Sébastien Bardin
+               - name: Robin David
+               - name: Matthieu Lemerre
+          venue-acronym: "LPAR"
+          venue: "The 22nd International Conference on Logic for Programming, Artificial Intelligence and Reasoning"
+          ranking: "A"
+          easy-summary: "conference/paper/abstract/2019/04/04/lpar18.html"
+          pdf: "/assets/publications/papers/2018-lpar.pdf"
+          bibtex: "/assets/publications/bibtexs/2018-lpar.bib"
+        - title: "Symbolic Deobfuscation: from Virtualized Code Back to the Original"
+          authors:
+               - name: Jonathan Salwan
+               - name: Sébastien Bardin
+               - name: Marie-Laure Potet
+          venue-acronym: "DIMVA"
+          venue: "The 15th Conference on Detection of Intrusions and Malware & Vulnerability Assessment"
+          ranking: "C"
+          pdf: "/assets/publications/papers/2018-dimva.pdf"
+          bibtex: "/assets/publications/bibtexs/2018-dimva.bib"
+        - title: "Model Generation for Quantified Formulas: A Taint-Based Approach"
+          authors:
+               - name: Benjamin Farinier
+               - name: Sébastien Bardin
+               - name: Richard Bonichon
+               - name: Marie-Laure Potet
+          venue-acronym: "CAV"
+          venue: "The 30th International Conference on Computer Aided Verification"
+          ranking: "A*"
+          pdf: "/assets/publications/papers/2018-cav.pdf"
+          bibtex: "/assets/publications/bibtexs/2018-cav.bib"
+- year: 2017
+  publications:
+        - title: "Backward-Bounded DSE: Targeting Infeasibility Questions on Obfuscated Codes"
+          authors:
+               - name: Sébastien Bardin
+               - name: Robin David
+               - name: Jean-Yves Marion
+          venue-acronym: "S&P"
+          venue: "The 38st IEEE Symposium on Security and Privacy"
+          ranking: "A*"
+          pdf: "/assets/publications/papers/2017-sp.pdf"
+          bibtex: "/assets/publications/bibtexs/2017-sp.bib"
+          talk-video: "https://www.youtube.com/watch?v=UU4t0Zvoh-Q"
 - year: 2016
   publications:
-        - title: "BINSEC/SE: A Dynamic Symbolic Execution Toolkit for Binary-Level Analysis"
+        - title: "Finding the Needle in the Heap: Combining Static Analysis and Dynamic Symbolic Execution to Trigger Use-After-Free"
           authors:
-               - firstname: Harry
-                 lastname: Potter
-               - firstname: Hermione
-                 lastname: Granger
-          venue-acronym: "SANER'16"
-          venue: "23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering"
-          easy-summary: url
-          pdf: url
-          bibtex: url
-          artefact: url
-          talk-video: url
-          talk-slides: url
+               - name: Josselin Feist
+               - name: Laurent Mounier
+               - name: Sébastien Bardin
+               - name: Robin David
+               - name: Marie-Laure Potet
+          venue-acronym: "SSPREW"
+          venue: "The 6th Software Security, Protection, and Reverse Engineering Workshop"
+          pdf: "/assets/publications/papers/2016-ssprew.pdf"
+          bibtex: "/assets/publications/bibtexs/2016-ssprew.bib"
+        - title: "Code Deobfuscation : Intertwining Dynamic, Static and Symbolic Approaches"
+          authors:
+               - name: Robin David
+               - name: Sébastien Bardin
+          venue-acronym: "Black Hat Europe"
+          venue: "Black Hat Europe 2016"
+          talk-video: "https://www.youtube.com/watch?v=KCMCqxEYIzY"
+          talk-slides: "/assets/publications/slides/2016-blackhateu.pdf"
+        - title: "Recovering High-level Conditions from Binary Programs"
+          authors:
+               - name: Adel Djoudi
+               - name: Sébastien Bardin
+               - name: Eric Goubault
+          venue-acronym: "FM"
+          venue: "The 21st International Symposium on Formal Methods"
+          ranking: "A"
+          pdf: "/assets/publications/papers/2016-fm.pdf"
+          bibtex: "/assets/publications/bibtexs/2016-fm.bib"
+        - title: "Specification of Concretization and Symbolization Policies in Symbolic Execution"
+          authors:
+               - name: Robin David
+               - name: Sébastien Bardin
+               - name: Josselin Feist
+               - name: Thanh Ta
+               - name: Laurent Mounier
+               - name: Marie-Laure Potet
+               - name: Jean-Yves Marion
+          venue-acronym: "ISSTA"
+          venue: "The International Symposium on Software Testing and Analysis"
+          ranking: "A"
+          pdf: "/assets/publications/papers/2016-issta.pdf"
+          bibtex: "/assets/publications/bibtexs/2016-issta.bib"
+          talk-slides: "/assets/publications/slides/2016-issta.pdf"
+        - title: "BINSEC/SE : A Dynamic Symbolic Execution Toolkit for Binary-level Analysis"
+          authors:
+               - name: Robin David
+               - name: Sébastien Bardin
+               - name: Thanh Ta
+               - name: Josselin Feist
+               - name: Laurent Mounier
+               - name: Marie-Laure Potet
+               - name: Jean-Yves Marion
+          venue-acronym: "SANER"
+          venue: "The 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering"
+          pdf: "/assets/publications/papers/2016-saner.pdf"
+          bibtex: "/assets/publications/bibtexs/2016-saner.bib"
+          talk-slides: "/assets/publications/slides/2016-saner.pdf"
 - year: 2015
   publications:
-        - title: "BINSEC/SE: A Dynamic Symbolic Execution Toolkit for Binary-Level Analysis"
+        - title: "BINSEC: Binary Code Analysis with Low-Level Regions"
           authors:
-               - firstname: Harry
-                 lastname: Potter
-               - firstname: Hermione
-                 lastname: Granger
-          venue-acronym: "SANER'16"
-          venue: "23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering"
-
+               - name: Adel Djoudi
+               - name: Sébastien Bardin
+          venue-acronym: "TACAS"
+          venue: "The 21st International Conference on Tools and Algorithms for the Construction and Analysis of Systems"
+          ranking: "A"
+          pdf: "/assets/publications/papers/2015-tacas.pdf"
+          bibtex: "/assets/publications/bibtexs/2015-tacas.bib"
