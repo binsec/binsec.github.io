@@ -41,7 +41,7 @@ layout: default
 
 <section class="section">
   <div class="container">
-    <div id="about"></div><h1 class="title is-1">About</h1>
+    <div id="about"></div>
     <p>
     BINSEC is an open-source platform filling the gap between
     formal methods over executable code and binary-level security analyses
@@ -66,6 +66,8 @@ layout: default
     tutorial</a>. Further examples are bundled in our Docker image (see details
       in how to get it <a href="{% post_url  2018-10-01-v0.2 %}">here</a>).
     </p> 
+    
+    <p>    We have frequent <b>job openings</b> for postdoc, PhD student and intern positions. Check up <a href="/#news">the news</a> for ongoing calls or <a href="/people/1984/07/10/binsec.html">contact us</a> if you believe that you could be a good match.</p>
   </div>
 </section>
 <section class="section">
@@ -73,7 +75,7 @@ layout: default
     <div id="news"></div><h1 class="title is-1">News</h1>
     <hr/>
 
-      {% for post in site.posts limit:9 %}
+      {% for post in site.posts limit:5 %}
     <div class="columns home-post">
       <div class="column has-background-primary">
         <a class="inline-post-title subtitle" href="{{ post.url }}">{{ post.title }}</a>
