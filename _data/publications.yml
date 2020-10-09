@@ -34,6 +34,8 @@
           bibtex: "/assets/publications/bibtexs/2020-sp.bib"
           talk-video: "https://www.youtube.com/watch?v=iqmcSGU2itA"
           talk-slides: "/assets/publications/slides/2020-sp.pdf"
+          artefact: "https://github.com/binsec/Rel"
+          benchmark: "https://github.com/binsec/rel_bench"
 - year: 2019
   publications:
         - title: "Get Rid of Inline Assembly through Verification-Oriented Lifting"
