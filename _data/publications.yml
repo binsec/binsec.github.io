@@ -31,6 +31,7 @@
           venue: "The 41st IEEE Symposium on Security and Privacy"
           ranking: "A*"
           pdf: "/assets/publications/papers/2020-sp.pdf"
+          easy-summary: "new/publication/2020/05/18/s&p20.html"
           bibtex: "/assets/publications/bibtexs/2020-sp.bib"
           talk-video: "https://www.youtube.com/watch?v=iqmcSGU2itA"
           talk-slides: "/assets/publications/slides/2020-sp.pdf"
