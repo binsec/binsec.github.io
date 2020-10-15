@@ -15,6 +15,8 @@
           pdf: "/assets/publications/papers/2020-raid.pdf"
           artefact: "https://github.com/binsec/uafuzz"
           benchmark: "https://github.com/binsec/uafbench"
+          easy-summary: "new/publication/2020/10/14/raid20.html"
+          bibtex: "/assets/publications/bibtexs/2020-raid.bib"
         - title: "About Directed Fuzzing and Use-After-Free: How to Find Complex & Silent Bugs?"
           authors:
                - name: Sébastien Bardin
