@@ -9,7 +9,7 @@
                - name: Richard Bonichon
                - name: Roland Groz
                - name: Matthieu Lemerre
-          venue-acronym: "To appear at RAID"
+          venue-acronym: "RAID"
           venue: "The 23rd International Symposium on Research in Attacks, Intrusions and Defenses"
           ranking: "A"
           pdf: "/assets/publications/papers/2020-raid.pdf"
@@ -52,6 +52,7 @@
           easy-summary: "conference/paper/abstract/2019/12/20/ase.html"
           pdf: "/assets/publications/papers/2019-ase.pdf"
           bibtex: "/assets/publications/bibtexs/2019-ase.bib"
+          talk-slides: "/assets/publications/slides/2019-ase.pdf"
         - title: "How to Kill Symbolic Deobfuscation for Free (or: Unleashing the Potential of Path-Oriented Protections)"
           authors:
                - name: Mathilde Ollivier
@@ -76,16 +77,16 @@
           easy-summary: "conference/paper/abstract/2019/04/04/lpar18.html"
           pdf: "/assets/publications/papers/2018-lpar.pdf"
           bibtex: "/assets/publications/bibtexs/2018-lpar.bib"
-        - title: "Symbolic Deobfuscation: from Virtualized Code Back to the Original"
-          authors:
-               - name: Jonathan Salwan
-               - name: Sébastien Bardin
-               - name: Marie-Laure Potet
-          venue-acronym: "DIMVA"
-          venue: "The 15th Conference on Detection of Intrusions and Malware & Vulnerability Assessment"
-          ranking: "C"
-          pdf: "/assets/publications/papers/2018-dimva.pdf"
-          bibtex: "/assets/publications/bibtexs/2018-dimva.bib"
+#        - title: "Symbolic Deobfuscation: from Virtualized Code Back to the Original"
+#          authors:
+#               - name: Jonathan Salwan
+#               - name: Sébastien Bardin
+#               - name: Marie-Laure Potet
+#          venue-acronym: "DIMVA"
+#          venue: "The 15th Conference on Detection of Intrusions and Malware & Vulnerability Assessment"
+#          ranking: "C"
+#          pdf: "/assets/publications/papers/2018-dimva.pdf"
+#          bibtex: "/assets/publications/bibtexs/2018-dimva.bib"
         - title: "Model Generation for Quantified Formulas: A Taint-Based Approach"
           authors:
                - name: Benjamin Farinier
@@ -109,6 +110,7 @@
           ranking: "A*"
           pdf: "/assets/publications/papers/2017-sp.pdf"
           bibtex: "/assets/publications/bibtexs/2017-sp.bib"
+          talk-slides: "/assets/publications/slides/2017-sp.pdf"
           talk-video: "https://www.youtube.com/watch?v=UU4t0Zvoh-Q"
 - year: 2016
   publications:
