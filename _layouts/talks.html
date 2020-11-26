@@ -1,0 +1,69 @@
+---
+layout: default-with-nav
+title: Publications
+---
+
+
+<section class="section">
+  <div class="container">
+    <h1 class="title is_primary"><a href="/publications" style="text-decoration: none">Publications</a>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Talks</b></h1>
+    <br>
+
+    {% assign papers = site.data.talks %}
+    {% assign last_year = 1999 %}
+
+    
+    {% for y in papers %}
+    <h3 class="subtitle is-3">{{ y.year }}</h3>
+    <ul>
+    {% for p in y.publications %}
+    <li>
+      <div class="article-container">
+        [<b>{{ p.venue-acronym }}</b>] <u>{{ p.title }}</u>
+        <br>
+        {% for a in p.authors %}
+        <i>{{ a.name }}</i>{% if forloop.last %}{% else %},{% endif %}
+        {% endfor %}
+        <br>
+        {{ p.venue }} {% if p.ranking %} <br> <b>CORE RANKING: </b> {{ p.ranking }} {% endif %} 
+        <br> 
+        {% if p.easy-summary %} 
+        <a href="{{ p.easy-summary }}" style="text-decoration: none"> <i class="fas fa-lightbulb"></i> <b>In a nutshell</b></a>
+        &nbsp;
+        {% endif %}
+        {% if p.pdf %} 
+        <a href="{{ p.pdf }}" style="text-decoration: none" target="_blank"> <i class="fas fa-file-pdf"></i> <b>PDF</b></a>  
+        &nbsp;
+        {% endif %} 
+        {% if p.bibtex %} 
+        <a href="{{ p.bibtex }}" style="text-decoration: none" target="_blank"> <i class="fas fa-quote-left"></i> <b>Bibtex</b></a>  
+        &nbsp;
+        {% endif %} 
+        {% if p.artefact %} 
+        <a href="{{ p.artefact }}" style="text-decoration: none" target="_blank"> <i class="fas fa-flask"></i> <b>Artefact</b></a>  
+        &nbsp;
+        {% endif %} 
+        {% if p.benchmark %} 
+        <a href="{{ p.benchmark }}" style="text-decoration: none" target="_blank"> <i class="fas fa-tachometer-alt"></i> <b>Benchmark</b></a>  
+        &nbsp;
+        {% endif %} 
+        {% if p.talk-video %} 
+        <a href="{{ p.talk-video }}" style="text-decoration: none" target="_blank"> <i class="fas fa-play-circle"></i> <b>Talk</b></a> 
+        &nbsp; 
+        {% endif %} 
+        {% if p.talk-slides %} 
+        <a href="{{ p.talk-slides }}" style="text-decoration: none" target="_blank"> <i class="fas fa-file-powerpoint"></i> <b>Slides</b></a>  
+        &nbsp;
+        {% endif %} 
+      </div>
+    </li>
+    <br>
+    {% endfor %}
+    </ul>
+    <br>
+    {% endfor %}
+    
+  </div>
+</section>
+
+

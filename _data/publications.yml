@@ -17,13 +17,6 @@
           benchmark: "https://github.com/binsec/uafbench"
           easy-summary: "new/publication/2020/10/14/raid20.html"
           bibtex: "/assets/publications/bibtexs/2020-raid.bib"
-        - title: "About Directed Fuzzing and Use-After-Free: How to Find Complex & Silent Bugs?"
-          authors:
-               - name: Sébastien Bardin
-               - name: Manh-Dung Nguyen
-          venue-acronym: "Black Hat USA"
-          venue: "Black Hat USA 2020"
-          talk-slides: "/assets/publications/slides/2020-blackhatusa.pdf"
         - title: "Binsec/Rel: Efficient Relational Symbolic Execution for Constant-Time at Binary-Level"
           authors:
                - name: Lesly-Ann Daniel
@@ -127,14 +120,6 @@
           venue: "The 6th Software Security, Protection, and Reverse Engineering Workshop"
           pdf: "/assets/publications/papers/2016-ssprew.pdf"
           bibtex: "/assets/publications/bibtexs/2016-ssprew.bib"
-        - title: "Code Deobfuscation : Intertwining Dynamic, Static and Symbolic Approaches"
-          authors:
-               - name: Robin David
-               - name: Sébastien Bardin
-          venue-acronym: "Black Hat Europe"
-          venue: "Black Hat Europe 2016"
-          talk-video: "https://www.youtube.com/watch?v=KCMCqxEYIzY"
-          talk-slides: "/assets/publications/slides/2016-blackhateu.pdf"
         - title: "Recovering High-level Conditions from Binary Programs"
           authors:
                - name: Adel Djoudi
