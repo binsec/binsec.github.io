@@ -1,0 +1,42 @@
+---
+
+- year: 2020
+  publications:
+        - title: "About Directed Fuzzing and Use-After-Free: How to Find Complex & Silent Bugs?"
+          authors:
+               - name: Sébastien Bardin
+               - name: Manh-Dung Nguyen
+          venue-acronym: "Black Hat USA"
+          venue: "Black Hat USA 2020"
+          talk-slides: "/assets/publications/slides/2020-blackhatusa.pdf"
+        - title: "Toward Security-Oriented Program Analysis"
+          authors:
+               - name: Sébastien Bardin
+          venue-acronym: "SSES"
+          venue: "Security and safety of Embedded Systems, Scientific day"
+          talk-slides: "/assets/publications/slides/2020-sses.pdf"
+        - title: "Cybersecurity Meets Automated Reasoning"
+          authors:
+               - name: Sébastien Bardin
+          venue-acronym: "FIC"
+          venue: "Forum International de la Cybersécurité 2020"
+          talk-slides: "/assets/publications/slides/2020-fic.pdf"
+- year: 2017
+  publications:
+        - title: "BINSEC: a Tutorial"
+          authors:
+               - name: Sébastien Bardin
+               - name: Richard Bonichon
+          venue-acronym: "SSPREW"
+          venue: "The 7th Software Security, Protection, and Reverse Engineering Workshop"
+          talk-slides: "/assets/publications/slides/2017-ssprew.pdf"
+- year: 2016
+  publications:
+        - title: "Code Deobfuscation : Intertwining Dynamic, Static and Symbolic Approaches"
+          authors:
+               - name: Robin David
+               - name: Sébastien Bardin
+          venue-acronym: "Black Hat Europe"
+          venue: "Black Hat Europe 2016"
+          talk-video: "https://www.youtube.com/watch?v=KCMCqxEYIzY"
+          talk-slides: "/assets/publications/slides/2016-blackhateu.pdf"

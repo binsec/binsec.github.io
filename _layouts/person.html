@@ -1,0 +1,30 @@
+---
+layout: default-with-nav
+---
+<center>
+<p>
+<img src="/assets/img/people/{{ page.picture }}.jpg" alt="{{ page.title }}" hspace="10" height="450" border="1" width="450">
+<h1 class="title is-1">{{ page.title }}</h1>
+<h3 class="subtitle is-3">{{ page.position }}</h3>
+{% if page.topic %}
+<i class="fas fa-search"></i> {{ page.topic }}
+<br>
+<br>
+{% endif %}
+<i class="fas fa-at"></i> {{ page.mail }}_at_cea.fr
+{% if page.website %}
+<br>
+<i class="fas fa-home"></i> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a> 
+{% endif %}
+{% if page.linkedin %}
+<br>
+<i class="fab fa-linkedin"></i> <a href="{{ page.linkedin }}" target="_blank">{{ page.linkedin }}</a> 
+{% endif %}
+{% if page.twitter %}
+<br>
+<i class="fab fa-twitter"></i> <a href="{{ page.twitter }}" target="_blank">{{ page.twitter }}</a> 
+{% endif %}
+</p>
+</div>
+</center>
+

@@ -17,7 +17,7 @@ layout: default
           </div>
           <div>
             <h2 class="title">
-              Formal methods for binary code analysis
+              Binary code analysis for Security
             </h2>
           </div>
         </div>
@@ -41,96 +41,47 @@ layout: default
 
 <section class="section">
   <div class="container">
-    <h1 class="title is-1">About</h1>
-    <hr/>
-
+    <div id="about"></div>
     <p>
-    BINSEC aims at developing an open-source platform filling the gap between
-    formal methods over executable code and binary-level security analyses
-    currently used in the security industry.
+    BINSEC is an <b>open-source toolset to help improve software security at the binary level</b>. It relies on <a href="/publications.html">cutting-edge research in binary code analysis</a>, at the intersection of formal methods, program analysis, security and software engineering. It is powered up by state-of-the-art techniques such as binary-level formal methods, symbolic execution, abstract interpretation, SMT solving and fuzzing.
     </p>
+     <p>
+     BINSEC has been <a href="/achievements.html">successfully applied</a> in a number of security-related contexts, such as vulnerability finding, (malware) deobfuscation, decompilation, formal verification of assembly code or even binary-level formal verification.   
+     </p>
 
-    <p>
-    The project targets the following applicative domains:
-    <ul>
-      <li>vulnerability analyses</li>
-      <li>malware comprehension</li>
-      <li>code protection</li>
-      <li>binary-level verification</li>
-    </ul>
-    </p>
-
-    <p>    BINSEC is developed at CEA List in scientfic collaboration with
-    Verimag and LORIA.</p>
+    <p>It is developed at the <a href="http://www-list.cea.fr/en/" target="_blank">CEA List</a> institute of <a href="https://www.universite-paris-saclay.fr/en" target="_blank">Université Paris-Saclay</a> in collaboration with <a href="https://www-verimag.imag.fr/?lang=en" target="_blank">Verimag</a> and <a href="https://www.loria.fr/en/" target="_blank">LORIA</a>.</p>
 
     <p>An overview of some BINSEC features can be found in
-    our <a href="https://rbonichon.github.io/slides/binsec@ssprew.pdf">SSPREW'17
-    tutorial</a>. Further examples are bundled in our Docker image (see details
-      in how to get it <a href="{% post_url  2018-10-01-v0.2 %}">here</a>).
+    our <a href="/assets/publications/slides/2017-ssprew.pdf">tutorial</a>. Further examples are bundled in our <a href="{% post_url  2020-01-24-distrib0.3 %}">Docker image and OPAM package</a>.
     </p> 
-  </div>
-</section>
-<section class="section">
-  <div class="container">
-    <h1 class="title is-1">News</h1>
-    <hr/>
-
-      {% for post in site.posts limit:9 %}
-    <div class="columns home-post">
-      <div class="column has-background-primary">
-        <a class="inline-post-title subtitle" href="{{ post.url }}">{{ post.title }}</a>
-      </div>
-      <div class="column">
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-      </div>
-      <div class="column is-half">
-        {% if post.paper-title %}
-        {{ post.paper-title }}
-        {% else %}
-        {{- post.excerpt }}
-        {% endif %}
-      </div>
-      <!-- <div class="column">
-       !--   {% for c in post.categories %}
-       !--   <span class="tag is-primary">{{ c }}</span>
-       !--   {% endfor %}
-       !-- </div> -->
-
-    </div>
-      <!-- <div class="column is-one-third is-narrow">
-       !--   <article class="message news-item is-primary">
-       !--     <div class="message-header ">
-       !--       <ul>
-       !--         <li>
-       !--       <h2 class="title">
-       !--         <a class="inline-post-title" href="{{ post.url }}">{{ post.title }}</a>
-       !--       </h2>
-       !-- 
-       !--         </li>
-       !--         <li>
-       !--       <h3 class="subtitle">
-       !--         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-       !--       </h3>
-       !-- 
-       !--         </li>
-       !--       </ul>
-       !--       
-       !--     </div>
-       !--   <div class="message-body">
-       !--     {{ post.excerpt }}
-       !--   </div>
-       !--   </article>
-       !-- </div> -->
-      {% endfor %}
-    </div>
+    
+    <p>We have frequent <b>job openings</b> for postdoc, PhD student and intern positions. Check up <a href="/#news">the news</a> for ongoing calls or <a href="/people/1970/01/01/binsec.html">contact us</a> if you believe that you could be a good match.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <h1 class="title is-1">People</h1>
+  <div id="news"></div>
+  <h1 class="title is-1">News</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div>
+		  <center>
+          <a class="twitter-timeline" href="https://twitter.com/BinsecTool/timelines/1316672376126533632" data-chrome="nofooter noheader" data-width="75%" data-height="600">Curated Tweets by BinsecTool</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		  </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div id="people"></div><h1 class="title is-1">People</h1>
     <hr/>
-    {% assign people_grp = site.data.people | group_by: 'position' %}
+    {% assign people_grp = site.data.team | group_by: 'position' %}
     {% assign positions = site.data.positions %}
 
     <div class="columns">
@@ -164,6 +115,55 @@ layout: default
           <div>
           {% if p.www %}
           <a href="{{ p.www }}"> {{ p.firstname }} <span class="lastname">{{ p.lastname }}</span></a>
+          {% else %}
+          {{ p.firstname }} <span class="lastname">{{ p.lastname }}</span>
+          {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+      </div>
+      {% endfor %}
+
+
+    </div>
+    {% endfor %}
+    </div>
+    <hr/>
+    {% assign people_grp = site.data.otherpeople | group_by: 'position' %}
+    {% assign positions = site.data.positions %}
+
+    <div class="columns">
+    {% for g in people_grp %}
+    {% assign position = site.data.positions[g.name].name %}
+    <div class="column">
+      {% assign pos = position %}
+      {% if g.size > 1 %}
+      {% assign pos = position | append: "s" %}
+      {% endif %}
+      <h2 class="subtitle is-2">{{ pos }}</h2>
+
+      {% assign categories = g.items | group_by: 'is_past' %}
+
+      {% for c in categories %}
+      {% assign people = c.items | sort: "lastname" %}
+
+      <div class="content">
+      {% if c.name == "true" %}
+      <hr/> 
+      {% assign pos = position %}
+      {% if people.size > 1 %}
+      {% assign pos = position | append: "s" %}
+      {% endif %}
+      <h4 class="subtitle">Former {{ pos }}</h4>
+      {% endif %}
+      <ul>
+
+        {% for p in people %}
+        <li> 
+          <div>
+          {% if p.www %}
+          <a href="{{ p.www }}" target="_blank"> {{ p.firstname }} <span class="lastname">{{ p.lastname }}</span></a>
           {% else %}
           {{ p.firstname }} <span class="lastname">{{ p.lastname }}</span>
           {% endif %}

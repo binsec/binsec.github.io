@@ -1,0 +1,90 @@
+---
+
+- id: sbardin
+  firstname: Sébastien
+  lastname: Bardin
+  position: researcher
+  www: "people/1970/01/01/bardin.html"
+  
+- id: mlemerre
+  firstname: Matthieu
+  lastname: Lemerre
+  position: researcher
+  www: "people/1970/01/01/lemerre.html"
+
+- id: mmarcozz
+  firstname: Michaël
+  lastname: Marcozzi
+  position: researcher
+  www: "people/1970/01/01/marcozzi.html"
+  
+# POSTDOCS
+
+- id: nobody
+  lastname: Contact us to join
+  position: postdoc
+
+# PHD STUDENTS
+
+- id: frecoules
+  firstname: Frédéric
+  lastname: Recoules
+  position: phd
+  www: "people/1970/01/01/recoules.html"
+
+- id: yvincont
+  firstname: Yaëlle
+  lastname: Vinçont
+  position: phd
+  www: "people/1970/01/01/vincont.html"
+
+- id: mollivier
+  firstname: Mathilde
+  lastname: Ollivier
+  position: phd
+  www: "people/1970/01/01/ollivier.html"
+
+- id: mdnguyen
+  firstname: Manh-Dung
+  lastname: Nguyen
+  position: phd
+  www: "people/1970/01/01/nguyen.html"
+
+- id: ladaniel
+  firstname: Lesly-Ann
+  lastname: Daniel
+  position: phd
+  www: "people/1970/01/01/daniel.html"
+
+- id: onicole
+  firstname: Olivier
+  lastname: Nicole
+  position: phd
+  www: "people/1970/01/01/nicole.html"
+  
+- id: ggirol
+  firstname: Guillaume
+  lastname : Girol 
+  position : phd
+  www: "people/1970/01/01/girol.html"
+
+- id: gmenguy
+  firstname: Grégoire
+  lastname : Menguy 
+  position : phd  
+  www: "people/1970/01/01/menguy.html"
+
+- id: sducousso
+  firstname: Soline
+  lastname: Ducousso
+  position: phd
+  www: "people/1970/01/01/ducousso.html"
+    
+
+# INTERNS
+
+- id: nobodyeither
+  lastname: Contact us to join
+  position: intern
+
+
