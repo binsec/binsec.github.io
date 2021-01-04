@@ -11,7 +11,15 @@
                - name: Marie-Laure Potet
           venue-acronym: "ICSE"
           venue: "The 43rd International Conference on Software Engineering"
-          ranking: "A*"          
+          ranking: "A*"      
+        - title: "Hunting the Haunter -- Efficient Relational Symbolic Execution for Spectre with Haunted RelSE"
+          authors:
+               - name: Lesly-Ann Daniel
+               - name: Sébastien Bardin
+               - name: Tamara Rezk
+          venue-acronym: "NDSS"
+          venue: "The 28th Network and Distributed System Security Symposium"
+          ranking: "A*"           
 - year: 2020
   publications:
         - title: "Binary-level Directed Fuzzing for Use-After-Free Vulnerabilities"
