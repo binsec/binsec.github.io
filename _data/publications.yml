@@ -76,6 +76,7 @@
                - name: Jean-Yves Marion
           venue-acronym: "ACSAC"
           venue: "The 35th Annual Computer Security Applications Conference"
+          ranking: "A"
           pdf: "/assets/publications/papers/2019-acsac.pdf"
           bibtex: "/assets/publications/bibtexs/2019-acsac.bib"
           talk-slides: "/assets/publications/slides/2019-acsac.pdf"
