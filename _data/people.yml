@@ -35,17 +35,17 @@
   lastname: Vinçont
   position: phd
 
-- id: mollivier
-  firstname: Mathilde
-  lastname: Ollivier
-  position: phd
-
 - id: mdnguyen
   firstname: Manh-Dung
   lastname: Nguyen
   position: phd
   www : http://strongcourage.github.io/
 
+- id: ladaniel
+  firstname: Lesly-Ann
+  lastname: Daniel
+  position: phd
+  www: http://perso.eleves.ens-rennes.fr/people/lesly-ann.daniel/
 
 - id: ladaniel
   firstname: Lesly-Ann
