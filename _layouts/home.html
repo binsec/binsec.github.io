@@ -61,17 +61,56 @@ layout: default
 
 <section class="section">
   <div class="container">
-  <div id="news"></div>
-  <h1 class="title is-1">News</h1>
-    <div class="row">
-      <div class="col-md-4">
-        <div>
-		  <center>
-          <a class="twitter-timeline" href="https://twitter.com/BinsecTool/timelines/1316672376126533632" data-chrome="nofooter noheader" data-width="75%" data-height="600">Curated Tweets by BinsecTool</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		  </center>
-        </div>
+    <div id="news"></div><h1 class="title is-1">News</h1>
+    <hr/>
+
+      {% for post in site.posts limit:5 %}
+    <div class="columns home-post">
+      <div class="column has-background-primary">
+        <u>{{ post.title }}</u>
       </div>
+      <div class="column">
+        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+      </div>
+      <div class="column is-half">
+        {% if post.paper-title %}
+        {{ post.paper-title }}
+        {% else %}
+        {{- post.excerpt }}
+        {% endif %}
+      </div>
+      <!-- <div class="column">
+       !--   {% for c in post.categories %}
+       !--   <span class="tag is-primary">{{ c }}</span>
+       !--   {% endfor %}
+       !-- </div> -->
+
+    </div>
+      <!-- <div class="column is-one-third is-narrow">
+       !--   <article class="message news-item is-primary">
+       !--     <div class="message-header ">
+       !--       <ul>
+       !--         <li>
+       !--       <h2 class="title">
+       !--         <a class="inline-post-title" href="{{ post.url }}">{{ post.title }}</a>
+       !--       </h2>
+       !-- 
+       !--         </li>
+       !--         <li>
+       !--       <h3 class="subtitle">
+       !--         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+       !--       </h3>
+       !-- 
+       !--         </li>
+       !--       </ul>
+       !--       
+       !--     </div>
+       !--   <div class="message-body">
+       !--     {{ post.excerpt }}
+       !--   </div>
+       !--   </article>
+       !-- </div> -->
+      {% endfor %}
     </div>
   </div>
 </section>
