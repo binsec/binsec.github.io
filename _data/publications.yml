@@ -37,6 +37,7 @@
           benchmark: "https://github.com/binsec/uafbench"
           easy-summary: "new/publication/2020/10/14/raid20.html"
           bibtex: "/assets/publications/bibtexs/2020-raid.bib"
+          talk-slides: "/assets/publications/slides/2020-raid.pdf"
         - title: "Binsec/Rel: Efficient Relational Symbolic Execution for Constant-Time at Binary-Level"
           authors:
                - name: Lesly-Ann Daniel
