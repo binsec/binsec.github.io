@@ -71,7 +71,7 @@ and Spectre-STL (a.k.a Spectre v4) respectively exploiting conditional
 branch predictions and memory disambiguation mechanism in
 store-to-load forwarding (more details in the paper).
 
-In the end, Spectre attacks, exploit *speculation mechanisms* and
+In the end, Spectre attacks exploit *speculation mechanisms* and
 *microarchitectural side-channels*.
 
 ## Speculative Constant-time
@@ -88,7 +88,7 @@ The problem with constant-time is that **it is not sufficient to
 protect against Spectre attacks** (for instance our illustrative
 example is constant-time but still vulnerable to Spectre attacks).
 
-**Speculative constant-time** [3], is an adaptation of constant-time
+**Speculative constant-time** [3] is an adaptation of constant-time
 that includes the speculative semantics of the program and allows to
 reason about Spectre attacks. Still, few verification tools are able
 to detect Spectre attacks or verify speculative constant-time and most
