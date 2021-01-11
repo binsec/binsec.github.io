@@ -19,7 +19,9 @@
                - name: Tamara Rezk
           venue-acronym: "NDSS"
           venue: "The 28th Network and Distributed System Security Symposium"
-          ranking: "A*"           
+          ranking: "A*"        
+          easy-summary: "new/publication/1970/01/01/nutshell-ndss-21.html"
+          pdf: "/assets/publications/papers/2021-ndss.pdf"
 - year: 2020
   publications:
         - title: "Binary-level Directed Fuzzing for Use-After-Free Vulnerabilities"
