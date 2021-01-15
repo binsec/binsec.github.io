@@ -147,7 +147,7 @@ vulnerabilities.
 - To appear at the [Network and Distributed System Security Symposium
   (NDSS'21)](https://www.ndss-symposium.org/ndss2021/)
 - Download the [tool](https://github.com/binsec/haunted) and
-[benchmarks](https://github.com/binsec/haunted_bench) (coming soon).
+[benchmarks](https://github.com/binsec/haunted_bench).
 <br/><br/>
 
 # References
