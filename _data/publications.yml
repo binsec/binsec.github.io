@@ -22,6 +22,8 @@
           ranking: "A*"        
           easy-summary: "new/publication/1970/01/01/nutshell-ndss-21.html"
           pdf: "/assets/publications/papers/2021-ndss.pdf"
+          artefact: "https://github.com/binsec/haunted"
+          benchmark: "https://github.com/binsec/haunted_bench"
 - year: 2020
   publications:
         - title: "Binary-level Directed Fuzzing for Use-After-Free Vulnerabilities"
