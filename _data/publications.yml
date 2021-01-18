@@ -11,7 +11,16 @@
                - name: Marie-Laure Potet
           venue-acronym: "ICSE"
           venue: "The 43rd International Conference on Software Engineering"
-          ranking: "A*"      
+          ranking: "A*"    
+        - title: "No Crash, No Exploit: Automatic Verification of Embedded Kernels"
+          authors:
+               - name: Olivier Nicole
+               - name: Matthieu Lemerre
+               - name: Sébastien Bardin
+               - name: Xavier Rival
+          venue-acronym: "RTAS"
+          venue: "The 27th IEEE Real-Time and Embedded Technology and Applications Symposium"
+          ranking: "A"  
         - title: "Hunting the Haunter -- Efficient Relational Symbolic Execution for Spectre with Haunted RelSE"
           authors:
                - name: Lesly-Ann Daniel
