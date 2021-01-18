@@ -9,18 +9,18 @@
           venue-acronym: "Black Hat USA"
           venue: "Black Hat USA 2020"
           talk-slides: "/assets/publications/slides/2020-blackhatusa.pdf"
-        - title: "Toward Security-Oriented Program Analysis"
-          authors:
-               - name: Sébastien Bardin
-          venue-acronym: "SSES"
-          venue: "Security and safety of Embedded Systems, Scientific day"
-          talk-slides: "/assets/publications/slides/2020-sses.pdf"
-        - title: "Cybersecurity Meets Automated Reasoning"
-          authors:
-               - name: Sébastien Bardin
-          venue-acronym: "FIC"
-          venue: "Forum International de la Cybersécurité 2020"
-          talk-slides: "/assets/publications/slides/2020-fic.pdf"
+#         - title: "Toward Security-Oriented Program Analysis"
+#           authors:
+#                - name: Sébastien Bardin
+#           venue-acronym: "SSES"
+#           venue: "Security and safety of Embedded Systems, Scientific day"
+#           talk-slides: "/assets/publications/slides/2020-sses.pdf"
+#         - title: "Cybersecurity Meets Automated Reasoning"
+#           authors:
+#                - name: Sébastien Bardin
+#           venue-acronym: "FIC"
+#           venue: "Forum International de la Cybersécurité 2020"
+#           talk-slides: "/assets/publications/slides/2020-fic.pdf"
 - year: 2017
   publications:
         - title: "BINSEC: a Tutorial"
