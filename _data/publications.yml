@@ -19,6 +19,7 @@
                - name: Sébastien Bardin
                - name: Xavier Rival
           venue-acronym: "RTAS"
+          easy-summary: "new/publication/1970/01/01/nutshell-rtas-21.html"
           venue: "The 27th IEEE Real-Time and Embedded Technology and Applications Symposium"
           ranking: "A"  
         - title: "Hunting the Haunter -- Efficient Relational Symbolic Execution for Spectre with Haunted RelSE"
