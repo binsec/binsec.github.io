@@ -3,11 +3,14 @@ layout: post
 title:  "RTAS'21: research paper"
 categories: new publication
 paper-title: "No Crash, No Exploit: Automatic Verification of Embedded Kernels"
+topic: "embedded system security; secure embedded kernels; formal methods; abstract interpretation; absence of privilege escalation"
+pdf: ""
 date: 1970-01-01
 ---
 
-## Context
 
+
+# Context
 <img src="/assets/publications/pictures/rtas21.png" width="250" height="300"
      style="float: left; margin-right: 10px;" />
 In most systems, the kernel is critical for security: it is the piece of
@@ -33,8 +36,9 @@ called the *interface* between kernel and tasks. The memory structure of this
 zone is known but the precise values and addresses are not, which forces the
 code analysis to step up in terms of complexity.
 
-## Contributions
 
+
+# Contributions
 - A new method for verifying absence of privilege escalation and absence
   of crash in an embedded kernel, based on abstract interpretation (handles
   loops and verifies kernels independently from the application).
