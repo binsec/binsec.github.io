@@ -117,4 +117,4 @@ the changes.
 
 - Preprint is coming *very soon*!
 - Artifact is coming *soon*!
-- Dont miss the presentation @ [the 43rd **International Conference on Software Engineering**](https://conf.researchr.org/venue/icse-2021/icse-2021-VirutalVenue)
+- Don't miss the presentation @ [the 43rd **International Conference on Software Engineering**](https://conf.researchr.org/venue/icse-2021/icse-2021-VirutalVenue)
