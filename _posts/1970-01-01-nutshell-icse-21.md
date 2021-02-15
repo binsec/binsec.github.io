@@ -4,7 +4,7 @@ title:  "ICSE'21: research paper"
 categories: new publication
 paper-title: "Interface Compliance of Inline Assembly: Automatically Check, Patch and Refine"
 topic: "low-level programming, inline assembly, compilation issues, program analysis"
-pdf: ""
+pdf: "/assets/publications/papers/2021-icse.pdf"
 date: 1970-01-01
 ---
 
@@ -115,6 +115,7 @@ the changes.
 
 ## Further information
 
-- Preprint is coming *very soon*!
+- Read the
+  [**paper**](/assets/publications/papers/2021-icse.pdf)
 - Artifact is coming *soon*!
 - Don't miss the presentation @ [the 43rd **International Conference on Software Engineering**](https://conf.researchr.org/venue/icse-2021/icse-2021-VirutalVenue)

@@ -10,6 +10,7 @@
                - name: Laurent Mounier
                - name: Marie-Laure Potet
           venue-acronym: "ICSE"
+          pdf: "/assets/publications/papers/2021-icse.pdf"
           easy-summary: "new/publication/1970/01/01/nutshell-icse-21.html"
           venue: "The 43rd International Conference on Software Engineering"
           ranking: "A*"    
