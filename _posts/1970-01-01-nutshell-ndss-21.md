@@ -148,6 +148,7 @@ vulnerabilities.
   (NDSS'21)](https://www.ndss-symposium.org/ndss2021/)
 - Download the [tool](https://github.com/binsec/haunted) and
 [benchmarks](https://github.com/binsec/haunted_bench).
+- See our related [LASER workshop talk](/assets/publications/slides/2021-laser.pdf) about our experimental evaluation.
 <br/><br/>
 
 # References

@@ -1,5 +1,15 @@
 ---
 
+- year: 2021
+  publications:
+        - title: "Experimental Evaluation of a Binary-level Symbolic Analyzer for Spectre: Binsec/Haunted"
+          authors:
+               - name: Lesly-Ann Daniel
+               - name: Sébastien Bardin
+               - name: Tamara Rezk
+          venue-acronym: "LASER @NDSS'21"
+          venue: "The Learning from Authoritative Security Experiment Results (LASER) Workshop"
+          talk-slides: "/assets/publications/slides/2021-laser.pdf"
 - year: 2020
   publications:
         - title: "About Directed Fuzzing and Use-After-Free: How to Find Complex & Silent Bugs?"
