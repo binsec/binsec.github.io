@@ -36,7 +36,7 @@
           pdf: "/assets/publications/papers/2021-ndss.pdf"
           artefact: "https://github.com/binsec/haunted"
           benchmark: "https://github.com/binsec/haunted_bench"
-          talk-video: "https://zenodo.org/record/4518775/files/video-presentation.mp4?download=1"
+          talk-video: "https://www.youtube.com/watch?v=MKyXyyZT6Js"
           talk-slides: "/assets/publications/slides/2021-ndss.pdf"
 - year: 2020
   publications:
