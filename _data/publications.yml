@@ -13,6 +13,11 @@
           pdf: "/assets/publications/papers/2021-icse.pdf"
           easy-summary: "new/publication/1970/01/01/nutshell-icse-21.html"
           venue: "The 43rd International Conference on Software Engineering"
+          artefact: "/assets/publications/papers/2021-icse-ae.pdf"
+          benchmark: "https://github.com/binsec/icse2021-artifact992/"
+          artifact-evaluated-functional: ""
+          artifact-evaluated-reusable: ""
+          artifact-available: ""
           ranking: "A*"    
         - title: "No Crash, No Exploit: Automatic Verification of Embedded Kernels"
           authors:

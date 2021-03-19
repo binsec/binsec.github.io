@@ -26,6 +26,29 @@ title: Publications
         {% endfor %}
         <br>
         {{ p.venue }} {% if p.ranking %} <br> <b>CORE RANKING: </b> {{ p.ranking }} {% endif %} 
+				{% if p.artifact-evaluated-functional or p.artifact-evaluated-reusable or p.artifact-available or p.results-replicated or p.results-reproduced %} 
+        <br>
+        {% endif %} 
+		{% if p.artifact-evaluated-functional %} 
+        <img src="/assets/img/artifacts_evaluated_functional.png" alt="ACM Badge Artifact Functional" width="70" height="70">  
+        &nbsp;
+        {% endif %} 
+		{% if p.artifact-evaluated-reusable %} 
+        <img src="/assets/img/artifacts_evaluated_reusable.png" alt="ACM Badge Artifact Reusable" width="70" height="70">  
+        &nbsp;
+        {% endif %} 
+		{% if p.artifact-available %} 
+        <img src="/assets/img/artifacts_available.png" alt="ACM Badge Artifact Available" width="70" height="70">  
+        &nbsp;
+        {% endif %} 
+		{% if p.results-replicated %} 
+        <img src="/assets/img/results_replicated.png" alt="ACM Badge Results Replicated" width="70" height="70">  
+        &nbsp;
+        {% endif %} 
+		{% if p.results-reproduced %} 
+        <img src="/assets/img/results_reproduced.png" alt="ACM Badge Results Reproduced" width="70" height="70">  
+        &nbsp;
+        {% endif %} 
         <br> 
         {% if p.easy-summary %} 
         <a href="{{ p.easy-summary }}" style="text-decoration: none"> <i class="fas fa-lightbulb"></i> <b>In a nutshell</b></a>
@@ -53,6 +76,11 @@ title: Publications
         {% endif %} 
         {% if p.talk-slides %} 
         <a href="{{ p.talk-slides }}" style="text-decoration: none" target="_blank"> <i class="fas fa-file-powerpoint"></i> <b>Slides</b></a>  
+        &nbsp;
+        {% endif %} 
+		{% if p.award %} 
+		<br>
+        <i class="fas fa-award"></i> <b>{{ p.award }}</b></a> 
         &nbsp;
         {% endif %} 
       </div>
