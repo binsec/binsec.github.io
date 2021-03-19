@@ -117,5 +117,5 @@ the changes.
 
 - Read the
   [**paper**](/assets/publications/papers/2021-icse.pdf)
-- Artifact is coming *soon*!
+- Download the [**artifact**](/assets/publications/papers/2021-icse-ae.pdf)!
 - Don't miss the presentation @ [the 43rd **International Conference on Software Engineering**](https://conf.researchr.org/venue/icse-2021/icse-2021-VirutalVenue)
