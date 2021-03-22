@@ -89,6 +89,12 @@
   position: intern
   www: "people/1970/01/01/foulani.html"
 
+- id: mnour
+  firstname: Marwan
+  lastname: Nour
+  position: intern
+  www: "people/1970/01/01/nour.html"
+
 #- id: nobodyeither
 #  lastname: Contact us to join
 #  position: intern
