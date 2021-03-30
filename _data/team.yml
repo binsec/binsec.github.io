@@ -38,12 +38,6 @@
   position: phd
   www: "people/1970/01/01/vincont.html"
 
-- id: mdnguyen
-  firstname: Manh-Dung
-  lastname: Nguyen
-  position: phd
-  www: "people/1970/01/01/nguyen.html"
-
 - id: ladaniel
   firstname: Lesly-Ann
   lastname: Daniel
