@@ -11,7 +11,11 @@ layout: default-with-nav
 <br>
 <br>
 {% endif %}
+{% if page.otheremail %}
+<i class="fas fa-at"></i> {{ page.otheremail }}
+{% else %}
 <i class="fas fa-at"></i> {{ page.mail }}_at_cea.fr
+{% endif %}
 {% if page.website %}
 <br>
 <i class="fas fa-home"></i> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a> 
