@@ -27,6 +27,11 @@
                - name: Xavier Rival
           venue-acronym: "RTAS"
           easy-summary: "new/publication/1970/01/01/nutshell-rtas-21.html"
+          artefact: "https://github.com/binsec/rtas2021_artifact"
+          artifact-custom-image: "/assets/img/artefact_rtas.png"
+          artifact-custom-image-width: "70"
+          artifact-custom-image-height: "70"
+          pdf: "/assets/publications/papers/2021-rtas.pdf"
           venue: "The 27th IEEE Real-Time and Embedded Technology and Applications Symposium"
           ranking: "A"  
         - title: "Hunting the Haunter -- Efficient Relational Symbolic Execution for Spectre with Haunted RelSE"

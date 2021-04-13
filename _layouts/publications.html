@@ -26,8 +26,12 @@ title: Publications
         {% endfor %}
         <br>
         {{ p.venue }} {% if p.ranking %} <br> <b>CORE RANKING: </b> {{ p.ranking }} {% endif %} 
-				{% if p.artifact-evaluated-functional or p.artifact-evaluated-reusable or p.artifact-available or p.results-replicated or p.results-reproduced %} 
+				{% if p.artifact-evaluated-functional or p.artifact-evaluated-reusable or p.artifact-available or p.results-replicated or p.results-reproduced or p.artifact-custom-image %} 
         <br>
+        {% endif %} 
+		{% if p.artifact-custom-image %} 
+        <img src="{{ p.artifact-custom-image }}" width="{{ p.artifact-custom-image-width }}" height="{{ p.artifact-custom-image-height }}">  
+        &nbsp;
         {% endif %} 
 		{% if p.artifact-evaluated-functional %} 
         <img src="/assets/img/artifacts_evaluated_functional.png" alt="ACM Badge Artifact Functional" width="70" height="70">  

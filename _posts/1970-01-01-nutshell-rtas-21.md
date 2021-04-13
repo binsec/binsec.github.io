@@ -4,7 +4,7 @@ title:  "RTAS'21: research paper"
 categories: new publication
 paper-title: "No Crash, No Exploit: Automatic Verification of Embedded Kernels"
 topic: "embedded system security; secure embedded kernels; formal methods; abstract interpretation; absence of privilege escalation"
-pdf: ""
+pdf: "/assets/publications/papers/2021-rtas.pdf"
 date: 1970-01-01
 ---
 
@@ -48,3 +48,10 @@ code analysis to step up in terms of complexity.
   one), demonstrating that our method can verify kernels with less than 58 lines
   of manual annotations (in some cases, requiring 0 lines of annotations, i.e.
   the kernel is verified without human intervervention).
+  
+# Further information
+- Read the
+  [**paper**](/assets/publications/papers/2021-rtas.pdf) and [extended technical report](/assets/publications/papers/2021-rtas-technical-report-analysis.pdf). 
+- To appear at the [Real-Time and Embedded Technology and Applications Symposium
+  (RTAS'21)](http://2021.rtas.org/)
+- Download the [tool and bechmark](https://github.com/binsec/rtas2021_artifact).
