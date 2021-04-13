@@ -54,4 +54,4 @@ code analysis to step up in terms of complexity.
   [**paper**](/assets/publications/papers/2021-rtas.pdf) and [extended technical report](/assets/publications/papers/2021-rtas-technical-report-analysis.pdf). 
 - To appear at the [Real-Time and Embedded Technology and Applications Symposium
   (RTAS'21)](http://2021.rtas.org/)
-- Download the [tool and bechmark](https://github.com/binsec/rtas2021_artifact).
+- Download the [tool and benchmark](https://github.com/binsec/rtas2021_artifact).
