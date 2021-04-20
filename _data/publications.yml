@@ -19,6 +19,7 @@
           artifact-evaluated-reusable: ""
           artifact-available: ""
           ranking: "A*"    
+          award: "ACM SIGSOFT Distinguished Paper Award"
         - title: "No Crash, No Exploit: Automatic Verification of Embedded Kernels"
           authors:
                - name: Olivier Nicole
