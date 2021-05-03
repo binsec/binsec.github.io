@@ -20,9 +20,15 @@
   
 # POSTDOCS
 
-- id: nobody
-  lastname: Contact us to join
+- id: bnongpoh
+  firstname: Bernard
+  lastname: Nongpoh
   position: postdoc
+  www: "people/1970/01/01/nongpoh.html"
+
+#- id: nobody
+#  lastname: Contact us to join
+#  position: postdoc
 
 # PHD STUDENTS
 
