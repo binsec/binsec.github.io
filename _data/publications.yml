@@ -3,6 +3,23 @@
   publications:
         - title: "Interface Compliance of Inline Assembly: Automatically Check, Patch and Refine"
           authors:
+               - name: Grégoire Menguy
+               - name: Sébastien Bardin
+               - name: Richard Bonichon
+               - name: Cauim de Souza Lima
+          venue-acronym: "CCS"
+          venue: "The 28th ACM Conference on Computer and Communications Security"
+          ranking: "A*"    
+        - title: "Not All Bugs Are Created Equal, But Robust Reachability Can Tell The Difference"
+          authors:
+               - name: Guillaume Girol
+               - name: Benjamin Farinier
+               - name: Sébastien Bardin
+          venue-acronym: "CAV"
+          venue: "The 33th International Conference on Computer Aided Verification"
+          ranking: "A*"    
+        - title: "Interface Compliance of Inline Assembly: Automatically Check, Patch and Refine"
+          authors:
                - name: Frédéric Recoules
                - name: Sébastien Bardin
                - name: Richard Bonichon
@@ -35,6 +52,7 @@
           pdf: "/assets/publications/papers/2021-rtas.pdf"
           venue: "The 27th IEEE Real-Time and Embedded Technology and Applications Symposium"
           ranking: "A"  
+          award: "Outstanding Paper Award"
         - title: "Hunting the Haunter -- Efficient Relational Symbolic Execution for Spectre with Haunted RelSE"
           authors:
                - name: Lesly-Ann Daniel
