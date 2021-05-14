@@ -1,7 +1,7 @@
 ---
 - year: 2021
   publications:
-        - title: "Interface Compliance of Inline Assembly: Automatically Check, Patch and Refine"
+        - title: "Search-based Local Blackbox Deobfuscation: Understand, Improve and Mitigate"
           authors:
                - name: Grégoire Menguy
                - name: Sébastien Bardin
