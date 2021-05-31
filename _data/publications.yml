@@ -10,6 +10,8 @@
           venue-acronym: "CCS"
           venue: "The 28th ACM Conference on Computer and Communications Security"
           ranking: "A*"    
+          pdf: "/assets/publications/papers/2021-ccs.pdf"
+          easy-summary: "new/publication/1970/01/01/nutshell-ccs-21.html"
         - title: "Not All Bugs Are Created Equal, But Robust Reachability Can Tell The Difference"
           authors:
                - name: Guillaume Girol
@@ -52,7 +54,7 @@
           pdf: "/assets/publications/papers/2021-rtas.pdf"
           venue: "The 27th IEEE Real-Time and Embedded Technology and Applications Symposium"
           ranking: "A"  
-          award: "Outstanding Paper Award"
+          award: "Best and Outstanding Paper Awards"
         - title: "Hunting the Haunter -- Efficient Relational Symbolic Execution for Spectre with Haunted RelSE"
           authors:
                - name: Lesly-Ann Daniel
