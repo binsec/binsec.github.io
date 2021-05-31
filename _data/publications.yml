@@ -49,10 +49,11 @@
           artifact-custom-image: "/assets/img/artefact_rtas.png"
           artifact-custom-image-width: "70"
           artifact-custom-image-height: "70"
+          talk-video: "https://youtu.be/dC9Aga7j7oM"
           pdf: "/assets/publications/papers/2021-rtas.pdf"
           venue: "The 27th IEEE Real-Time and Embedded Technology and Applications Symposium"
           ranking: "A"  
-          award: "Outstanding Paper Award"
+          award: "Best Paper Award"
         - title: "Hunting the Haunter -- Efficient Relational Symbolic Execution for Spectre with Haunted RelSE"
           authors:
                - name: Lesly-Ann Daniel
