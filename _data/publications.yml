@@ -20,6 +20,13 @@
           venue-acronym: "CAV"
           venue: "The 33th International Conference on Computer Aided Verification"
           ranking: "A*"    
+          pdf: "/assets/publications/papers/2021-cav.pdf"
+          easy-summary: "new/publication/1970/01/01/nutshell-cav-21.html"
+          artefact: "https://github.com/binsec/cav2021-artifacts"
+          benchmark: "https://zenodo.org/record/4721753#.YLeRuec69PY"
+          artifact-custom-image: "/assets/img/artefact_cav.png"
+          artifact-custom-image-width: "70"
+          artifact-custom-image-height: "70"
         - title: "Interface Compliance of Inline Assembly: Automatically Check, Patch and Refine"
           authors:
                - name: Frédéric Recoules
