@@ -46,7 +46,7 @@
           artifact-available: ""
           ranking: "A*"    
           award: "ACM SIGSOFT Distinguished Paper Award"
-          talk-video: "ftp://ftp.cea.fr/incoming/y2k01/ICSE21-Presentation992.avi"
+          talk-video: "https://youtu.be/uYgFI533EUA"
           talk-slides: "/assets/publications/slides/2021-icse.pdf"
         - title: "No Crash, No Exploit: Automatic Verification of Embedded Kernels"
           authors:
