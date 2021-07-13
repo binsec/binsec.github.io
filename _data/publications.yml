@@ -12,6 +12,8 @@
           ranking: "A*"    
           pdf: "/assets/publications/papers/2021-ccs.pdf"
           easy-summary: "new/publication/1970/01/01/nutshell-ccs-21.html"
+          artefact: "https://zenodo.org/record/5094898#.YO2UchMzbSw"
+          benchmark: "https://github.com/binsec/xyntia"
         - title: "Not All Bugs Are Created Equal, But Robust Reachability Can Tell The Difference"
           authors:
                - name: Guillaume Girol

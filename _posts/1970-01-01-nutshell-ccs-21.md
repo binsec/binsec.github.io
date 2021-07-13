@@ -106,4 +106,4 @@ In summary, this paper makes the following major contributions:
 
 * Read the [paper](/assets/publications/papers/2021-ccs.pdf)
 * To appear at the [ACM Conference on Computer and Communications Security (CCS) 2021](https://www.sigsac.org/ccs/CCS2021/) 
-* Try Xyntia ([to appear]()) and get our benchmarks ([to appear]())
+* Try ([Xyntia](https://zenodo.org/record/5094898#.YO2UchMzbSw)) and get our ([benchmarks](https://github.com/binsec/xyntia))
