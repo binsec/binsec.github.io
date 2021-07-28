@@ -2,6 +2,12 @@
 
 - year: 2021
   publications:
+        - title: "Getting an Academic Position in France/Belgium and at CEA List"
+          authors:
+               - name: Michaël Marcozzi
+          venue-acronym: "GAP"
+          venue: "'Getting Academic Positions' Interviewing Series by Manuel Rigger"
+          talk-video: "https://www.youtube.com/watch?v=4frWpWVCm2c&list=PLm7ofmclym1EjPJE4TbuyaKA9-ottVeRJ&index=8"
         - title: "Experimental Evaluation of a Binary-level Symbolic Analyzer for Spectre: Binsec/Haunted"
           authors:
                - name: Lesly-Ann Daniel

@@ -29,6 +29,7 @@
           artifact-custom-image: "/assets/img/artefact_cav.png"
           artifact-custom-image-width: "70"
           artifact-custom-image-height: "70"
+          bibtex: "/assets/publications/bibtexs/2021-cav.bib"
         - title: "Interface Compliance of Inline Assembly: Automatically Check, Patch and Refine"
           authors:
                - name: Frédéric Recoules
@@ -50,6 +51,7 @@
           award: "ACM SIGSOFT Distinguished Paper Award"
           talk-video: "https://youtu.be/uYgFI533EUA"
           talk-slides: "/assets/publications/slides/2021-icse.pdf"
+          bibtex: "/assets/publications/bibtexs/2021-icse.bib"
         - title: "No Crash, No Exploit: Automatic Verification of Embedded Kernels"
           authors:
                - name: Olivier Nicole
@@ -69,6 +71,7 @@
           talk-video: "https://www.youtube.com/watch?v=dC9Aga7j7oM"
           talk-slides: "/assets/publications/slides/2021-rtas.pdf"
           comment: "Also presented at AFADL 2021"
+          bibtex: "/assets/publications/bibtexs/2021-rtas.bib"
         - title: "Hunting the Haunter -- Efficient Relational Symbolic Execution for Spectre with Haunted RelSE"
           authors:
                - name: Lesly-Ann Daniel
@@ -83,6 +86,7 @@
           benchmark: "https://github.com/binsec/haunted_bench"
           talk-video: "https://www.youtube.com/watch?v=MKyXyyZT6Js"
           talk-slides: "/assets/publications/slides/2021-ndss.pdf"
+          bibtex: "/assets/publications/bibtexs/2021-ndss.bib"
 - year: 2020
   publications:
         - title: "Binary-level Directed Fuzzing for Use-After-Free Vulnerabilities"
