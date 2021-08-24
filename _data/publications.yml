@@ -30,6 +30,8 @@
           artifact-custom-image-width: "70"
           artifact-custom-image-height: "70"
           bibtex: "/assets/publications/bibtexs/2021-cav.bib"
+          talk-video: "https://ucl-pplv.github.io/CAV21/poster_P_56/"
+          talk-slides: "/assets/publications/slides/2021-cav.pdf"
         - title: "Interface Compliance of Inline Assembly: Automatically Check, Patch and Refine"
           authors:
                - name: Frédéric Recoules
