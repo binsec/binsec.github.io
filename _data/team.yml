@@ -17,6 +17,12 @@
   lastname: Marcozzi
   position: researcher
   www: "people/1970/01/01/marcozzi.html"
+
+- id: frecoules
+  firstname: Frédéric
+  lastname: Recoules
+  position: researcher
+  www: "people/1970/01/01/recoules.html"
   
 # POSTDOCS
 
@@ -31,12 +37,6 @@
 #  position: postdoc
 
 # PHD STUDENTS
-
-- id: frecoules
-  firstname: Frédéric
-  lastname: Recoules
-  position: phd
-  www: "people/1970/01/01/recoules.html"
 
 - id: yvincont
   firstname: Yaëlle
