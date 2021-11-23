@@ -1,7 +1,7 @@
 ---
 - year: 2022
   publications:
-        - title: "Search-based Local Blackbox Deobfuscation: Understand, Improve and Mitigate"
+        - title: "Lightweight Shape Analysis based on Physical Types"
           authors:
                - name: Olivier Nicole
                - name: Matthieu Lemerre
