@@ -1,4 +1,15 @@
 ---
+- year: 2022
+  publications:
+        - title: "Search-based Local Blackbox Deobfuscation: Understand, Improve and Mitigate"
+          authors:
+               - name: Olivier Nicole
+               - name: Matthieu Lemerre
+               - name: Xavier Rival
+          venue-acronym: "VMCAI"
+          venue: "The 23rd International Conference on Verification, Model Checking, and Abstract Interpretation"
+          pdf: "/assets/publications/papers/2022-vmcai.pdf"
+          easy-summary: "new/publication/1970/01/01/nutshell-vmcai-22.html"
 - year: 2021
   publications:
         - title: "Search-based Local Blackbox Deobfuscation: Understand, Improve and Mitigate"
