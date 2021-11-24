@@ -12,6 +12,14 @@
           easy-summary: "new/publication/1970/01/01/nutshell-vmcai-22.html"
 - year: 2021
   publications:
+        - title: "A Tight Integration of Symbolic Execution and Fuzzing"
+          authors:
+               - name: Yaëlle Vinçont
+               - name: Sébastien Bardin
+               - name: Michaël Marcozzi
+          venue-acronym: "FPS"
+          venue: "The 14th International Symposium on Foundations & Practice of Security"
+          pdf: "/assets/publications/papers/2021-fps.pdf"
         - title: "Search-based Local Blackbox Deobfuscation: Understand, Improve and Mitigate"
           authors:
                - name: Grégoire Menguy
