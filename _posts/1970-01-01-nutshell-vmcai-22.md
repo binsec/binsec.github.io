@@ -90,3 +90,4 @@ To achieve this, we propose:
   [**paper**](/assets/publications/papers/2022-vmcai.pdf). 
 - To appear at the [23rd International Conference on Verification, Model Checking, and Abstract Interpretation
   (VMCAI'22)](https://popl22.sigplan.org/home/VMCAI-2022#About)
+- Download the [tool and benchmark](https://doi.org/10.5281/zenodo.5589489).
