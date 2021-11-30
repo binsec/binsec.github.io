@@ -24,6 +24,7 @@
           venue-acronym: "FPS"
           venue: "The 14th International Symposium on Foundations & Practice of Security"
           pdf: "/assets/publications/papers/2021-fps.pdf"
+          easy-summary: "new/publication/1970/01/01/nutshell-fps-21.html"
         - title: "Search-based Local Blackbox Deobfuscation: Understand, Improve and Mitigate"
           authors:
                - name: Grégoire Menguy
