@@ -2,9 +2,9 @@
 layout: post
 title:  "PhD and postdoc positions in vulnerability detection"
 categories: jobs
-date: 1021-12-03
+date: 2021-12-03
 ---
-We welcome applications for **[one PhD and one postdoc position][offer]** to work with Michaël Marcozzi and Sébastien Bardin on **automatic detection of advanced software vunerabilities**. The positions are expected to start during **the first half of 2022** and will have a **duration of 3 years**.
+We open [<font color="#cd5c5c">one PhD and one postdoc position</font>][offer] to work with Michaël and Sébastien on <font color="#cd5c5c">automatic detection of advanced software vunerabilities</font>. Start: <font color="#cd5c5c">first half of 2022</font>. Duration: <font color="#cd5c5c">3 years (PhD)</font>, <font color="#cd5c5c">2 years (postdoc)</font>.
 
 
 
@@ -24,7 +24,7 @@ We welcome applications for **[one PhD and one postdoc position][offer]** to wor
 
 **JOB REQUIREMENTS** - Successful candidates should have (or be close to have) a Master in Computer Science (or equivalent), with strong results in topics related to the doctoral work that they would conduct in our team. They should be proficient in English and have excellent programming skills. Authorship of one or several scientific publications is a plus. 
 
-**HIRING PROCEDURE** - Candidates should send a *CV*, a *cover letter*, a *transcript of their university results*, as well as *contact information of two referees* to <binsec-jobs@saxifrage.saclay.cea.fr> **as soon as possible** (and at the very last by January 2022). Applications will be reviewed immediately as they arrive (first come, first served). The position is expected to start during **the first half of 2022** and will have a duration of 3 years. The hiring procedure will involve requesting a security clearance from the French Government (for all candidates, 1-3 months delay) and obtaining a visa to work in France (for non-european candidates only).
+**HIRING PROCEDURE** - Candidates should send a *CV*, a *cover letter*, a *transcript of their university results*, as well as *contact information of two referees* to <binsec-jobs@saxifrage.saclay.cea.fr> **as soon as possible (and at the latest by January 2022)**. Applications will be reviewed immediately as they arrive (first come, first served). The position is expected to start as soon as possible in 2022 (upon completion of all administrative requirements) and will have a duration of 3 years. 
 
 **REMUNERATION PACKAGE** - Remuneration includes a gross salary of around 25 kEUR per year, full access to the French national healthcare, social care and pension system, as well as several other benefits, like coverage of 75% of your Parisian public transport subscription or preferential access to all staff restaurants.
 
@@ -34,12 +34,12 @@ You will be expected to solve challenging research problems, implement your solu
 
 **JOB REQUIREMENTS** - Successful candidates should have (or be close to have) a Ph.D. in Computer Science. They should be proficient in English and have excellent programming skills. Some coding experience in OCAML is a plus. We are mainly looking for applicants with an excellent research track record in symbolic execution, fuzzing, static analysis and/or machine learning. However, candidates with a strong background in software engineering, information security, programming languages, architecture or systems may also be considered. 
 
-**HIRING PROCEDURE** - Candidates should send a *CV*, a *cover letter*, as well as *contact information of three referees* to <binsec-jobs@saxifrage.saclay.cea.fr> **as soon as possible** (and at the very last by January 2022). Applications will be reviewed immediately as they arrive (first come, first served). The position is expected to start **as soon as possible in 2022** and will have a duration of 3 years. The hiring procedure will involve requesting a security clearance from the French Government (for all candidates, 1-3 months delay) and obtaining a visa to work in France (for non-european candidates only).
+**HIRING PROCEDURE** - Candidates should send a *CV*, a *cover letter*, as well as *contact information of three referees* to <binsec-jobs@saxifrage.saclay.cea.fr> **as soon as possible (and at the latest by January 2022)**. Applications will be reviewed immediately as they arrive (first come, first served). The position is expected to start as soon as possible in 2022 (upon completion of all administrative requirements) and will have a duration of 2 years.
 
 **REMUNERATION PACKAGE** - Remuneration includes a gross salary ranging from 33 kEUR to 39 kEUR per year, full access to the French national healthcare, social care and pension system, as well as several other benefits, like coverage of 75% of your Parisian public transport subscription or preferential access to all staff restaurants.
 
 ## Work environment
-**WORKING AND LIVING IN PARIS** - Our offices are located at [Nano-Innov][nano], in Plateau de Saclay, south of Paris, Europe’s biggest research and industry cluster. Agencies like [Science Accueil][scienceaccueil] or [Cité Internationale Universitaire de Paris][ciup] are available to help foreign candidates find their home and settle here. Most of us live either in the wooden and quiet southern suburbs of Paris or closer to the bustling historical center of the city. Paris is the capital of France, a metropolis of 12.5 million people and one of the most visited travel destinations in the world.
+**WORKING AND LIVING IN PARIS** - Our offices are located in [Nano-Innov][nano], at the heart of Plateau de Saclay, south of Paris, Europe’s biggest research and industry cluster. Agencies like [Science Accueil][scienceaccueil] or [Cité Internationale Universitaire de Paris][ciup] are available to help foreign candidates find their home and settle here. Most of us live either in the wooden and quiet southern suburbs of Paris or closer to the bustling historical center of the city. Paris is the capital of France, a metropolis of 12.5 million people and one of the most visited travel destinations in the world.
 
 [team]: https://binsec.github.io/#people
 [offer]: https://binsec.github.io/jobs/1021/12/03/phd-postdoc-offer.html
