@@ -4,14 +4,15 @@ title:  "PhD and postdoc positions in vulnerability detection"
 categories: jobs
 date: 2021-12-03
 ---
-We open [<font color="#cd5c5c">one PhD and one postdoc position</font>][offer] to work with Michaël and Sébastien on <font color="#cd5c5c">automatic detection of advanced software vunerabilities</font>. Start: <font color="#cd5c5c">first half of 2022</font>. Duration: <font color="#cd5c5c">3 years (PhD)</font>, <font color="#cd5c5c">2 years (postdoc)</font>.
+We open [<font color="#cd5c5c">two PhD and one postdoc positions</font>][offer] to work with Michaël and Sébastien on <font color="#cd5c5c">automatic detection of advanced software vunerabilities</font>. Start: <font color="#cd5c5c">as soon as possible in 2022</font>. Duration: <font color="#cd5c5c">3 years (PhD)</font>, <font color="#cd5c5c">2 years (postdoc)</font>.
 
 
 
 ## Content
 * [About us](#about-us)
-* [Job offer for PhD position](#job-offer-for-phd-position)
-* [Job offer for postdoc position](#job-offer-for-postdoc-position)
+* [PhD offer 1 (detection of complex vulnerabilties with fuzzing)](#job-offer-for-phd-position-1)
+* [PhD offer 2 (prevention of micro-architechtural attacks with symbolic verification)](#job-offer-for-phd-position-2)
+* [Postdoc offer](#job-offer-for-postdoc-position)
 * [Work environment](#work-environment)
 
 ## About us
@@ -19,10 +20,19 @@ We open [<font color="#cd5c5c">one PhD and one postdoc position</font>][offer] t
 
 **OUR WORK** - The team has high-level expertise in several binary code analysis approaches, namely abstract interpretation, fuzzing and symbolic execution. We apply these techniques to [improve software security][walloffame] at the binary level, covering notably vulnerability detection, code (de)obfuscation and formal verification. See [our website][website] for additional information. 
 
-## Job offer for Ph.D. position
-**YOUR MISSION** - The goal of your doctoral work will be to classify advanced software vulnerabilities and design techniques to detect them with [greybox][greybox] or [hybrid][hybrid] fuzzing. Under the supervision of our senior researchers, you will be expected to solve research problems, implement your solutions into evaluated prototypes, publish at top conferences and journals, mentor interns and broadly participate in the scientific life of the team. The position comprises both theoretical work and coding. You will be able to dedicate a small fraction of your time to teaching if you want so. Our former team members have been able to secure stimulating positions in academia or industry and we will support you in advancing your career.
+## Job offer for Ph.D. position 1
+**YOUR MISSION** - The goal of your doctoral work will be to classify complex software vulnerabilities and design techniques to detect them with [greybox][greybox] or [hybrid][hybrid] fuzzing. Under the supervision of our senior researchers, you will be expected to solve research problems, implement your solutions into evaluated prototypes, publish at top conferences and journals, mentor interns and broadly participate in the scientific life of the team. The position comprises both theoretical work and coding. You will be able to dedicate a small fraction of your time to teaching if you want so. Our former team members have been able to secure stimulating positions in academia or industry and we will support you in advancing your career.
 
 **JOB REQUIREMENTS** - Successful candidates should have (or be close to have) a Master in Computer Science (or equivalent), with strong results in topics related to the doctoral work that they would conduct in our team. They should be proficient in English and have excellent programming skills. Authorship of one or several scientific publications is a plus. 
+
+**HIRING PROCEDURE** - Candidates should send a *CV*, a *cover letter*, a *transcript of their university results*, as well as *contact information of two referees* to <binsec-jobs@saxifrage.saclay.cea.fr> **as soon as possible (and at the latest by January 2022)**. Applications will be reviewed immediately as they arrive (first come, first served). The position is expected to start as soon as possible in 2022 (upon completion of all administrative requirements) and will have a duration of 3 years. 
+
+**REMUNERATION PACKAGE** - Remuneration includes a gross salary of around 25 kEUR per year, full access to the French national healthcare, social care and pension system, as well as several other benefits, like coverage of 75% of your Parisian public transport subscription or preferential access to all staff restaurants.
+
+## Job offer for Ph.D. position 2
+**YOUR MISSION** - The goal of your doctoral work will be to understand how automated symbolic verification can be [lifted to the case of speculative micro-architectural attacks][spectre], to secure essential cryptographic or system primitives. Under the supervision of our senior researchers, you will be expected to solve research problems, implement your solutions into evaluated prototypes, publish at top conferences and journals, mentor interns and broadly participate in the scientific life of the team. The position comprises both theoretical work and coding. You will be able to dedicate a small fraction of your time to teaching if you want so. Our former team members have been able to secure stimulating positions in academia or industry and we will support you in advancing your career.
+
+**JOB REQUIREMENTS** - Successful candidates should have (or be close to have) a Master in Computer Science (or equivalent), with strong results in topics related to the doctoral work that they would conduct in our team. They should be proficient in English and have excellent programming skills. Authorship of one or several scientific publications and some coding experience in OCAML are a plus. 
 
 **HIRING PROCEDURE** - Candidates should send a *CV*, a *cover letter*, a *transcript of their university results*, as well as *contact information of two referees* to <binsec-jobs@saxifrage.saclay.cea.fr> **as soon as possible (and at the latest by January 2022)**. Applications will be reviewed immediately as they arrive (first come, first served). The position is expected to start as soon as possible in 2022 (upon completion of all administrative requirements) and will have a duration of 3 years. 
 
@@ -52,3 +62,4 @@ You will be expected to solve challenging research problems, implement your solu
 [website]: https://binsec.github.io
 [scienceaccueil]: https://www.science-accueil.org/en/
 [ciup]: https://www.ciup.fr/en/
+[spectre]: https://binsec.github.io/new/publication/1970/01/01/nutshell-ndss-21.html
