@@ -69,7 +69,11 @@ layout: default
       {% for post in site.posts limit:5 %}
     <div class="columns home-post">
       <div class="column has-background-primary">
-        <u>{{ post.title }}</u>
+	{% if post.content.size > post.excerpt.size %}
+	<a href="{{ post.url }}">{{ post.title }}</a>
+	{% else %}
+        {{ post.title }}
+	{% endif %}
       </div>
       <div class="column">
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
