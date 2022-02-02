@@ -15,6 +15,7 @@
           artifact-custom-image-width: "70"
           artifact-custom-image-height: "70"
           talk-slides: "/assets/publications/slides/2022-vmcai.pdf"
+          talk-video: "https://www.youtube.com/watch?v=fhVkx-HKJag"
 - year: 2021
   publications:
         - title: "A Tight Integration of Symbolic Execution and Fuzzing"
