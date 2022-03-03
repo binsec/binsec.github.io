@@ -2,7 +2,7 @@
 layout: post
 title:  "PhD and postdoc positions in vulnerability detection and prevention"
 categories: jobs
-date: 2021-12-03
+date: 2022-03-03
 ---
 We open <font color="#cd5c5c">two PhD and one postdoc positions</font> to work with Michaël and Sébastien on <font color="#cd5c5c">automatic detection and prevention of advanced software vunerabilities</font>. Start: <font color="#cd5c5c">as soon as possible in 2022</font>. Duration: <font color="#cd5c5c">3 years (PhD)</font>, <font color="#cd5c5c">2 years (postdoc)</font>.
 
@@ -12,7 +12,7 @@ We open <font color="#cd5c5c">two PhD and one postdoc positions</font> to work w
 * [About us](#about-us)
 * [PhD offer 1 (detection of complex vulnerabilties with fuzzing)](#job-offer-for-phd-position-1)
 * [PhD offer 2 (prevention of micro-architechtural attacks with symbolic verification)](#job-offer-for-phd-position-2)
-* [Postdoc offer](#job-offer-for-postdoc-position)
+* [Postdoc offer (detection of complex vulnerabilties with symbolic execution and fuzzing)](#job-offer-for-postdoc-position)
 * [Work environment](#work-environment)
 
 ## About us
@@ -43,12 +43,12 @@ We open <font color="#cd5c5c">two PhD and one postdoc positions</font> to work w
 -->
 
 ## Job offer for postdoc position
-**YOUR MISSION** - The goal of your postdoc will be to develop new advances in symbolic execution and fuzzing enabling complex vulnerability detection at the binary level. 
-You will be expected to solve challenging research problems, implement your solutions into evaluated prototypes, publish at top conferences and journals, mentor students and broadly participate to the scientific life of the team. You will also apply your research as a part of the EU-funded [IRIS][iris] project. The position comprises both theoretical work and coding. Our former team members have been able to secure stimulating positions in academia or industry and we will support you in advancing your career.
+**YOUR MISSION** - The goal of your postdoc will be to  will be to classify complex software vulnerabilities and design techniques to detect them with [fuzzing][hybrid] or [symbolic execution][se]. 
+You will be expected to solve challenging research problems, implement your solutions into evaluated prototypes, publish at top conferences and journals, mentor students and broadly participate to the scientific life of the team. You will also evaluate your research ideas experimentally within the framework of the EU-funded [IRIS][iris] project. The position comprises both theoretical work and coding. Our former team members have been able to secure stimulating positions in academia or industry and we will support you in advancing your career.
 
-**JOB REQUIREMENTS** - Successful candidates should have (or be close to have) a Ph.D. in Computer Science. They should be proficient in English and have excellent programming skills. We are primarily looking for applicants with an good research track record in symbolic execution or fuzzing. However, candidates with a good background in software engineering, information security, programming languages, architecture or systems may also be considered. 
+**JOB REQUIREMENTS** - Successful candidates should have (or be close to have) a Ph.D. in Computer Science. They should be proficient in English and have excellent programming skills. We are primarily looking for applicants with an good research track record in symbolic execution or fuzzing. However, candidates with a good background in software engineering, information security, programming languages, architecture or systems will also be considered. 
 
-**HIRING PROCEDURE** - Candidates should send a *CV*, a *cover letter*, as well as *contact information of three referees* to <binsec-jobs@saxifrage.saclay.cea.fr> **as soon as possible (and at the latest by May 2022)**. Applications will be reviewed immediately as they arrive (first come, first served). The position is expected to start as soon as possible in 2022 (upon completion of all administrative requirements) and will have a duration of 2 years.
+**HIRING PROCEDURE** - Candidates should send a *CV*, a *cover letter*, as well as *contact information of at least two referees* to <binsec-jobs@saxifrage.saclay.cea.fr> **as soon as possible (and at the latest by May 2022)**. Applications will be reviewed immediately as they arrive (first come, first served). The position is expected to start as soon as possible in 2022 (upon completion of all administrative requirements) and will have a duration of 2 years.
 
 <!---
 **REMUNERATION PACKAGE** - Remuneration includes a gross salary ranging from 33 kEUR to 39 kEUR per year, full access to the French national healthcare, social care and pension system, as well as several other benefits, like coverage of 75% of your Parisian public transport subscription or preferential access to all staff restaurants.
@@ -68,3 +68,4 @@ You will be expected to solve challenging research problems, implement your solu
 [scienceaccueil]: https://www.science-accueil.org/en/
 [ciup]: https://www.ciup.fr/en/
 [spectre]: https://binsec.github.io/new/publication/1970/01/01/nutshell-ndss-21.html
+[se]: https://www.ndss-symposium.org/wp-content/uploads/2017/09/11_1_2.pdf
