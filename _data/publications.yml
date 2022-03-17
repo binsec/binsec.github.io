@@ -1,6 +1,15 @@
 ---
 - year: 2022
   publications:
+        - title: "Regitered Report: Fine-Grained Coverage-Based Fuzzing"
+          authors:
+               - name: Bernard Nongpoh
+               - name: Marwan Nour
+               - name: Michaël Marcozzi
+               - name: Sébastien Bardin
+          venue-acronym: "FUZZING"
+          venue: "The 1st International Fuzzing Workshop"
+          pdf: "/assets/publications/papers/2022-fuzzing.pdf"
         - title: "Lightweight Shape Analysis based on Physical Types"
           authors:
                - name: Olivier Nicole
