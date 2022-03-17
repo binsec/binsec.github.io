@@ -9,7 +9,7 @@
                - name: Sébastien Bardin
           venue-acronym: "FUZZING"
           venue: "The 1st International Fuzzing Workshop"
-          pdf: "https://github.com/binsec/binsec.github.io/blob/adeb5b7c1daec9110b16be8cff3fa1fbf82a1353/assets/publications/papers/2022-fuzzing.pdf"
+          pdf: "/assets/publications/papers/2022-fuzzing.pdf"
         - title: "Lightweight Shape Analysis based on Physical Types"
           authors:
                - name: Olivier Nicole
