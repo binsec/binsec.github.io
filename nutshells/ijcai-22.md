@@ -60,7 +60,7 @@ In summary, this paper makes the following major contributions:
 
 ## Further information
 
-* Read the [paper](/assets/publications/papers/2022-ijcai22.pdf)
+* Stay tuned for the preprint
 * To appear at the [The 31st International Joint Conference on Artificial Intelligence (IJCAI 2022)](https://ijcai-22.org/) 
 * Try *PreCA* ([to appear](https://github.com/binsec/preca))
 

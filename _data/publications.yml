@@ -9,6 +9,7 @@
                - name: Arnaud Gotlieb
           venue-acronym: "IJCAI"
           venue: "The 31st International Joint Conference on Artificial Intelligence"
+          ranking: "A*"
           easy-summary: "nutshells/ijcai-22.html"
         - title: "Registered Report: Fine-Grained Coverage-Based Fuzzing"
           authors:
