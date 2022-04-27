@@ -36,5 +36,3 @@ sass:
   sass_dir: _sass
   
 future: true
-
-whitelist: - jekyll-redirect-from
