@@ -4,25 +4,25 @@
   firstname: Sébastien
   lastname: Bardin
   position: researcher
-  www: "people/1970/01/01/bardin.html"
+  www: "people/bardin.html"
   
 - id: mlemerre
   firstname: Matthieu
   lastname: Lemerre
   position: researcher
-  www: "people/1970/01/01/lemerre.html"
+  www: "people/lemerre.html"
 
 - id: mmarcozz
   firstname: Michaël
   lastname: Marcozzi
   position: researcher
-  www: "people/1970/01/01/marcozzi.html"
+  www: "people/marcozzi.html"
 
 - id: frecoules
   firstname: Frédéric
   lastname: Recoules
   position: researcher
-  www: "people/1970/01/01/recoules.html"
+  www: "people/recoules.html"
   
 # POSTDOCS
 
@@ -30,19 +30,19 @@
   firstname: Bernard
   lastname: Nongpoh
   position: postdoc
-  www: "people/1970/01/01/nongpoh.html"
+  www: "people/nongpoh.html"
 
 - id: ssouaf
   firstname: Salwa
   lastname: Souaf
   position: postdoc
-  www: "people/1970/01/01/souaf.html"
+  www: "people/souaf.html"
 
 - id: rbenabidallah
   firstname: Raounak
   lastname: Benabidallah
   position: postdoc
-  www: "people/1970/01/01/benabidallah.html"
+  www: "people/benabidallah.html"
 
 #- id: nobody
 #  lastname: Contact us to join
@@ -54,43 +54,43 @@
   firstname: Olivier
   lastname: Nicole
   position: phd
-  www: "people/1970/01/01/nicole.html"
+  www: "people/nicole.html"
   
 - id: ggirol
   firstname: Guillaume
   lastname : Girol 
   position : phd
-  www: "people/1970/01/01/girol.html"
+  www: "people/girol.html"
 
 - id: gmenguy
   firstname: Grégoire
   lastname : Menguy 
   position : phd  
-  www: "people/1970/01/01/menguy.html"
+  www: "people/menguy.html"
 
 - id: sducousso
   firstname: Soline
   lastname: Ducousso
   position: phd
-  www: "people/1970/01/01/ducousso.html"
+  www: "people/ducousso.html"
   
 - id: cbmamidisetti
   firstname: Charles B
   lastname: Mamidisetti
   position: phd
-  www: "people/1970/01/01/mamidisetti.html"
+  www: "people/mamidisetti.html"
 
 - id: glacombe
   firstname: Guilhem
   lastname: Lacombe
   position: phd
-  www: "people/1970/01/01/lacombe.html"   
+  www: "people/lacombe.html"   
 
 - id: jsimonnet
   firstname: Julien
   lastname: Simonnet
   position: phd
-  www: "people/1970/01/01/simmonet.html"  
+  www: "people/simmonet.html"  
 
 
 # INTERNS
@@ -99,19 +99,19 @@
   firstname: Daniel
   lastname: Uroz (visitor)
   position: intern
-  www: "people/1970/01/01/uroz.html"  
+  www: "people/uroz.html"  
 
 - id: vergnolle
   firstname: Mathéo
   lastname: Vergnolle
   position: intern
-  www: "people/1970/01/01/vergnolle.html"
+  www: "people/vergnolle.html"
 
 - id: lesbre
   firstname: Dorian
   lastname: Lesbre 
   position: intern
-  www: "people/1970/01/01/lesbre.html"
+  www: "people/lesbre.html"
 
 #- id: nobodyeither
 #  lastname: Contact us to join

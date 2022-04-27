@@ -30,3 +30,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Sass converter
 gem 'jekyll-sass-converter'
+
+# Redirect pages
+gem 'jekyll-redirect-from'

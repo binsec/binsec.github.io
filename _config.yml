@@ -25,6 +25,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -35,3 +36,5 @@ sass:
   sass_dir: _sass
   
 future: true
+
+whitelist: - jekyll-redirect-from
