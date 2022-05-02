@@ -21,6 +21,7 @@
           venue: "The 1st International Fuzzing Workshop"
           easy-summary: "nutshells/fuzzing-22.html"
           pdf: "/assets/publications/papers/2022-fuzzing.pdf"
+          talk-slides: "/assets/publications/slides/2022-fuzzing.pdf"
         - title: "Lightweight Shape Analysis based on Physical Types"
           authors:
                - name: Olivier Nicole
