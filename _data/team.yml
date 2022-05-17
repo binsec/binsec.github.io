@@ -113,6 +113,13 @@
   position: intern
   www: "people/lesbre.html"
 
+- id: alaoutmani
+  firstname: Brahim
+  lastname: El Aoutmani 
+  position: intern
+  www: "people/alaoutmani.html"
+
+
 #- id: nobodyeither
 #  lastname: Contact us to join
 #  position: intern
