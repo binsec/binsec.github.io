@@ -119,6 +119,11 @@
   position: intern
   www: "people/alaoutmani.html"
 
+- id: wcwu
+  firstname: Wei-Cheng
+  lastname: Wu (visitor)
+  position: intern
+  www: "people/wu.html" 
 
 #- id: nobodyeither
 #  lastname: Contact us to join
