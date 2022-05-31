@@ -4,6 +4,7 @@ title:  "IJCAI'22: research paper"
 categories: new publication
 paper-title: "Automated Program Analysis: Revisiting Precondition Inference through Constraint Acquisition"
 topic: "machine learning, constraint acquisition, weakest precondition, software engineering"
+pdf: "/assets/publications/papers/2022-ijcai.pdf"
 date: 2022-04-27
 ---
 
@@ -60,7 +61,7 @@ In summary, this paper makes the following major contributions:
 
 ## Further information
 
-* Stay tuned for the preprint
+* Read the [paper](/assets/publications/papers/2022-ijcai.pdf)
 * To appear at the [The 31st International Joint Conference on Artificial Intelligence (IJCAI 2022)](https://ijcai-22.org/) 
 * Try *PreCA* ([to appear](https://github.com/binsec/preca))
 
