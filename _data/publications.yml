@@ -66,6 +66,7 @@
           benchmark: "https://github.com/binsec/xyntia"
           bibtex: "/assets/publications/bibtexs/2021-ccs.bib"
           talk-video: "https://dl.acm.org/doi/abs/10.1145/3460120.3485250#video_stream_uuid%3A03464eee-50c4-405e-9446-5190802dbf1a"
+          talk-slides: "/assets/publications/slides/2021-ccs.pdf"
         - title: "Not All Bugs Are Created Equal, But Robust Reachability Can Tell The Difference"
           authors:
                - name: Guillaume Girol
