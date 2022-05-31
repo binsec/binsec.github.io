@@ -9,7 +9,7 @@ title: Open positions
     <hr/>
 
       {% for post in site.posts %}
-      {% if post.categories contains "jobs" %}
+      {% if post.categories contains "jobs" and post.categories contains "open" %}
     <div class="columns home-post">
       <div class="column has-background-primary">
 	{% if post.content.size > post.excerpt.size %}

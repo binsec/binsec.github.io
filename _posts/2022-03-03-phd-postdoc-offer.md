@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PhD and postdoc positions in vulnerability detection and prevention"
-categories: jobs
+categories: jobs open
 date: 2022-03-03
 ---
 We open <font color="#cd5c5c">two PhD and one postdoc positions</font> to work with Michaël and Sébastien on <font color="#cd5c5c">automatic detection and prevention of advanced software vunerabilities</font>. Start: <font color="#cd5c5c">as soon as possible in 2022</font>. Duration: <font color="#cd5c5c">3 years (PhD)</font>, <font color="#cd5c5c">2 years (postdoc)</font>.
