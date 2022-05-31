@@ -116,6 +116,7 @@
                - name: Xavier Rival
           venue-acronym: "RTAS"
           easy-summary: "nutshells/rtas-21.html"
+          benchmark: "https://zenodo.org/record/4670548#.YpXprHVfiV4"
           artefact: "https://github.com/binsec/rtas2021_artifact"
           artifact-custom-image: "/assets/img/artefact_rtas.png"
           artifact-custom-image-width: "70"
