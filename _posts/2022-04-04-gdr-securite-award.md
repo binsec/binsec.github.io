@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Best PhD award for Lesly"
+title:  "PhD award for Lesly"
 categories: news
 date: 2022-04-04
 ---
