@@ -1,0 +1,67 @@
+---
+layout: default-with-nav
+title: Open positions
+---
+
+<section class="section">
+  <div class="container">
+      <h1 class="title is_primary"><b>Open Positions</b></h1>
+    <hr/>
+
+      {% for post in site.posts %}
+      {% if post.categories contains "jobs" %}
+    <div class="columns home-post">
+      <div class="column has-background-primary">
+	{% if post.content.size > post.excerpt.size %}
+	<a href="{{ post.url }}">{{ post.title }}</a>
+	{% else %}
+        {{ post.title }}
+	{% endif %}
+      </div>
+      <div class="column">
+        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+      </div>
+      <div class="column is-half">
+        {% if post.paper-title %}
+        {{ post.paper-title }}
+        {% else %}
+        {{- post.excerpt }}
+        {% endif %}
+      </div>
+      <!-- <div class="column">
+       !--   {% for c in post.categories %}
+       !--   <span class="tag is-primary">{{ c }}</span>
+       !--   {% endfor %}
+       !-- </div> -->
+
+    </div>
+      <!-- <div class="column is-one-third is-narrow">
+       !--   <article class="message news-item is-primary">
+       !--     <div class="message-header ">
+       !--       <ul>
+       !--         <li>
+       !--       <h2 class="title">
+       !--         <a class="inline-post-title" href="{{ post.url }}">{{ post.title }}</a>
+       !--       </h2>
+       !-- 
+       !--         </li>
+       !--         <li>
+       !--       <h3 class="subtitle">
+       !--         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+       !--       </h3>
+       !-- 
+       !--         </li>
+       !--       </ul>
+       !--       
+       !--     </div>
+       !--   <div class="message-body">
+       !--     {{ post.excerpt }}
+       !--   </div>
+       !--   </article>
+       !-- </div> -->
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
