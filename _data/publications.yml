@@ -63,6 +63,7 @@
           easy-summary: "nutshells/ccs-21.html"
           artefact: "https://zenodo.org/record/5094898#.YO2UchMzbSw"
           benchmark: "https://github.com/binsec/xyntia"
+          bibtex: "/assets/publications/bibtexs/2021-ccs.bib"
         - title: "Not All Bugs Are Created Equal, But Robust Reachability Can Tell The Difference"
           authors:
                - name: Guillaume Girol
