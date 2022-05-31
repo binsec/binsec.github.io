@@ -11,6 +11,8 @@
           venue: "The 31st International Joint Conference on Artificial Intelligence"
           ranking: "A*"
           easy-summary: "nutshells/ijcai-22.html"
+          pdf: "/assets/publications/papers/2022-ijcai.pdf"
+          artefact: "https://zenodo.org/record/6513522#.YnD1GnVfjmE"
         - title: "Registered Report: Fine-Grained Coverage-Based Fuzzing"
           authors:
                - name: Bernard Nongpoh
