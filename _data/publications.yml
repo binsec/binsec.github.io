@@ -51,6 +51,7 @@
           venue: "The 14th International Symposium on Foundations & Practice of Security"
           pdf: "/assets/publications/papers/2021-fps.pdf"
           easy-summary: "nutshells/fps-21.html"
+          talk-slides: "/assets/publications/slides/2021-fps.pdf"
         - title: "Search-based Local Blackbox Deobfuscation: Understand, Improve and Mitigate"
           authors:
                - name: Grégoire Menguy
