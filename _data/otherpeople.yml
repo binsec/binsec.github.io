@@ -96,3 +96,9 @@
   lastname: Rousseau (Intern)
   position: alumnus-temporary
 #  www: "people/1970/01/01/rousseau.html" 
+
+- id: onicole
+  firstname: Olivier
+  lastname: Nicole (PhD, to Tarides)
+  position: alumnus-temporary
+#  www: "people/nicole.html"

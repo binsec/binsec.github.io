@@ -50,12 +50,6 @@
 
 # PHD STUDENTS
 
-- id: onicole
-  firstname: Olivier
-  lastname: Nicole
-  position: phd
-  www: "people/nicole.html"
-  
 - id: ggirol
   firstname: Guillaume
   lastname : Girol 
