@@ -33,6 +33,7 @@
           venue: "The 23rd International Conference on Verification, Model Checking, and Abstract Interpretation"
           pdf: "/assets/publications/papers/2022-vmcai.pdf"
           easy-summary: "nutshells/vmcai-22.html"
+          bibtex: "/assets/publications/bibtexs/2022-vmcai.bib"
           artefact: "https://doi.org/10.5281/zenodo.5589489"
           artifact-custom-image: "/assets/img/artefact_vmcai.png"
           artifact-custom-image-width: "70"
