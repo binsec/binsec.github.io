@@ -29,6 +29,7 @@
   firstname: Richard
   lastname: Bonichon (to Nomadic Labs)
   position: alumnus-permanent
+  www: https://rbonichon.github.io/
 
 # FORMER JUNIORS
 
@@ -41,11 +42,13 @@
   firstname: Lesly-Ann
   lastname: Daniel (PhD, to KU Leuven)
   position: alumnus-temporary
+  www: https://www.leslyann-daniel.fr/
 
 - id: drobin
   firstname: Robin
   lastname: David (PhD, to Quarkslab)
   position: alumnus-temporary
+  www: http://www.robindavid.fr/
 
 - id: adjoudi
   firstname: Adel
@@ -56,11 +59,13 @@
   firstname: Josselin
   lastname: Feist (PhD, to Trail of Bits)
   position: alumnus-temporary
+  www: https://www.linkedin.com/in/josselin-feist-9126a626/?locale=en_US
   
 - id: bfarinier
   firstname: Benjamin
   lastname: Farinier (PhD, to TU Wien)
   position: alumnus-temporary
+  www: https://benjamin.farinier.org/
   
 - id: mollivier
   firstname: Mathilde
@@ -71,25 +76,25 @@
   firstname: Manh-Dung
   lastname: Nguyen (PhD, to Montimage)
   position: alumnus-temporary
-#  www: "people/1970/01/01/nguyen.html"
+  www: http://strongcourage.github.io/  
 
 - id: cfoulani
   firstname: Chakib
   lastname: Foulani (Intern)
   position: alumnus-temporary
-#  www: "people/1970/01/01/foulani.html"
+  www: https://www.linkedin.com/in/chakib-foulani-bb1262175/
 
 - id: mnour
   firstname: Marwan
   lastname: Nour (Intern)
   position: alumnus-temporary
-#  www: "people/1970/01/01/nour.html"
+  www: https://fr.linkedin.com/in/marwan-nour-b1614512b 
   
 - id: slatil
   firstname: Stéphane
   lastname: Latil (Intern)
   position: alumnus-temporary
-#  www: "people/1970/01/01/latil.html"
+  www: https://www.linkedin.com/in/st%C3%A9phane-latil-7a993a176/
 
 - id: brousseau
   firstname: Bastien
@@ -101,4 +106,4 @@
   firstname: Olivier
   lastname: Nicole (PhD, to Tarides)
   position: alumnus-temporary
-#  www: "people/nicole.html"
+  www: https://otini.chnik.fr
