@@ -26,12 +26,6 @@
   
 # POSTDOCS
 
-- id: bnongpoh
-  firstname: Bernard
-  lastname: Nongpoh
-  position: postdoc
-  www: "people/nongpoh.html"
-
 - id: ssouaf
   firstname: Salwa
   lastname: Souaf
@@ -88,12 +82,6 @@
 
 
 # INTERNS
-
-- id: duroz
-  firstname: Daniel
-  lastname: Uroz (visitor)
-  position: intern
-  www: "people/uroz.html"  
 
 - id: vergnolle
   firstname: Mathéo

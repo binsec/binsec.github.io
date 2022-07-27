@@ -33,6 +33,18 @@
 
 # FORMER JUNIORS
 
+- id: bnongpoh
+  firstname: Bernard
+  lastname: Nongpoh (postdoc, to Qualcomm)
+  position: alumnus-temporary
+  www: "people/nongpoh.html"
+
+- id: duroz
+  firstname: Daniel
+  lastname: Uroz (visitor)
+  position: alumnus-temporary
+  www: "people/uroz.html"  
+
 - id: yvincont
   firstname: Yaëlle
   lastname: Vinçont (PhD, to National Education)
