@@ -44,6 +44,12 @@
 
 # PHD STUDENTS
 
+- id: gcombette
+  firstname: Guillaume
+  lastname : Combette 
+  position : phd
+  www: "people/combette.html"
+
 - id: ggirol
   firstname: Guillaume
   lastname : Girol 
