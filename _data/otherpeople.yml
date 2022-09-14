@@ -33,15 +33,39 @@
 
 # FORMER JUNIORS
 
+- id: vergnolle
+  firstname: Mathéo
+  lastname: Vergnolle (Intern)
+  position: alumnus-temporary
+  www: "people/vergnolle.html"
+
+- id: lesbre
+  firstname: Dorian
+  lastname: Lesbre (Intern)
+  position: alumnus-temporary
+  www: "people/lesbre.html"
+
+- id: alaoutmani
+  firstname: Brahim
+  lastname: El Aoutmani (Intern)
+  position: alumnus-temporary
+  www: "people/alaoutmani.html"
+
+- id: wcwu
+  firstname: Wei-Cheng
+  lastname: Wu (Visitor)
+  position: alumnus-temporary
+  www: "people/wu.html" 
+
 - id: bnongpoh
   firstname: Bernard
-  lastname: Nongpoh (postdoc, to Qualcomm)
+  lastname: Nongpoh (Postdoc, to Qualcomm)
   position: alumnus-temporary
   www: "people/nongpoh.html"
 
 - id: duroz
   firstname: Daniel
-  lastname: Uroz (visitor)
+  lastname: Uroz (Visitor)
   position: alumnus-temporary
   www: "people/uroz.html"  
 
