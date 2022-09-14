@@ -89,29 +89,6 @@
 
 # INTERNS
 
-- id: vergnolle
-  firstname: Mathéo
-  lastname: Vergnolle
-  position: intern
-  www: "people/vergnolle.html"
-
-- id: lesbre
-  firstname: Dorian
-  lastname: Lesbre 
-  position: intern
-  www: "people/lesbre.html"
-
-- id: alaoutmani
-  firstname: Brahim
-  lastname: El Aoutmani 
-  position: intern
-  www: "people/alaoutmani.html"
-
-- id: wcwu
-  firstname: Wei-Cheng
-  lastname: Wu (visitor)
-  position: intern
-  www: "people/wu.html" 
 
 #- id: nobodyeither
 #  lastname: Contact us to join

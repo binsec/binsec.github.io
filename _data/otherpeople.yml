@@ -37,25 +37,25 @@
   firstname: Mathéo
   lastname: Vergnolle (Intern)
   position: alumnus-temporary
-  www: "people/vergnolle.html"
+  www: https://fr.linkedin.com/in/matheo-vergnolle
 
 - id: lesbre
   firstname: Dorian
   lastname: Lesbre (Intern)
   position: alumnus-temporary
-  www: "people/lesbre.html"
+  www: https://www.eleves.ens.fr/home/dlesbre/
 
 - id: alaoutmani
   firstname: Brahim
   lastname: El Aoutmani (Intern)
   position: alumnus-temporary
-  www: "people/alaoutmani.html"
+  www: https://www.linkedin.com/in/brahim-el-aoutmani-a599391b8
 
 - id: wcwu
   firstname: Wei-Cheng
   lastname: Wu (Visitor)
   position: alumnus-temporary
-  www: "people/wu.html" 
+  www: https://steel.isi.edu/members/weicheng/ 
 
 - id: bnongpoh
   firstname: Bernard
