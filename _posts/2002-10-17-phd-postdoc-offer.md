@@ -4,7 +4,7 @@ title:  "Postdocs, PhDs and internships in software security and program analysi
 categories: jobs hidden
 date: 2002-10-27
 ---
-We are hiring **postdocs, PhD students and interns in software security and program analysis**. Successful candidates will work on topics like vulnerablity detection and analysis, or software reverse engineering, deobfuscation, formal verification and protection.
+We are hiring **postdocs, PhD students and interns in software security and program analysis**. Successful candidates will work on topics like vulnerablity detection and analysis, or software reverse engineering, deobfuscation, formal verification and protection. All positions are fully-funded.
 
 
 
