@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Postdocs, PhDs and internships in software security and program analysis"
+title:  "Postdocs, PhDs and research internships in software security and program analysis"
 categories: jobs open
 date: 2022-10-25
 ---
-We have several open positions to **hire postdocs, PhD students and interns** in software security and program analysis. Successful candidates will work in our BINSEC team, on topics like vulnerablity detection and analysis, software reverse engineering and deobfuscation, binary-level formal verification and code protection. 
+We have several open positions to **hire postdocs, PhD students and research interns** in software security and program analysis. Successful candidates will work in our BINSEC team, on topics like vulnerablity detection and analysis, software reverse engineering and deobfuscation, binary-level formal verification and code protection. 
 **All positions are fully-funded**.
 
 
@@ -51,7 +51,7 @@ Supervised by our senior researchers, the **recruited candidates will be involve
 
 **SPECIFIC INFO FOR PHD CANDIDATES** - PhD candidates should have (or be close to have) a **Master (or equivalent) in Computer Science**, with good results in topics related to the doctoral work that they would conduct in our team. They should be persistent, rigorous, motivated and curious individuals. Authorship of a scientific publication or real-world coding experience are a plus. Each PhD position will have a **duration of 3 years**.
 
-**SPECIFIC INFO FOR INTERNSHIP CANDIDATES** - Internship candidates should be **preparing a Master (or equivalent) in Computer Science**, with good results in topics related to the work that they would conduct in our team. Under the close supervision of our researchers, interns will be expected to support the activties of the team, either by reviewing scientific litterature, or by testing and formalising research ideas, or by coding research prototypes, or by conducting research experiments. Each internship will have a **duration of 2.5 to 6 months**. Successful internships may open the door to doing a PhD in the team.
+**SPECIFIC INFO FOR RESEARCH INTERNSHIP CANDIDATES** - Research internship candidates should be **preparing a Master (or equivalent) in Computer Science**, with good results in topics related to the work that they would conduct in our team. Under the close supervision of our researchers, interns will be expected to support the activties of the team, either by reviewing scientific litterature, or by testing and formalising research ideas, or by coding research prototypes, or by conducting research experiments. Each internship will have a **duration of 2.5 to 6 months**. Successful internships may open the door to doing a PhD in the team.
 
 ## WORKING AND LIVING IN PARIS
 
