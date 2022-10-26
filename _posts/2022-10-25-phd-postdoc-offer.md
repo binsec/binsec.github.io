@@ -31,7 +31,11 @@ Available topics notably **involve but are not strictly limited** to the followi
 
 **BINARY-LEVEL PROGRAM ANALYSIS AT SCALE** (*main advisor*: [Sébastien Bardin][bardin]) - Program analysis is considered to be harder to conduct at the binary level than at the source level, due to a loss of abstraction and an increase in size. The goal here will be to challenge this folklore knowledge, and to design more efficient binary-level program analysis techniques, especially symbolic execution. The selected candidate will explore different strategies, such as combining different methods together (e.g., static and symbolic analysis), or revisiting source-level optimizations for the binary-level case. The candidate will benefit from the team's expertise on symbolic execution.   
 
+**COMBINATION OF SEMANTIC AND SYMBOLIC ANALYSIS USING SSA-BASED ABSTRACT INTERPRETATION** (*main advisor*: [Matthieu Lemerre][lemerre]) - SSA is a popular intermediate representation (underpinning for instance LLVM) that simplifies and makes more efficient some program analyses. Until recently, SSA translation was performed using ad-hoc algorithms. In a forthcoming POPL paper, we recently discovered that SSA translation could be viewed as a standard dataflow analysis by abstract interpretation, enabling the translation to SSA and the usage of SSA to be done simultaneously, rather than in sequence. We are looking for candidates interested in investigating the consequences of this discovery.
+
 **DOMESTICATING COMPLEX SOFTWARE VULNERABILITIES** (*main advisor*: [Michaël Marcozzi][marcozzi]) - Mitigation and exploitation of software vulnerabilities is a game of cat and mouse. The resulting arms race can lead attackers to rely on more and more complex vulnerabilities, like backdoors, exploit chains, microarchitectural exploits or side-channel attacks. Such complex vulnerabilities are still barely understood by cybersecurity researchers. Following previous scientific expeditions in these wild lands (see e.g. [Thomas et al.][backdoors], [Daniel et al.][SP2020] or [Daniel et al.][NDSS2021]), the selected candidate will be responsible for exploring and documenting (parts of) the landscape of complex security vulnerabilities. The main goal will be to propose a highly-needed taxonomy of these threats, leading to systematic ways to mitigate them.  
+
+**OS VERIFICATION AND MEMORY ANALYSIS USING  ABSTRACT INTERPRETATION AND DEPENDENT TYPES** (*main advisor*: [Matthieu Lemerre][lemerre]) - Memory corruption is the most common and severe type of software vulnerability. In general, reasoning about memory is essential, especially in systems software like [OS kernels][RTAS2021] or critical libraries, that perform complex low-level memory manipulation. We want to address this problem in an original way using [abstract interpretation to verify memory safety of a dependent type system][VMCAI2022], trying to attain a sweet spot between the analysis precision and efficiency, and the need to supply user annotations, and we welcome candidates interested in any combination  of these topics.
 
 **REVERSE ENGINEERING AND DEOBFUSCATION** (*main advisor*: [Sébastien Bardin][bardin]) - Program analysis methods have been used for some years now in code understanding and code deobfuscation ("symbolic deobfuscation"), yet protections emerge against such techniques. More recently, black-box methods based on AI techniques have been shown effective against obfuscated code, being able in some cases to recover the initial semantic of protected code fragments. Still, again, dedicated protections emerge. The selected candidate will explore how these different methods can be combined in order to design efficient deobfuscation methods. 
 
@@ -62,10 +66,13 @@ Our offices are located in [Nano-Innov][nano], at the heart of Plateau de Saclay
 [NDSS2021]: https://binsec.github.io/nutshells/ndss-21.html
 [SP2020]: https://binsec.github.io/nutshells/sp-20.html
 [CAV2021]: https://binsec.github.io/nutshells/cav-21.html
+[VMCAI2022]: https://binsec.github.io/nutshells/vmcai-22.html
+[RTAS2021]: https://binsec.github.io/nutshells/rtas-21.html
 [fps]: https://binsec.github.io/nutshells/fps-21.html
 [ndssfuzz]: https://binsec.github.io/nutshells/fuzzing-22.html
 [fuzzing]: https://www.fuzzingbook.org/
 [bardin]: http://sebastien.bardin.free.fr/
+[lemerre]: https://binsec.github.io/people/lemerre.html
 [marcozzi]: http://www.marcozzi.net
 [team]: https://binsec.github.io/#people
 [nano]: https://goo.gl/maps/Swn77dLqrKQki7zt9
