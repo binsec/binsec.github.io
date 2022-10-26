@@ -19,6 +19,11 @@ We have several open positions to **hire postdocs, PhD students and research int
 ## ABOUT US
 
 **OUR TEAM** - The BINary-level SECurity research group (BINSEC) is a dynamic team of [4 senior and 9 junior researchers][team], which offers a **stimulating and open-minded scientific environment in English** to all its members. We work in close collaboration with other French and international research teams, industrial partners and national agencies. 
+<br>
+<br>
+<div style="text-align: center;">
+<img src="/assets/img/people/team.jpg" alt="Team picture" hspace="10" height="267" border="1" width="428">
+</div>
 
 The group has [frequent publications][publications] in top-tier security, formal methods and software engineering conferences. It is part of the [LIST institute][list] from CEA (one of the main French research organisations, employing more than 20k researchers and persistently ranked as a [top global innovator][clarivate]) and of Université Paris-Saclay (the world’s 16th and European Union’s 1st university, according to the [Shanghai ARWU Ranking in 2022][shangai]).  
 
