@@ -18,7 +18,9 @@ We have several open positions to **hire postdocs, PhD students and research int
 
 ## ABOUT US
 
-**OUR TEAM** - The BINary-level SECurity research group (BINSEC) is a dynamic team of [4 senior and 9 junior researchers][team], which offers a **stimulating and open-minded scientific environment in English** to all its members. The group has [frequent publications][publications] in top-tier security, formal methods and software engineering conferences. We work in close collaboration with other French and international research teams, industrial partners and national agencies. The team is part of Université Paris-Saclay, the world’s 16th and European Union’s 1st university, according to the Shanghai ARWU Ranking in 2022.  
+**OUR TEAM** - The BINary-level SECurity research group (BINSEC) is a dynamic team of [4 senior and 9 junior researchers][team], which offers a **stimulating and open-minded scientific environment in English** to all its members. We work in close collaboration with other French and international research teams, industrial partners and national agencies. 
+
+The group has [frequent publications][publications] in top-tier security, formal methods and software engineering conferences. It is part of the [LIST institute][list] from CEA (one of the main French research organisations, employing more than 20k researchers and persistently ranked as a [top global innovator][clarivate]) and of Université Paris-Saclay (the world’s 16th and European Union’s 1st university, according to the [Shanghai ARWU Ranking in 2022][shangai]).  
 
 **OUR WORK** - The team has high-level expertise in several code analysis approaches, namely symbolic execution, abstract interpretation and fuzzing. We apply these techniques to [improve software security][walloffame], covering notably vulnerability detection and analysis, code (de)obfuscation and formal verification. See [our website][website] for additional information. 
 
@@ -51,7 +53,7 @@ Interesting candidates will be contacted for an **online interview**, to evaluat
 
 Supervised by our senior researchers, the **recruited candidates will be involved in the scientific activities of the team**. These activities mainly include solving research problems, formalising research ideas, implementing and evaluating software prototypes, publishing and presenting at top conferences, as well as participating to the scientific life of the team (paper reading groups, hackatons, etc). Postdocs and PhD students will be able to dedicate a *small* fraction of their time to **teaching**, if they want so. Our former team members have been able to secure stimulating positions in academia or industry and we will support you in advancing your career.
 
-**SPECIFIC INFO FOR POSTDOC CANDIDATES** - Postdoc candidates should have (or be close to have) a **Ph.D. in Computer Science**. We are primarily looking for candidates with a good research experience in one or more of the following domains: software security, formal methods, software engineering, programming languages, architecture or systems. Postdocs will be expected to tackle more challenging problems with less supervision than PhD students. They may be involved in supervising interns. Each postdoc position will have a **duration of 2 years**.
+**SPECIFIC INFO FOR POSTDOC CANDIDATES** - Postdoc candidates should have (or be close to have) a **Ph.D. in Computer Science**. We are primarily looking for candidates with a good research experience in one or more of the following domains: software security, formal methods, software engineering, programming languages, architecture or systems. Postdocs will be expected to tackle more challenging problems with less supervision than PhD students. They may be involved in supervising interns. Each postdoc position will have a **duration of 2 or 3 years**.
 
 **SPECIFIC INFO FOR PHD CANDIDATES** - PhD candidates should have (or be close to have) a **Master (or equivalent) in Computer Science**, with good results in topics related to the doctoral work that they would conduct in our team. They should be persistent, rigorous, motivated and curious individuals. Authorship of a scientific publication or real-world coding experience are a plus. Each PhD position will have a **duration of 3 years**.
 
@@ -61,7 +63,9 @@ Supervised by our senior researchers, the **recruited candidates will be involve
 
 Our offices are located in [Nano-Innov][nano], at the heart of Plateau de Saclay, south of Paris, Europe’s biggest research and industry cluster. Agencies like [Science Accueil][scienceaccueil] or [Cité Internationale Universitaire de Paris][ciup] are available to help foreign candidates find their home and settle here. Most of us live either in the wooden and quiet southern suburbs of Paris or closer to the bustling historical center of the city. Paris is the capital of France, a metropolis of 12.5 million people and one of the most visited travel destinations in the world, in the heart of western Europe.
 
-
+[list]: https://list.cea.fr/en/cybersecurity-toward-safety-and-privacy-by-design/
+[shangai]: https://www.shanghairanking.com/institution/paris-saclay-university
+[clarivate]: https://clarivate.com/derwent/top100innovators/company/cea-french-alternative-energies-and-atomic-energy-commission/
 [backdoors]: https://dx.doi.org/10.1007/978-3-030-00470-5_5
 [NDSS2021]: https://binsec.github.io/nutshells/ndss-21.html
 [SP2020]: https://binsec.github.io/nutshells/sp-20.html
