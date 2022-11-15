@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RTAS'21: research paper"
+title:  "RTAS'21: research paper [awarded RTAS'21 best paper]"
 categories: new publication
 paper-title: "No Crash, No Exploit: Automatic Verification of Embedded Kernels"
 topic: "embedded system security; secure embedded kernels; formal methods; abstract interpretation; absence of privilege escalation"
