@@ -1,7 +1,7 @@
 ---
 
 researcher:
-  name: Senior
+  name: Permanent researcher
   
 postdoc:
   name: Postdoc
@@ -16,9 +16,9 @@ friend:
   name: Friend
 
 alumnus-permanent:
-  name: Former Senior
+  name: Former permanent researcher
   
 alumnus-temporary:
-  name: Former Junior
+  name: Former fixed-term researcher
   
 

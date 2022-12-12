@@ -50,12 +50,6 @@
   position : phd
   www: "people/combette.html"
 
-- id: ggirol
-  firstname: Guillaume
-  lastname : Girol 
-  position : phd
-  www: "people/girol.html"
-
 - id: gmenguy
   firstname: Grégoire
   lastname : Menguy 
@@ -84,7 +78,13 @@
   firstname: Julien
   lastname: Simonnet
   position: phd
-  www: "people/simmonet.html"  
+  www: "people/simmonet.html" 
+
+- id: dkokkonis
+  firstname: Dimitri
+  lastname: Kokkonis
+  position: phd
+  www: "people/kokkonis.html"  
 
 
 # INTERNS
