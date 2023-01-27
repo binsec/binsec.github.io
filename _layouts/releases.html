@@ -1,0 +1,52 @@
+---
+layout: default-with-nav
+title: Binsec releases
+---
+
+<section class="section">
+  <div class="container">
+      <h1 class="title is_primary"><b>Binsec releases</b></h1>
+    <hr/>
+        
+        {% for p in site.posts %}
+            {% if p.categories contains "releases" or p.categories contains "release" %}
+                {% if p.title contains 'BINSEC' %}
+                    {% assign publish_year = p.date |date: '%Y' |plus: 0 %}
+                    {% if publish_year >= 2021 %}
+                        {% assign version = p.url | split: "/" | last | replace: ".html", "" | replace: "binsec-", "" %}
+			    <div class="columns home-post">
+			    	<div class="column has-background-primary">
+                                            {% if p.github %}
+                                            <a class="navbar-item" style="display:inline" href="{{ p.github }}">
+                                                <i class="fab fa-github"></i>
+                                            </a> 
+                                            {% endif %}
+                                            <a class="navbar-item" style="display:inline" href="{{ p.url }}">
+                                                BINSEC {{ version }}
+                                            </a> 
+
+			    	</div>
+			    	<div class="column">
+			    		<span class="date">{{ p.date | date: '%B %d, %Y' }}</span>
+			    	</div>
+			    	<div class="column is-half">
+                                            {% if p.keywords %}
+                                                {{ p.keywords }}
+                                            {% else %}
+			    		    {{- p.excerpt }}
+                                            {% endif %}
+                                        
+
+			    	</div>
+			    </div>
+            
+        
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+
+    </div>
+  </div>
+</section>
+

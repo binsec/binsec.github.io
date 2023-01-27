@@ -1,0 +1,5 @@
+---
+layout: releases
+---
+
+## Binsec releases
