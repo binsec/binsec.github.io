@@ -1,4 +1,39 @@
 ---
+- year: 2023
+  publications:
+        - title: "Fine-Grained Coverage-Based Fuzzing"
+          authors:
+               - name: Wei-Cheng Wu
+               - name: Bernard Nongpoh
+               - name: Marwan Nour
+               - name: Michaël Marcozzi
+               - name: Sébastien Bardin
+               - name: Christophe Hauser
+          venue-acronym: "TOSEM"
+          venue: "ACM Transactions on Software Engineering and Methodology"
+          ranking: "A*"
+          artefact: "https://git.frama-c.com/bnongpoh/cannotate"
+          benchmark: "https://doi.org/10.5281/zenodo.7133734" 
+          artifact-available: ""
+        - title: "ProSpeCT: Provably Secure Speculation for the Constant-Time Policy"
+          authors:
+               - name: Lesly-Ann Daniel
+               - name: Marton Bognar
+               - name: Job Noorman
+               - name: Sébastien Bardin
+               - name: Tamara Rezk
+               - name: Frank Piessens
+          venue-acronym: "USENIX security"
+          venue: "The 32nd USENIX Security Symposium"
+          ranking: "A*"
+        - title: "SSA Translation Is an Abstract Interpretation"
+          authors:
+               - name: Matthieu Lemerre
+          venue-acronym: "POPL"
+          venue: "The 50th ACM SIGPLAN Symposium on Principles of Programming Languages"
+          ranking: "A*"
+          award: "Distinguished Paper Award"
+          pdf: "/assets/publications/papers/2023-popl-full-with-appendices.pdf"
 - year: 2022
   publications:
         - title: "Automated Program Analysis: Revisiting Precondition Inference through Constraint Acquisition"
@@ -179,6 +214,16 @@
           artefact: "https://github.com/binsec/Rel"
           benchmark: "https://github.com/binsec/rel_bench"
           comment: "Also presented at the KLEE workshop 2021 and AFADL 2021"
+        - title: "Interprocedural Shape Analysis Using Separation Logic-Based Transformer Summaries"
+          authors:
+               - name: Hugo Illous
+               - name: Matthieu Lemerre
+               - name: Xavier Rival
+          venue-acronym: "SAS"
+          venue: "The 27th International Symposium on Static Analysis:"
+          pdf: "/assets/publications/papers/2020-sas.pdf"
+          bibtex: "/assets/publications/bibtexs/2020-sas.bib"
+          comment: "Also presented at SPLASH 2022"
 - year: 2019
   publications:
         - title: "Get Rid of Inline Assembly through Verification-Oriented Lifting"
