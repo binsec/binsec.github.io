@@ -14,7 +14,16 @@
           ranking: "A*"
           artefact: "https://git.frama-c.com/bnongpoh/cannotate"
           benchmark: "https://doi.org/10.5281/zenodo.7133734" 
-          artifact-available: ""
+        - title: "Adversarial Reachability for Program-level Security Analysis"
+          authors:
+               - name: Soline Ducousso
+               - name: Sébastien Bardin
+               - name: Marie-Laure Potet
+          venue-acronym: "ESOP"
+          venue: "The 32nd European Symposium on Programming"
+          ranking: "A"
+          artefact: "https://github.com/binsec/esop2023_artefact"
+          benchmark: "https://doi.org/10.5281/zenodo.7507112"
         - title: "ProSpeCT: Provably Secure Speculation for the Constant-Time Policy"
           authors:
                - name: Lesly-Ann Daniel
@@ -75,6 +84,26 @@
           artifact-custom-image-height: "70"
           talk-slides: "/assets/publications/slides/2022-vmcai.pdf"
           talk-video: "https://www.youtube.com/watch?v=fhVkx-HKJag"
+        - title: "Introducing Robust Reachability"
+          authors:
+               - name: Guillaume Girol
+               - name: Benjamin Farinier
+               - name: Sébastien Bardin
+          venue-acronym: "FMSD"
+          venue: "Formal Methods in System Design"
+          ranking: "A"
+          pdf: "/assets/publications/papers/2022-fmsd.pdf"
+          comment: "Selected papers from CAV 2021"
+        - title: "Binsec/Rel : Symbolic Binary Analyzer for Security with Applications to Constant-Time and Secret-Erasure"
+          authors:
+               - name: Lesly-Ann Daniel
+               - name: Sébastien Bardin
+               - name: Tamara Rezk
+          venue-acronym: "TOPS"
+          venue: "ACM Transactions on Privacy and Security"
+          ranking: "A"
+          pdf: "/assets/publications/papers/2022-tops.pdf"
+          comment: "Extended version of S&P 2020 and NDSS 2021 papers"
 - year: 2021
   publications:
         - title: "A Tight Integration of Symbolic Execution and Fuzzing"
