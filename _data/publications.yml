@@ -43,6 +43,7 @@
           ranking: "A*"
           award: "Distinguished Paper Award"
           pdf: "/assets/publications/papers/2023-popl-full-with-appendices.pdf"
+          talk-slides: "/assets/publications/slides/2023-popl.pdf"
 - year: 2022
   publications:
         - title: "Automated Program Analysis: Revisiting Precondition Inference through Constraint Acquisition"
@@ -57,6 +58,8 @@
           easy-summary: "nutshells/ijcai-22.html"
           pdf: "/assets/publications/papers/2022-ijcai.pdf"
           artefact: "https://zenodo.org/record/6513522#.YnD1GnVfjmE"
+          talk-slides: "/assets/publications/slides/2022-ijcai.pdf"
+          bibtex: "/assets/publications/bibtexs/2022-ijcai.bib"
         - title: "Registered Report: Fine-Grained Coverage-Based Fuzzing"
           authors:
                - name: Bernard Nongpoh
@@ -252,6 +255,7 @@
           venue: "The 27th International Symposium on Static Analysis:"
           pdf: "/assets/publications/papers/2020-sas.pdf"
           bibtex: "/assets/publications/bibtexs/2020-sas.bib"
+          talk-slides: "/assets/publications/slides/2020-sas.pdf"
           comment: "Also presented at SPLASH 2022"
 - year: 2019
   publications:
