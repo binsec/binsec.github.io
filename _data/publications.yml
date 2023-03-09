@@ -38,6 +38,7 @@
                - name: Frank Piessens
           venue-acronym: "USENIX security"
           venue: "The 32nd USENIX Security Symposium"
+          pdf: "/assets/publications/papers/2023-usenix.pdf"
           ranking: "A*"
         - title: "SSA Translation Is an Abstract Interpretation"
           authors:
