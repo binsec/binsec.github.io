@@ -22,8 +22,12 @@
           venue-acronym: "ESOP"
           venue: "The 32nd European Symposium on Programming"
           ranking: "A"
+          artifact-custom-image: "/assets/img/artefact_esop.png"
+          artifact-custom-image-width: "159"
+          artifact-custom-image-height: "90"
           artefact: "https://github.com/binsec/esop2023_artefact"
           benchmark: "https://doi.org/10.5281/zenodo.7507112"
+          pdf: "/assets/publications/papers/2023-esop.pdf"
         - title: "ProSpeCT: Provably Secure Speculation for the Constant-Time Policy"
           authors:
                - name: Lesly-Ann Daniel
