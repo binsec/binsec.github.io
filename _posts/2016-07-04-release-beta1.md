@@ -3,7 +3,7 @@ layout: post
 title:  "BINSEC Beta 1"
 date:   2016-07-04
 permalink: beta1
-categories: release tool beta
+categories: releases tool beta binsec
 ---
 
 We are proud to announce the first release of our tool platform.
