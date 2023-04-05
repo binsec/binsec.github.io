@@ -83,6 +83,12 @@
 
 # INTERNS
 
+- id: kziadeh
+  firstname: Kevin 
+  lastname: Ziadeh
+  position: intern
+  www: "people/ziadeh.html"  
+
 
 #- id: nobodyeither
 #  lastname: Contact us to join
