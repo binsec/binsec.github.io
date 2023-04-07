@@ -23,6 +23,12 @@
   lastname: Recoules
   position: researcher
   www: "people/recoules.html"
+
+- id: gmenguy
+  firstname: Grégoire
+  lastname : Menguy 
+  position : researcher  
+  www: "people/menguy.html"
   
 # POSTDOCS
 
@@ -43,12 +49,6 @@
   lastname : Combette 
   position : phd
   www: "people/combette.html"
-
-- id: gmenguy
-  firstname: Grégoire
-  lastname : Menguy 
-  position : phd  
-  www: "people/menguy.html"
 
 - id: sducousso
   firstname: Soline
@@ -87,7 +87,13 @@
   firstname: Kevin 
   lastname: Ziadeh
   position: intern
-  www: "people/ziadeh.html"  
+  www: "people/ziadeh.html" 
+
+- id: egros
+  firstname: Elouan 
+  lastname: Gros
+  position: intern
+  www: "people/gros.html"  
 
 
 #- id: nobodyeither
