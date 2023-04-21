@@ -22,6 +22,7 @@
           venue-acronym: "ESOP"
           venue: "The 32nd European Symposium on Programming"
           ranking: "A"
+          easy-summary: "nutshells/esop-23.html"
           artifact-custom-image: "/assets/img/artefact_esop.png"
           artifact-custom-image-width: "159"
           artifact-custom-image-height: "90"
