@@ -95,6 +95,12 @@
   position: intern
   www: "people/gros.html"  
 
+- id: tbarthe
+  firstname: Tom 
+  lastname: Barthe
+  position: intern
+  www: "people/barthe.html"  
+
 
 #- id: nobodyeither
 #  lastname: Contact us to join
