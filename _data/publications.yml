@@ -29,6 +29,8 @@
           artefact: "https://github.com/binsec/esop2023_artefact"
           benchmark: "https://doi.org/10.5281/zenodo.7507112"
           pdf: "/assets/publications/papers/2023-esop.pdf"
+          talk-slides: "/assets/publications/slides/2023-esop.pdf"
+          bibtex: "/assets/publications/bibtexs/2023-esop.bib"
         - title: "ProSpeCT: Provably Secure Speculation for the Constant-Time Policy"
           authors:
                - name: Lesly-Ann Daniel
