@@ -5,120 +5,71 @@ title: Open positions
 
 <section class="section">
   <div class="container">
-      <h1 class="title is_primary"><b>Open Positions</b></h1>
-    <hr/>
+      <h1 class="title is_primary"><b>Jobs</b></h1>
+  <p>We have frequent open positions to <strong>hire postdocs, PhD students and research interns</strong> in software security and program analysis. Successful candidates will work in our BINSEC team, on topics like vulnerablity detection and analysis, software reverse engineering and deobfuscation, binary-level formal verification and code protection. 
+<strong>All positions are fully-funded</strong>.</p>
 
-      {% for post in site.posts %}
-      {% if post.categories contains "jobs" and post.categories contains "open" %}
-    <div class="columns home-post">
-      <div class="column has-background-primary">
-	{% if post.content.size > post.excerpt.size %}
-	<a href="{{ post.url }}">{{ post.title }}</a>
-	{% else %}
-        {{ post.title }}
-	{% endif %}
-      </div>
-      <div class="column">
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-      </div>
-      <div class="column is-half">
-        {% if post.paper-title %}
-        {{ post.paper-title }}
-        {% else %}
-        {{- post.excerpt }}
-        {% endif %}
-      </div>
-      <!-- <div class="column">
-       !--   {% for c in post.categories %}
-       !--   <span class="tag is-primary">{{ c }}</span>
-       !--   {% endfor %}
-       !-- </div> -->
+<br>
+ <h4 class="subtitle is-4">CONTENT</h4>
 
-    </div>
-      <!-- <div class="column is-one-third is-narrow">
-       !--   <article class="message news-item is-primary">
-       !--     <div class="message-header ">
-       !--       <ul>
-       !--         <li>
-       !--       <h2 class="title">
-       !--         <a class="inline-post-title" href="{{ post.url }}">{{ post.title }}</a>
-       !--       </h2>
-       !-- 
-       !--         </li>
-       !--         <li>
-       !--       <h3 class="subtitle">
-       !--         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-       !--       </h3>
-       !-- 
-       !--         </li>
-       !--       </ul>
-       !--       
-       !--     </div>
-       !--   <div class="message-body">
-       !--     {{ post.excerpt }}
-       !--   </div>
-       !--   </article>
-       !-- </div> -->
-      {% endif %}
-      {% endfor %}
-	  
-	        <h1 class="title is_primary"><b>Closed Positions</b></h1>
-    <hr/>
+<ul>
+<li><a href="#about-us">About us</a></li>
+<li><a href="#topics">Research topics</a></li>
+<li><a href="#positions">Currently open positions</a></li>
+<li><a href="#practical-details-about-the-hiring-procedure-and-the-positions">Practical details about the hiring procedure and the positions</a></li>
+<li><a href="#working-and-living-in-paris">Working and living in Paris</a></li>
+</ul>
 
-      {% for post in site.posts %}
-      {% if post.categories contains "jobs" and post.categories contains "closed" %}
-    <div class="columns home-post">
-      <div class="column has-background-primary">
-	{% if post.content.size > post.excerpt.size %}
-	<a href="{{ post.url }}">{{ post.title }}</a>
-	{% else %}
-        {{ post.title }}
-	{% endif %}
-      </div>
-      <div class="column">
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-      </div>
-      <div class="column is-half">
-        {% if post.paper-title %}
-        {{ post.paper-title }}
-        {% else %}
-        {{- post.excerpt }}
-        {% endif %}
-      </div>
-      <!-- <div class="column">
-       !--   {% for c in post.categories %}
-       !--   <span class="tag is-primary">{{ c }}</span>
-       !--   {% endfor %}
-       !-- </div> -->
+<br>
+ <h4 class="subtitle is-4" id="about-us">ABOUT US</h4>
 
-    </div>
-      <!-- <div class="column is-one-third is-narrow">
-       !--   <article class="message news-item is-primary">
-       !--     <div class="message-header ">
-       !--       <ul>
-       !--         <li>
-       !--       <h2 class="title">
-       !--         <a class="inline-post-title" href="{{ post.url }}">{{ post.title }}</a>
-       !--       </h2>
-       !-- 
-       !--         </li>
-       !--         <li>
-       !--       <h3 class="subtitle">
-       !--         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-       !--       </h3>
-       !-- 
-       !--         </li>
-       !--       </ul>
-       !--       
-       !--     </div>
-       !--   <div class="message-body">
-       !--     {{ post.excerpt }}
-       !--   </div>
-       !--   </article>
-       !-- </div> -->
-      {% endif %}
-      {% endfor %}
-    </div>
+<p><strong>OUR TEAM</strong> - The BINary-level SECurity research group (BINSEC) is a dynamic team of <a href="https://binsec.github.io/#people">4 senior and 9 junior researchers</a>, which offers a <strong>stimulating and open-minded scientific environment in English</strong> to all its members. We work in close collaboration with other French and international research teams, industrial partners and national agencies. 
+<br>
+<br></p>
+<div style="text-align: center;">
+<img src="/assets/img/people/team.jpg" alt="Team picture" hspace="10" height="267" border="1" width="428">
+</div>
+
+<p>The group has <a href="https://binsec.github.io/publications">frequent publications</a> in top-tier security, formal methods and software engineering conferences. It is part of the <a href="https://list.cea.fr/en/cybersecurity-toward-safety-and-privacy-by-design/">LIST institute</a> from CEA (one of the main French research organisations, employing more than 20k researchers and persistently ranked as a <a href="https://clarivate.com/derwent/top100innovators/company/cea-french-alternative-energies-and-atomic-energy-commission/">top global innovator</a>) and of Université Paris-Saclay (the world’s 16th and European Union’s 1st university, according to the <a href="https://www.shanghairanking.com/institution/paris-saclay-university">Shanghai ARWU Ranking in 2022</a>).  </p>
+<p><strong>OUR WORK</strong> - The team has high-level expertise in several code analysis approaches, namely symbolic execution, abstract interpretation and fuzzing. We apply these techniques to <a href="https://binsec.github.io/achievements">improve software security</a>, covering notably vulnerability detection and analysis, code (de)obfuscation and formal verification. See <a href="https://binsec.github.io">our website</a> for additional information. </p>
+
+<br>
+ <h4 class="subtitle is-4" id="topics">RESEARCH TOPICS</h4>
+
+<p>Our reseach topics notably <strong>involve but are not strictly limited</strong> to the following (in alphabetical order).
+<strong>Supervision</strong> for a topic will be provided by the permanent researcher of our team responsible for this topic (<em>main supervisor</em>), typically <strong>in collaboration with</strong> other researchers from the team and outside of it, to provide an optimal combination of expertise, availability and seniority.</p>
+<p><strong>ARTFUL VULNERABILITY DETECTION WITH FUZZING</strong> (<em>main advisor</em>: <a href="http://www.marcozzi.net">Michaël Marcozzi</a>) - <a href="https://www.fuzzingbook.org/">Fuzzing</a> refers to a process of repeatedly running a program with automatically generated inputs to discover bugs, which can then be fixed. A major challenge in the field is moving from indistinct program exploration towards artful triggering of dangerous vulnerabilities. Taking advantage of our team’s expertise and previous works, the selected candidate will propose, implement and evaluate ways to overcome this challenge, such as <a href="https://binsec.github.io/nutshells/fuzzing-22.html">finer-grained guidance mechanisms</a> or <a href="https://binsec.github.io/nutshells/fps-21.html">combination with symbolic execution</a>. </p>
+<p><strong>BINARY-LEVEL PROGRAM ANALYSIS AT SCALE</strong> (<em>main advisor</em>: <a href="http://sebastien.bardin.free.fr/">Sébastien Bardin</a>) - Program analysis is considered to be harder to conduct at the binary level than at the source level, due to a loss of abstraction and an increase in size. The goal here will be to challenge this folklore knowledge, and to design more efficient binary-level program analysis techniques, especially symbolic execution. The selected candidate will explore different strategies, such as combining different methods together (e.g., static and symbolic analysis), or revisiting source-level optimizations for the binary-level case. The candidate will benefit from the team&#39;s expertise on symbolic execution.   </p>
+<p><strong>COMBINATION OF SEMANTIC AND SYMBOLIC ANALYSIS USING SSA-BASED ABSTRACT INTERPRETATION</strong> (<em>main advisor</em>: <a href="https://binsec.github.io/people/lemerre.html">Matthieu Lemerre</a>) - SSA is a popular intermediate representation (underpinning for instance LLVM) that simplifies and makes more efficient some program analyses. Until recently, SSA translation was performed using ad-hoc algorithms. In a forthcoming POPL paper, we recently discovered that SSA translation could be viewed as a standard dataflow analysis by abstract interpretation, enabling the translation to SSA and the usage of SSA to be done simultaneously, rather than in sequence. We are looking for candidates interested in investigating the consequences of this discovery.</p>
+<p><strong>DOMESTICATING COMPLEX SOFTWARE VULNERABILITIES</strong> (<em>main advisor</em>: <a href="http://www.marcozzi.net">Michaël Marcozzi</a>) - Mitigation and exploitation of software vulnerabilities is a game of cat and mouse. The resulting arms race can lead attackers to rely on more and more complex vulnerabilities, like backdoors, exploit chains, microarchitectural exploits or side-channel attacks. Such complex vulnerabilities are still barely understood by cybersecurity researchers. Following previous scientific expeditions in these wild lands (see e.g. <a href="https://dx.doi.org/10.1007/978-3-030-00470-5_5">Thomas et al.</a>, <a href="https://binsec.github.io/nutshells/sp-20.html">Daniel et al.</a> or <a href="https://binsec.github.io/nutshells/ndss-21.html">Daniel et al.</a>), the selected candidate will be responsible for exploring and documenting (parts of) the landscape of complex security vulnerabilities. The main goal will be to propose a highly-needed taxonomy of these threats, leading to systematic ways to mitigate them.  </p>
+<p><strong>OS VERIFICATION AND MEMORY ANALYSIS USING  ABSTRACT INTERPRETATION AND DEPENDENT TYPES</strong> (<em>main advisor</em>: <a href="https://binsec.github.io/people/lemerre.html">Matthieu Lemerre</a>) - Memory corruption is the most common and severe type of software vulnerability. In general, reasoning about memory is essential, especially in systems software like <a href="https://binsec.github.io/nutshells/rtas-21.html">OS kernels</a> or critical libraries, that perform complex low-level memory manipulation. We want to address this problem in an original way using <a href="https://binsec.github.io/nutshells/vmcai-22.html">abstract interpretation to verify memory safety of a dependent type system</a>, trying to attain a sweet spot between the analysis precision and efficiency, and the need to supply user annotations, and we welcome candidates interested in any combination  of these topics.</p>
+<p><strong>REVERSE ENGINEERING AND DEOBFUSCATION</strong> (<em>main advisor</em>: <a href="http://sebastien.bardin.free.fr/">Sébastien Bardin</a>) - Program analysis methods have been used for some years now in code understanding and code deobfuscation (&quot;symbolic deobfuscation&quot;), yet protections emerge against such techniques. More recently, black-box methods based on AI techniques have been shown effective against obfuscated code, being able in some cases to recover the initial semantic of protected code fragments. Still, again, dedicated protections emerge. The selected candidate will explore how these different methods can be combined in order to design efficient deobfuscation methods. </p>
+<p><strong>SECURITY-ORIENTED PROGRAM ANALYSIS</strong> (<em>main advisor</em>: <a href="http://sebastien.bardin.free.fr/">Sébastien Bardin</a>) - Standard program analysis techniques have been primarily designed for safety concerns rather than for security issues. While effective at finding bugs, they have more difficulties at distinguishing true vulnerabilities from mere benign bugs. The selected candidate will explore how program analysis could be enhanced toward searching for bugs &quot;that matter&quot;. The notion of &quot;robust reachability&quot;, <a href="https://binsec.github.io/nutshells/cav-21.html">recently proposed by the team</a>, is a natural starting point. Extensions can include both alternative definitions or better algorithmic techniques. </p>
+<p><strong>SYMBOLIC REASONING FOR MICRO-ARCHITECTURAL ATTACKS</strong> (<em>main advisor</em>: <a href="http://sebastien.bardin.free.fr/">Sébastien Bardin</a>) - Micro-architectural attacks such as Spectre and Meltdown bring new threats to highly-sensitive programs such as cryptographic libraries, kernels or enclave. The selected candidate  will explore how program analysis techniques such as symbolic execution can be efficiently lifted to address these vulnerabilities at scale. The challenge will be to model these attacks in a way amenable to efficient automated analysis. This work will naturally build upon our previous proposal for efficient <a href="https://binsec.github.io/nutshells/sp-20.html">relational symbolic execution</a> and <a href="https://binsec.github.io/nutshells/ndss-21.html">specualtive symbolic execution</a>.  </p>
+
+<br>
+ <h4 class="subtitle is-4" id="positions">CURRENTLY OPEN POSITIONS</h4>
+
+<p><strong>(PHD-2023-01)</strong> One Ph.D. student on "ARTFUL VULNERABILITY DETECTION WITH FUZZING" topic with Michaël Marcozzi.</p>
+
+<p><strong>(POSTDOC-2023-01)</strong> One postdoc on "DOMESTICATING COMPLEX SOFTWARE VULNERABILITIES" topic with Michaël Marcozzi.</p>
+
+
+<br>
+ <h4 class="subtitle is-4" id="practical-details-about-the-hiring-procedure-and-the-positions">PRACTICAL DETAILS ABOUT THE HIRING PROCEDURE AND THE POSITIONS</h4>
+
+<p>Candidates should <strong>send a CV</strong> to <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x62;&#105;&#x6e;&#x73;&#101;&#99;&#x2d;&#106;&#111;&#x62;&#115;&#64;&#115;&#x61;&#120;&#105;&#102;&#x72;&#97;&#x67;&#101;&#46;&#x73;&#x61;&#99;&#x6c;&#x61;&#x79;&#x2e;&#x63;&#101;&#97;&#x2e;&#x66;&#x72;">&#x62;&#105;&#x6e;&#x73;&#101;&#99;&#x2d;&#106;&#111;&#x62;&#115;&#64;&#115;&#x61;&#120;&#105;&#102;&#x72;&#97;&#x67;&#101;&#46;&#x73;&#x61;&#99;&#x6c;&#x61;&#x79;&#x2e;&#x63;&#101;&#97;&#x2e;&#x66;&#x72;</a> <strong>as soon as possible</strong>. Applications will be reviewed as they arrive (first come, first served), depending on our availability, and additional information may be requested from you.</p>
+<p>Interesting candidates will be contacted for an <strong>online interview</strong>, to evaluate notably their <em>academic and programming skills</em>, together with their <em>English proficiency</em>. Each position is expected to start as soon as possible (upon completion of all administrative requirements). </p>
+<p>Supervised by our senior researchers, the <strong>recruited candidates will be involved in the scientific activities of the team</strong>. These activities mainly include solving research problems, formalising research ideas, implementing and evaluating software prototypes, publishing and presenting at top conferences, as well as participating to the scientific life of the team (paper reading groups, hackatons, etc). Postdocs and PhD students will be able to dedicate a <em>small</em> fraction of their time to <strong>teaching</strong>, if they want so. Our former team members have been able to secure stimulating positions in academia or industry and we will support you in advancing your career.</p>
+<p><strong>SPECIFIC INFO FOR POSTDOC CANDIDATES</strong> - Postdoc candidates should have (or be close to have) a <strong>Ph.D. in Computer Science</strong>. We are primarily looking for candidates with a good research experience in one or more of the following domains: software security, formal methods, software engineering, programming languages, architecture or systems. Postdocs will be expected to tackle more challenging problems with less supervision than PhD students. They may be involved in supervising interns. Each postdoc position will have a <strong>duration of 2 or 3 years</strong>.</p>
+<p><strong>SPECIFIC INFO FOR PHD CANDIDATES</strong> - PhD candidates should have (or be close to have) a <strong>Master (or equivalent) in Computer Science</strong>, with good results in topics related to the doctoral work that they would conduct in our team. They should be persistent, rigorous, motivated and curious individuals. Authorship of a scientific publication or real-world coding experience are a plus. Each PhD position will have a <strong>duration of 3 years</strong>.</p>
+<p><strong>SPECIFIC INFO FOR RESEARCH INTERNSHIP CANDIDATES</strong> - Research internship candidates should be <strong>preparing a Master (or equivalent) in Computer Science</strong>, with good results in topics related to the work that they would conduct in our team. Under the close supervision of our researchers, interns will be expected to support the activties of the team, either by reviewing scientific litterature, or by testing and formalising research ideas, or by coding research prototypes, or by conducting research experiments. Each internship will have a <strong>duration of 2.5 to 6 months</strong>. Successful internships may open the door to doing a PhD in the team.</p>
+
+<br>
+ <h4 class="subtitle is-4" id="working-and-living-in-paris">WORKING AND LIVING IN PARIS</h4>
+
+<p>Our offices are located in <a href="https://goo.gl/maps/Swn77dLqrKQki7zt9">Nano-Innov</a>, at the heart of Plateau de Saclay, south of Paris, Europe’s biggest research and industry cluster. Agencies like <a href="https://www.science-accueil.org/en/">Science Accueil</a> or <a href="https://www.ciup.fr/en/">Cité Internationale Universitaire de Paris</a> are available to help foreign candidates find their home and settle here. Most of us live either in the wooden and quiet southern suburbs of Paris or closer to the bustling historical center of the city. Paris is the capital of France, a metropolis of 12.5 million people and one of the most visited travel destinations in the world, in the heart of western Europe.</p>
+ 
   </div>
 </section>
 
