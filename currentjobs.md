@@ -1,5 +1,3 @@
 ---
 layout: currentjobs
 ---
-
-## Open positions

@@ -2,4 +2,4 @@
 layout: jobs
 ---
 
-## Open positions
+
