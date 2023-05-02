@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "One postoc position on software vulnerability detection"
+title:  "One postdoc position on software vulnerability detection"
 categories: jobs open
 date: 2023-05-02
 ---
