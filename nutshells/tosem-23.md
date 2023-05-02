@@ -11,9 +11,17 @@ redirect_from: /new/publication/1970/01/01/nutshell-tosem-23.html
 
 ## Motivation
 
-Fuzzing is an effective software testing method that discovers bugs by feeding target applications with (usually a massive amount of) automatically generated inputs. Many state of-art fuzzers use branch coverage as a feedback metric to guide the fuzzing process. The fuzzer retains inputs for further mutation only if branch coverage is increased. However, branch coverage only provides a shallow sampling of program behaviours and hence may discard inputs that might be interesting to mutate. This work aims at taking advantage of the large body of research over defining finer-grained code coverage metrics (such as mutation coverage) and make these metrics easily available as better proxies to select interesting inputs for mutation.
+Fuzzing refers to a process of repeatedly running a program with automatically generated inputs to trigger faults. The usual motive is to detect bugs as early as possible, before they cause failures or get exploited as vulnerabilities in production. Fuzzers are reported to have discovered many new [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) software vulnerabilities within a wide range of applications in the recent years.
 
-## Our proposal
+ Many state of-art fuzzers use branch coverage as a feedback metric to guide the generation of inputs. The fuzzer retains inputs for further mutation only if they increase the coverage count of branches in the control-flow graph of the target program. In the same time, code analyses help finding inputs covering the branches that have a low triggering probability.
+ 
+ However, branch coverage provides a shallow sampling of program behaviours and hence may discard inputs that might be interesting to mutate. To solve this issue, the software testing community has defined standard coverage metrics that are finer-grained than simply counting branches. Yet, the fuzzing community has just started to investigate ways to support some specific finer-grained metrics within specific fuzzers, and the general ability of these fine-grained metrics to improve fuzzing guidance remains unknown.
+
+In this work, we intend to challenge the position of branch coverage as the de facto guidance metric for fuzzing, and evaluate how much using a finer-grained metric for guidance would improve fuzzers. In particular, we want to avoid digging into the internals of every fuzzer implementation to extend them with ad hoc support for every additional metric, but provide instead an out-of-the-box and generic runtime guidance mechanism for existing fuzzers, which could be used to support most fine-grained metrics and beyond.
+
+## Proposal
+
+TOREWRITE
 
 Let us consider the following code snippet on how our approach can make a state-of-the-art fuzzer (based on branch coverage) support a fine-grained coverage metric out-of-the-box (without changing the fuzzer), by transforming the code of the program under test.
 ```c
@@ -61,18 +69,16 @@ if(current_temp>=50) // Bug should be current_temp>50
 
 The new `if (current_temp>=50 != current_temp>50)` branch explicitly forces the fuzzer to maintain and mutate an input where `current_temp` equals `50` as soon as it generates one (these mutations will mostly affect the values in `data`). This will increase the chance for the fuzzer to trigger a crash revealing the bug, making bug detection faster in average.
 
+## Experiments and results
+
+TODO
 
 ## Contributions
-- We propose to make state-of-the-art coverage-based fuzzers support most standard fine-grained coverage metrics out of the box
-- We develop a Clang pass to automatically
-instrument C code with the Multiple Condition Coverage and
-Mutation Coverage metrics objectives. 
-- We use this pass to transform the four programs from Lava-M, a
-standard and basic fuzzer benchmark.
-- We run the AFL++ and Qsym fuzzers five times for 24 hours over the original Lava-M programs and their transformed versions, showing promising improvements on fuzzing performance.
+
+TODO
 
 ## Further information
-- Read the [paper](/assets/publications/papers/2022-fuzzing.pdf)
-- To appear at the [The 1st International Fuzzing Workshop (FUZZING) 2022](https://fuzzingworkshop.github.io/#guides)
-- The FUZZING workshop comes with a preregistration-based publication process in a top journal (see [details](http://fuzzbench.com/blog/2021/04/22/special-issue/))
+- Read the [paper](/assets/publications/papers/2023-tosem.pdf) and download the [artifact](https://git.frama-c.com/bnongpoh/cannotate) and [benchmark](https://zenodo.org/record/7275184).
+- [Published](https://dl.acm.org/doi/10.1145/3587158) in the "ACM Transactions on Software Engineering and Methodology" journal (TOSEM).
+
 
