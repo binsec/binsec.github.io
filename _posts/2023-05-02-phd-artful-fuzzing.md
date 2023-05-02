@@ -12,7 +12,7 @@ Supervision will be provided by [Michaël Marcozzi][marcozzi], typically in coll
 
 <strong>To apply, please check out the [detailed application procedure][procedure]</strong>.
 
-[procedure]: http://binsec.github.io/jobs/#practical-details-about-the-hiring-procedure-and-the-positions
+[procedure]: https://binsec.github.io/jobs#practical-details-about-the-hiring-procedure-and-the-positions
 [list]: https://list.cea.fr/en/cybersecurity-toward-safety-and-privacy-by-design/
 [shangai]: https://www.shanghairanking.com/institution/paris-saclay-university
 [clarivate]: https://clarivate.com/derwent/top100innovators/company/cea-french-alternative-energies-and-atomic-energy-commission/
