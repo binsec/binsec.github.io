@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Postdocs, PhDs and research internships in software security and program analysis"
-categories: jobs open
+categories: jobs closed
 date: 2022-10-25
 ---
 We have several open positions to **hire postdocs, PhD students and research interns** in software security and program analysis. Successful candidates will work in our BINSEC team, on topics like vulnerablity detection and analysis, software reverse engineering and deobfuscation, binary-level formal verification and code protection. 
