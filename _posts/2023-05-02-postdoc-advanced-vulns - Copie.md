@@ -6,9 +6,9 @@ date: 2023-05-02
 ---
 We have one open position to <strong>work for 2 years as a postdoc on domesticating complex software vulnerabilities</strong>.
 
-Mitigation and exploitation of software vulnerabilities is a game of cat and mouse. The resulting arms race can lead attackers to rely on more and more complex vulnerabilities, like exploit chains, microarchitectural exploits, backdoors or side-channel attacks. Such complex vulnerabilities are still barely understood by cybersecurity researchers. Following previous scientific expeditions in these wild lands (see e.g. [Daniel et al.][SP2020], [Daniel et al.][NDSS2021] or [Thomas et al.][backdoors]), the selected candidate will be responsible for exploring and documenting (parts of) the landscape of complex security vulnerabilities. The main goal will be to propose a highly-needed taxonomy of these threats, leading to systematic ways to mitigate them.  
+<strong>TOPIC</strong> - Mitigation and exploitation of software vulnerabilities is a game of cat and mouse. The resulting arms race can lead attackers to rely on more and more complex vulnerabilities, like exploit chains, microarchitectural exploits, backdoors or side-channel attacks. Such complex vulnerabilities are still barely understood by cybersecurity researchers. Following previous scientific expeditions in these wild lands (see e.g. [Daniel et al.][SP2020], [Daniel et al.][NDSS2021] or [Thomas et al.][backdoors]), the selected candidate will be responsible for exploring and documenting (parts of) the landscape of complex security vulnerabilities. The main goal will be to propose a highly-needed taxonomy of these threats, leading to systematic ways to mitigate them.  
 
-Supervision will be provided by [Michaël Marcozzi][marcozzi], typically in collaboration with other researchers from the team and outside of it, to provide an optimal combination of expertise, availability and seniority.
+<strong>SUPERVISION</strong> - Supervision will be provided by [Michaël Marcozzi][marcozzi], typically in collaboration with other researchers from the team and outside of it, to provide an optimal combination of expertise, availability and seniority.
 
 <strong>To apply, please check out the [detailed application procedure][procedure]</strong>.
 
