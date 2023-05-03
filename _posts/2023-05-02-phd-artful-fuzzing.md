@@ -10,7 +10,7 @@ We have one open position to <strong>work for 3 years as a PhD student on artful
 
 <strong>SUPERVISION</strong> - Supervision will be provided by [Michaël Marcozzi][marcozzi], typically in collaboration with other researchers from the team and outside of it, to provide an optimal combination of expertise, availability and seniority.
 
-<strong>To apply, please check out the [detailed application procedure][procedure]</strong>.
+<strong>To apply, please check out the [detailed application procedure and job info][procedure]</strong>.
 
 [procedure]: https://binsec.github.io/jobs#practical-details-about-the-hiring-procedure-and-the-positions
 [list]: https://list.cea.fr/en/cybersecurity-toward-safety-and-privacy-by-design/
