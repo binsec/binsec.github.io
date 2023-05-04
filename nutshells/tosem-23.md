@@ -11,19 +11,20 @@ redirect_from: /new/publication/1970/01/01/nutshell-tosem-23.html
 
 ## Motivation
 
-Fuzzing refers to a process of repeatedly running a program with automatically generated inputs to trigger faults. The usual motive is to detect bugs as early as possible, before they cause failures or get exploited as vulnerabilities in production. Fuzzers are reported to have discovered many new [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) software vulnerabilities within a wide range of applications in the recent years.
+<strong>Fuzzing</strong> refers to a process of repeatedly running a program with automatically generated inputs to trigger faults. The usual motive is to detect bugs as early as possible, before they cause failures or get exploited as vulnerabilities in production. Fuzzers are reported to have discovered many new [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) vulnerabilities within a wide range of applications in the recent years.
 
- Many state of-art fuzzers use branch coverage as a feedback metric to guide the generation of inputs. The fuzzer retains inputs for further mutation only if they increase the coverage count of branches in the control-flow graph of the target program. In the same time, code analyses help finding inputs covering the branches that have a low triggering probability.
+ Many state of-art fuzzers use <strong>branch coverage</strong> as a feedback metric to guide the generation of inputs. More precisely, the fuzzer retains the generated inputs as seeds from which to generate newer inputs, but only in the case where they improve branch coverage within the control-flow graph of the fuzzed program. At the same time, automatic code analyses (such as taint tracking or symbolic execution) scrutinize the fuzzed program, in order to help the fuzzer discover inputs covering the branches that have a low triggering probability.
  
- However, branch coverage provides a shallow sampling of program behaviours and hence may discard inputs that might be interesting to mutate. To solve this issue, the software testing community has defined standard coverage metrics that are finer-grained than simply counting branches. Yet, the fuzzing community has just started to investigate ways to support some specific finer-grained metrics within specific fuzzers, and the general ability of these fine-grained metrics to improve fuzzing guidance remains unknown.
+ However, branch coverage provides a shallow sampling of program behaviours and hence may discard inputs that might be interesting to discover and keep as seeds. The software testing community has for long defined standard <strong>coverage metrics that are finer-grained than simply counting branches</strong> (like multiple conditions or mutation coverage). Yet, the fuzzing community has just started to investigate ways to integrate one or another of these finer-grained metrics within a specific fuzzer. As a consquence, the general ability of such metrics to improve fuzzing guidance remains unknown.
 
-In this work, we intend to challenge the position of branch coverage as the de facto guidance metric for fuzzing, and evaluate how much using a finer-grained metric for guidance would improve fuzzers. In particular, we want to avoid digging into the internals of every fuzzer implementation to extend them with ad hoc support for every additional metric, but provide instead an out-of-the-box and generic runtime guidance mechanism for existing fuzzers, which could be used to support most fine-grained metrics and beyond.
+<strong>In this work</strong>, we intend to challenge the position of branch coverage as the de facto guidance metric for fuzzing. Concretely, <strong>we aim at enabling the use of finer-grained metrics in fuzzers</strong>, as well as at <strong>evaluating whether and how much it improves fuzzing guidance</strong>. In particular, we want to avoid requiring to dig into the internals of every fuzzer implementation to extend it with ad hoc support for every additional metric. Instead, we aim at <strong>providing a generic runtime guidance mechanism that would work with existing fuzzers out of the box</strong>, and which could be used to support most fine-grained metrics and beyond.
 
 ## Proposal
 
-TOREWRITE
+We provide out-of-the-box support for fine-grained coverage metrics in fuzzers by <strong>transforming the code of the fuzzed program</strong>. Indeed, the coverage objectives from most fine-grained metrics (like conditions to activate or mutants to kill) can be made explicit in the code of the fuzzed program. As a consequence, we can transform this code to <strong>add new no-op branches corresponding to these fine-grained objectives</strong>. Covering one of the added branches is then equivalent to covering the corresponding objective from the metric. The instrumentation is performed carefully, in order to avoid modifying the program semantics. 
 
-Let us consider the following code snippet on how our approach can make a state-of-the-art fuzzer (based on branch coverage) support a fine-grained coverage metric out-of-the-box (without changing the fuzzer), by transforming the code of the program under test.
+<strong>For example</strong>, let us consider the following code snippet as the fuzzed program. It is basically a C function checking if an appliance is running outside its allowed temperature limit and taking corrective actions if so. We suppose that the implementation is buggy, but that the bug only triggers a program crash (enabling a fuzzer to detect it) when the temperature is `50` and some rare values are provided in the `data` argument (requiring the fuzzer to generate many inputs with current_temp equal to `50` to actually trigger it).
+
 ```c
 void check(int current_temp,char *data[] ){
 if(current_temp>=50) // Bug: should be current_temp>50
@@ -38,21 +39,12 @@ if(current_temp>=50) // Bug: should be current_temp>50
     }
 }
 ```
-It is basically a C function checking if an appliance is running outside its allowed temperature limit and taking corrective actions if so. We suppose that the implementation is buggy, but that the bug only triggers a program crash (enabling a fuzzer to detect it) when the temperature is `50` and other rare conditions are met (requiring the fuzzer to generate many inputs with current_temp equal to `50` to actually trigger it).
 
-Our approach makes the test objectives from standard coverage metrics explicit in the code of the Program Under Test (PUT), by adding no-op branches (empty conditional statements) corresponding respectively to each of them. For example, considering the weak mutation testing coverage metric, the following no-op branch would notably be inserted in our example: 
+Our approach makes the objectives from fine-grained coverage metrics explicit in such code by adding no-op branches (empty conditional statements) corresponding respectively to each of them. For example, the following empty conditional statement would be inserted to encode one of the objective of the Weak Mutation metric (ROR operator): 
 ```c
 void check(int current_temp,char *data[]){
-void check(int current_temp,char *data[] ){
 ...
-if (current_temp>=50 != current_temp>50) { // Killing mutant where >= is replaced by >
-  // No-op branch added for encoding WM ROR criterion
-  // Inputs entering here should have current_temp==50
-  // At least one input entering here will be saved as seed
-  // Other things being equal, forcing the fuzzer to save 
-  // a seed with current_temp==50 will increase the 
-  // probablity to trigger the crash faster
-}
+if (current_temp>=50 != current_temp>50) {} // Killing mutant where >= is replaced by > 
 ...
 if(current_temp>=50) // Bug should be current_temp>50
     {
@@ -67,13 +59,13 @@ if(current_temp>=50) // Bug should be current_temp>50
 }
 ```
 
-The new `if (current_temp>=50 != current_temp>50)` branch explicitly forces the fuzzer to maintain and mutate an input where `current_temp` equals `50` as soon as it generates one (these mutations will mostly affect the values in `data`). This will increase the chance for the fuzzer to trigger a crash revealing the bug, making bug detection faster in average.
+<strong>Fuzzing such a transformed program</strong> with a fuzzer guided by branch coverage is equivalent to fuzzing the original program, but with the fuzzer also <strong>saving as seeds inputs covering the fine-grained objectives</strong>. In addition, all the analyses helping the fuzzer to cover low-probability branches will also serve to <strong>help cover low-probability fine-grained objectives</strong>. 
+
+In our example, the then branch of the new `if (current_temp>=50 != current_temp>50)` statement explicitly forces the fuzzer to discover and maintain as seed an input where `current_temp` equals `50`. This seed should increase the chance for the fuzzer to trigger a crash revealing the bug, which would make bug detection faster in average.
+
+TODO : parler des autres cas où l'instru peut être utile
 
 ## Experiments and results
-
-TODO
-
-## Contributions
 
 TODO
 
