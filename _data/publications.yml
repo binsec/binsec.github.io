@@ -10,8 +10,10 @@
                - name: Sébastien Bardin
                - name: Christophe Hauser
           venue-acronym: "TOSEM"
+          easy-summary: "nutshells/tosem-23.html"
           venue: "ACM Transactions on Software Engineering and Methodology"
           ranking: "A*"
+          pdf: "/assets/publications/papers/2023-tosem.pdf"
           artefact: "https://git.frama-c.com/bnongpoh/cannotate"
           benchmark: "https://doi.org/10.5281/zenodo.7133734" 
         - title: "Adversarial Reachability for Program-level Security Analysis"
