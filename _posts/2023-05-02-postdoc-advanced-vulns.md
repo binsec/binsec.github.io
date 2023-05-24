@@ -1,16 +1,26 @@
 ---
 layout: post
-title:  "One postdoc position on software vulnerability detection"
+title:  "Postdoc position on complex software vulnerabilities"
 categories: jobs open
-date: 2023-05-02
+date: 2023-05-24
 ---
-We have one open position to <strong>work for 2 years as a postdoc on domesticating complex software vulnerabilities</strong>.
+We have one open position to <strong>work for 3 years as a postdoc on understanding and detecting complex software vulnerabilities</strong>.
 
-<strong>TOPIC</strong> - Mitigation and exploitation of software vulnerabilities is a game of cat and mouse. The resulting arms race can lead attackers to rely on more and more complex vulnerabilities, like exploit chains, microarchitectural exploits, backdoors or side-channel attacks. Such complex vulnerabilities are still barely understood by cybersecurity researchers. Following previous scientific expeditions in these wild lands (see e.g. [Daniel et al.][SP2020], [Daniel et al.][NDSS2021] or [Thomas et al.][backdoors]), the selected candidate will be responsible for exploring and documenting (parts of) the landscape of complex security vulnerabilities. The main goal will be to propose a highly-needed taxonomy of these threats, leading to systematic ways to mitigate them.  
+<strong>TITLE</strong> - Mapping the landscape of complex software vulnerabilities and finding ways to detect them.
+
+<strong>TOPIC</strong> - Mitigation and exploitation of software vulnerabilities is a game of cat and mouse. The resulting arms race can lead attackers to rely on more and more complex vulnerabilities, like exploit chains, microarchitectural exploits, backdoors or side-channel attacks. Such complex vulnerabilities are still barely understood by cybersecurity researchers. Following previous scientific expeditions in these wild lands (see e.g. [Daniel et al.][SP2020], [Daniel et al.][NDSS2021] or [Thomas et al.][backdoors]), the selected candidate will be responsible for exploring and documenting (parts of) the landscape of complex security vulnerabilities. The main goal will be to propose a highly-needed taxonomy of these threats, leading to systematic ways to detect them.    
+
+<strong>KEYWORDS</strong> - software vulnerabilities, software supply-chain security, backdoors, microarchitectural attacks, side-channed attacks
 
 <strong>SUPERVISION</strong> - Supervision will be provided by [Michaël Marcozzi][marcozzi], typically in collaboration with other researchers from the team and outside of it, to provide an optimal combination of expertise, availability and seniority.
 
+<strong>HOSTING</strong> - You will be hosted at the [CEA offices, part of the Paris-Saclay research cluster][nano].
+
 <strong>To apply, please check out the [detailed application procedure and job info][procedure]</strong>.
+
+<strong>When to apply</strong> - As soon as possible! We process applications as soon as they arrive (depending on our own availability ^^), so don't be too late.
+
+
 
 [procedure]: https://binsec.github.io/jobs#practical-details-about-the-hiring-procedure-and-the-positions
 [list]: https://list.cea.fr/en/cybersecurity-toward-safety-and-privacy-by-design/

@@ -1,16 +1,25 @@
 ---
 layout: post
-title:  "One PhD position on software vulnerability detection"
+title:  "PhD position on software vulnerability detection and fuzzing"
 categories: jobs open
-date: 2023-05-02
+date: 2023-05-24
 ---
 We have one open position to <strong>work for 3 years as a PhD student on artful vulnerability detection with fuzzing</strong>.
 
-<strong>TOPIC</strong> - <a href="https://www.fuzzingbook.org/">Fuzzing</a> refers to a process of repeatedly running a program with automatically generated inputs to trigger crashes, hinting at possible code vulnerabilities that can then be fixed. A major challenge in the field is moving from indistinct program exploration towards artful triggering of dangerous vulnerabilities. Taking advantage of our team’s expertise and previous works, the selected candidate will propose, implement and evaluate ways to overcome this challenge, such as <a href="https://binsec.github.io/nutshells/fuzzing-22.html">finer-grained guidance mechanisms</a>.  
+<strong>TITLE</strong> - Making fuzzers better at finding software vulnerabilities.
+
+<strong>TOPIC</strong> - <a href="https://www.fuzzingbook.org/">Fuzzing</a> refers to a process of repeatedly running a program with automatically generated inputs to trigger crashes, hinting at possible code vulnerabilities that can then be fixed. A major challenge in the field is moving from indistinct program exploration towards artful triggering of dangerous vulnerabilities. Taking advantage of our team’s expertise and previous works, the selected candidate will propose, implement and evaluate ways to overcome this challenge, such as <a href="https://binsec.github.io/nutshells/tosem-23.html">finer-grained guidance mechanisms</a>.  
+
+<strong>KEYWORDS</strong> - fuzzing, software testing, code analysis, vulnerability detection
 
 <strong>SUPERVISION</strong> - Supervision will be provided by [Michaël Marcozzi][marcozzi], typically in collaboration with other researchers from the team and outside of it, to provide an optimal combination of expertise, availability and seniority.
 
+<strong>HOSTING</strong> - You will be hosted at the [CEA offices, part of the Paris-Saclay research cluster][nano].
+
 <strong>To apply, please check out the [detailed application procedure and job info][procedure]</strong>.
+
+<strong>When to apply</strong> - As soon as possible! We process applications as soon as they arrive (depending on our own availability ^^), so don't be too late.
+
 
 [procedure]: https://binsec.github.io/jobs#practical-details-about-the-hiring-procedure-and-the-positions
 [list]: https://list.cea.fr/en/cybersecurity-toward-safety-and-privacy-by-design/
