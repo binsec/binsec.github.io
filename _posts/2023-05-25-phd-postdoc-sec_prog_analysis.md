@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Taking the Attacker into Account in Security-oriented Symbolic Execution"
+title:  "PhD position on Security-oriented program analysis"
 categories: jobs open
 date: 2023-05-25
 ---
