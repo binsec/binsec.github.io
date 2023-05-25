@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "PhD position on Security-oriented program analysis"
+supervisors: Sébastien Bardin
 categories: jobs open
 date: 2023-05-25
 ---

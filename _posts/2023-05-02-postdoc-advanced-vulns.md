@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Postdoc position on complex software vulnerabilities"
+supervisors: Michaël Marcozzi
 categories: jobs open
 date: 2023-05-24
 ---

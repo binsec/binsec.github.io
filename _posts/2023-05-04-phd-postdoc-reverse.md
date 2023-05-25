@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "PhD / Postdoc positions on reverse engineering through symbolic machine learning"
+supervisors: Grégoire Menguy, Sébastien Bardin
 categories: jobs open
 date: 2023-05-04
 ---

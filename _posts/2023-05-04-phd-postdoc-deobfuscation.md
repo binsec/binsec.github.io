@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "PhD / Postdoc positions on program synthesis for binary-level program deobfuscation"
+supervisors: Grégoire Menguy, Sébastien Bardin
 categories: jobs open
 date: 2023-05-04
 ---

@@ -8,6 +8,27 @@ title: Currently open positions
       <h1 class="title is_primary"><a href="/jobs" style="text-decoration: none">Applying and working with us</a>&nbsp;&nbsp;|&nbsp;&nbsp;<b>Currently open positions</b></h1>
     <br>
 
+    <div class="columns home-post">
+      <div class="column has-background-primary">
+          <strong>Title</strong>
+      </div>
+      <div class="column">
+          <strong>Date</strong>
+      </div>
+      <div class="column">
+          <strong>Supervisors</strong>
+      </div>
+      <div class="column is-half">
+          <strong>Abstract</strong>
+      </div>
+      <!-- <div class="column">
+       !--   {% for c in post.categories %}
+       !--   <span class="tag is-primary">{{ c }}</span>
+       !--   {% endfor %}
+       !-- </div> -->
+
+    </div>
+
       {% for post in site.posts %}
       {% if post.categories contains "jobs" and post.categories contains "open" %}
     <div class="columns home-post">
@@ -20,6 +41,9 @@ title: Currently open positions
       </div>
       <div class="column">
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+      </div>
+      <div class="column">
+          <span class="supervisors">{{ post.supervisors |replace: ",", "<br>" }}</span>
       </div>
       <div class="column is-half">
         {% if post.paper-title %}

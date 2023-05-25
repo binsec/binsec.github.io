@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "PhD / Postdoc positions on Symbolic Verification for Micro-architectural Attacks"
+supervisors: Sébastien Bardin
 categories: jobs open
 date: 2023-05-25
 ---
