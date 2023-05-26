@@ -5,7 +5,7 @@ supervisors: Sébastien Bardin
 categories: jobs open
 date: 2023-05-25
 ---
-We have <strong>fully funded</strong> open positions for a <strong>3 years PhD student and a 3 years Postdoc, to work on security-oriented binary-level symbolic execution</strong>.
+We have a <strong>fully funded</strong> open position for a <strong>3 years PhD student, to work on security-oriented binary-level symbolic execution</strong>.
 
 
 <strong>TITLE</strong> - Taking the Attacker into Account in Security-oriented Symbolic Execution
