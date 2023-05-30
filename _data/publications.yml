@@ -16,6 +16,7 @@
           pdf: "/assets/publications/papers/2023-tosem.pdf"
           artefact: "https://git.frama-c.com/bnongpoh/cannotate"
           benchmark: "https://doi.org/10.5281/zenodo.7133734" 
+          talk-slides: "/assets/publications/slides/2023-tosem.pdf"
         - title: "Adversarial Reachability for Program-level Security Analysis"
           authors:
                - name: Soline Ducousso
