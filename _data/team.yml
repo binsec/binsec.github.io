@@ -32,6 +32,12 @@
   
 # POSTDOCS
 
+- id: alameen
+  firstname: Mahmudul Faisal
+  lastname: Al Ameen
+  position: postdoc
+  www: "people/alameen.html"
+
 - id: rbenabidallah
   firstname: Raounak
   lastname: Benabidallah
