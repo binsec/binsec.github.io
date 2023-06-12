@@ -5,7 +5,7 @@ supervisors: Michaël Marcozzi
 categories: jobs open
 date: 2023-05-24
 ---
-We have one open position to <strong>work for 3 years as a postdoc on understanding and detecting complex software vulnerabilities</strong>.
+We have one open position to <strong>work for 2 years as a postdoc on understanding and detecting complex software vulnerabilities</strong>.
 
 <strong>TITLE</strong> - Mapping the landscape of complex software vulnerabilities and finding ways to detect them.
 
