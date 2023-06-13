@@ -1,6 +1,17 @@
 ---
 - year: 2023
   publications:
+        - title: "Active Disjunctive Constraint Acquisition"
+          authors:
+               - name: Grégoire Menguy
+               - name: Sébastien Bardin
+               - name: Arnaud Gotlieb
+               - name: Nadjib Lazaar
+          venue-acronym: "KR"
+          easy-summary: "nutshells/kr-23.html"
+          venue: "International Conference on Principles of Knowledge Representation and Reasoning"
+          ranking: "A*"
+          pdf: "/assets/publications/papers/2023-kr.pdf"
         - title: "Fine-Grained Coverage-Based Fuzzing"
           authors:
                - name: Wei-Cheng Wu
