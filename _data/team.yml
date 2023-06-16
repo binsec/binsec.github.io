@@ -38,12 +38,6 @@
   position: postdoc
   www: "people/alameen.html"
 
-- id: rbenabidallah
-  firstname: Raounak
-  lastname: Benabidallah
-  position: postdoc
-  www: "people/benabidallah.html"
-
 #- id: nobody
 #  lastname: Contact us to join
 #  position: postdoc
@@ -87,6 +81,7 @@
   www: "people/kokkonis.html"  
 
 
+
 # INTERNS
 
 - id: kziadeh
@@ -106,6 +101,12 @@
   lastname: Barthe
   position: intern
   www: "people/barthe.html"  
+
+- id: lesbre
+  firstname: Dorian
+  lastname: Lesbre
+  position: intern
+  www: "people/lesbre.html"
 
 
 #- id: nobodyeither

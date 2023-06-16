@@ -33,6 +33,12 @@
 
 # FORMER JUNIORS
 
+- id: rbenabidallah
+  firstname: Raounak
+  lastname: Benabidallah (Postdoc, to private company)
+  position: alumnus-temporary
+  www: "https://www.linkedin.com/in/raounak-benabidallah-73707b130/"
+
 - id: ssouaf
   firstname: Salwa 
   lastname: Souaf (Postdoc, to Quarkslab)
@@ -44,12 +50,6 @@
   lastname: Vergnolle (Intern)
   position: alumnus-temporary
   www: https://fr.linkedin.com/in/matheo-vergnolle
-
-- id: lesbre
-  firstname: Dorian
-  lastname: Lesbre (Intern)
-  position: alumnus-temporary
-  www: https://www.eleves.ens.fr/home/dlesbre/
 
 - id: alaoutmani
   firstname: Brahim
