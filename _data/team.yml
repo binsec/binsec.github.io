@@ -84,6 +84,12 @@
 
 # INTERNS
 
+- id: icanut
+  firstname: Iker Martin 
+  lastname: Canut
+  position: intern
+  www: "people/canut.html" 
+
 - id: kziadeh
   firstname: Kevin 
   lastname: Ziadeh
