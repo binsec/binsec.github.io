@@ -1,19 +1,19 @@
 ---
 layout: post
 title:  "PhD position on software vulnerability detection and fuzzing"
-supervisors: Michaël Marcozzi
+supervisors: Michaël Marcozzi, Hélène Waeselynck
 categories: jobs open
-date: 2023-05-24
+date: 2023-10-04
 ---
 We have one open position to <strong>work for 3 years as a PhD student on artful vulnerability detection with fuzzing</strong>.
 
 <strong>TITLE</strong> - Making fuzzers better at finding software vulnerabilities.
 
-<strong>TOPIC</strong> - <a href="https://www.fuzzingbook.org/">Fuzzing</a> refers to a process of repeatedly running a program with automatically generated inputs to trigger crashes, hinting at possible code vulnerabilities that can then be fixed. A major challenge in the field is moving from indistinct program exploration towards artful triggering of dangerous vulnerabilities. Taking advantage of our team’s expertise and previous works, the selected candidate will propose, implement and evaluate ways to overcome this challenge, such as <a href="https://binsec.github.io/nutshells/tosem-23.html">finer-grained guidance mechanisms</a>.  
+<strong>TOPIC</strong> - <a href="https://www.fuzzingbook.org/">Fuzzing</a> refers to a process of repeatedly running a program with automatically generated inputs to trigger crashes, hinting at possible code vulnerabilities that can then be fixed. A major challenge in the field is moving from indistinct program exploration towards artful triggering of serious vulnerabilities. Taking advantage of our team’s expertise and previous works, the selected candidate will propose, implement and evaluate ways to overcome this challenge, mainly relying on <a href="https://binsec.github.io/nutshells/tosem-23.html">finer-grained guidance mechanisms</a>.  
 
 <strong>KEYWORDS</strong> - fuzzing, software testing, code analysis, vulnerability detection
 
-<strong>SUPERVISION</strong> - Supervision will be provided by [Michaël Marcozzi][marcozzi], typically in collaboration with other researchers from the team and outside of it, to provide an optimal combination of expertise, availability and seniority.
+<strong>SUPERVISION</strong> - Supervision will be provided by [Michaël Marcozzi][marcozzi] and [Hélène Waeselynck][helene].
 
 <strong>HOSTING</strong> - You will be hosted at the [CEA offices, part of the Paris-Saclay research cluster][nano].
 
@@ -45,3 +45,4 @@ We have one open position to <strong>work for 3 years as a PhD student on artful
 [website]: https://binsec.github.io
 [scienceaccueil]: https://www.science-accueil.org/en/
 [ciup]: https://www.ciup.fr/en/
+[helene]: https://homepages.laas.fr/waeselyn/
