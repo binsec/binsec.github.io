@@ -81,6 +81,11 @@
   www: "people/kokkonis.html"  
 
 
+- id: lesbre
+  firstname: Dorian
+  lastname: Lesbre
+  position: phd
+  www: "people/lesbre.html"
 
 # INTERNS
 
@@ -89,30 +94,6 @@
   lastname: Canut
   position: intern
   www: "people/canut.html" 
-
-- id: kziadeh
-  firstname: Kevin 
-  lastname: Ziadeh
-  position: intern
-  www: "people/ziadeh.html" 
-
-- id: egros
-  firstname: Elouan 
-  lastname: Gros
-  position: intern
-  www: "people/gros.html"  
-
-- id: tbarthe
-  firstname: Tom 
-  lastname: Barthe
-  position: intern
-  www: "people/barthe.html"  
-
-- id: lesbre
-  firstname: Dorian
-  lastname: Lesbre
-  position: intern
-  www: "people/lesbre.html"
 
 
 #- id: nobodyeither

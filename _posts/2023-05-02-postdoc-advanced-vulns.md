@@ -2,7 +2,7 @@
 layout: post
 title:  "Postdoc position on complex software vulnerabilities"
 supervisors: Michaël Marcozzi
-categories: jobs open
+categories: jobs closed
 date: 2023-05-24
 ---
 We have one open position to <strong>work for 2 years as a postdoc on understanding and detecting complex software vulnerabilities</strong>.

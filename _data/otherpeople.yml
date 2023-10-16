@@ -33,6 +33,24 @@
 
 # FORMER JUNIORS
 
+- id: kziadeh
+  firstname: Kevin 
+  lastname: Ziadeh (Intern)
+  position: alumnus-temporary
+  www: https://www.linkedin.com/in/kevinziadeh/  
+
+- id: egros
+  firstname: Elouan 
+  lastname: Gros (Intern)
+  position: alumnus-temporary
+  www: https://www.linkedin.com/in/elouan-gros-a3a16a1a1/ 
+
+- id: tbarthe
+  firstname: Tom 
+  lastname: Barthe (Intern)
+  position: alumnus-temporary
+  www: "people/barthe.html"  
+
 - id: rbenabidallah
   firstname: Raounak
   lastname: Benabidallah (Postdoc, to private company)
