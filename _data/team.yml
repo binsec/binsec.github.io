@@ -44,6 +44,12 @@
 
 # PHD STUDENTS
 
+- id: adoyen
+  firstname: Alexandre
+  lastname: Doyen
+  position: phd
+  www: "people/doyen.html"
+
 - id: gcombette
   firstname: Guillaume
   lastname : Combette 
