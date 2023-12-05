@@ -38,11 +38,23 @@
   position: postdoc
   www: "people/alameen.html"
 
+- id: nbellec
+  firstname: Nicolas
+  lastname: Bellec
+  position: postdoc
+  www: "people/bellec.html"
+
 #- id: nobody
 #  lastname: Contact us to join
 #  position: postdoc
 
 # PHD STUDENTS
+
+- id: vattias
+  firstname: Vidal 
+  lastname: Attias
+  position: phd
+  www: "people/attias.html"
 
 - id: adoyen
   firstname: Alexandre
@@ -95,11 +107,6 @@
 
 # INTERNS
 
-- id: icanut
-  firstname: Iker Martin 
-  lastname: Canut
-  position: intern
-  www: "people/canut.html" 
 
 
 #- id: nobodyeither
