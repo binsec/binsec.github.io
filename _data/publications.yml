@@ -1,4 +1,21 @@
 ---
+- year: 2024
+  publications:
+        - title: "Inference of Robust Reachability Constraints"
+          authors:
+               - name: Yanis Sellami
+               - name: Guillaume Girol 
+               - name: Frédéric Recoules 
+               - name: Damien Couroussé 
+               - name: Sébastien Bardin
+          venue-acronym: "POPL"
+          easy-summary: "nutshells/popl-24.html"
+          venue: "51st ACM SIGPLAN Symposium on Principles of Programming Languages"
+          ranking: "A*"
+          pdf: "/assets/publications/papers/2024-popl.pdf"
+          talk-slides: "/assets/publications/slides/2024-popl.pdf"
+          bibtex: "/assets/publications/bibtexs/2024-popl.bib"
+          benchmark: "https://zenodo.org/records/8421879"
 - year: 2023
   publications:
         - title: "Active Disjunctive Constraint Acquisition"
