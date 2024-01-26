@@ -29,6 +29,9 @@
           venue: "International Conference on Principles of Knowledge Representation and Reasoning"
           ranking: "A*"
           pdf: "/assets/publications/papers/2023-kr.pdf"
+          talk-slides: "/assets/publications/slides/2023-kr.pdf"
+          bibtex: "/assets/publications/bibtexs/2023-kr.bib"
+          artefact: "https://github.com/binsec/preca"
         - title: "Fine-Grained Coverage-Based Fuzzing"
           authors:
                - name: Wei-Cheng Wu
