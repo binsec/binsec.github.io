@@ -18,6 +18,21 @@
           benchmark: "https://zenodo.org/records/8421879"
 - year: 2023
   publications:
+        - title: "A Systematic Evaluation of Automated Tools for Side-Channel Vulnerabilities Detection in Cryptographic Libraries"
+          authors:
+               - name: Antoine Geimer
+               - name: Mathéo Vergnolle
+               - name: Frédéric Recoules
+               - name: Lesly-Ann Daniel
+               - name: Sébastien Bardin
+               - name: Clémentine Maurice
+          venue-acronym: "CCS"
+          venue: "The ACM Conference on Computer and Communications Security"
+          ranking: "A*"
+          pdf: "https://arxiv.org/pdf/2310.08153.pdf"
+          bibtex: "/assets/publications/bibtexs/2023-ccs.bib"
+          talk-slides: "/assets/publications/slides/2023-ccs.pdf"
+          benchmark: "https://github.com/ageimer/sok-detection/"
         - title: "Active Disjunctive Constraint Acquisition"
           authors:
                - name: Grégoire Menguy
