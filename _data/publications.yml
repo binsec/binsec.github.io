@@ -18,7 +18,7 @@
           benchmark: "https://zenodo.org/records/8421879"
 - year: 2023
   publications:
-      - title: "Scalable Program Clone Search through Spectral Analysis"
+        - title: "Scalable Program Clone Search through Spectral Analysis"
           authors:
                - name: Tristan Benoit
                - name: Jean-Yves Marion
