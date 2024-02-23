@@ -50,6 +50,12 @@
 
 # PHD STUDENTS
 
+- id: boukhari
+  firstname: Aicha
+  lastname: Boukhari
+  position: phd
+  www: "people/boukhari.html"
+
 - id: vattias
   firstname: Vidal 
   lastname: Attias
