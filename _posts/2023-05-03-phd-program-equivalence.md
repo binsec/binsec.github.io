@@ -2,7 +2,7 @@
 layout: post
 title:  "PhD position on program equivalence checking"
 supervisors: Damien Couroussé, Frédéric Recoules, Sébastien Bardin
-categories: jobs open
+categories: jobs closed
 date: 2023-05-03
 ---
 We have one open position to <strong>work for 3 years as a PhD student on program equivalence checking</strong>.

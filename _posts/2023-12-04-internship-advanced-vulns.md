@@ -2,7 +2,7 @@
 layout: post
 title:  "Internship on complex software vulnerabilities"
 supervisors: Michaël Marcozzi (with the help of Dimitri Kokkonis)
-categories: jobs open
+categories: jobs closed
 date: 2023-12-04
 ---
 We have one open position to <strong>work for 4-6 months as an intern on understanding and detecting complex software vulnerabilities</strong>.

@@ -2,7 +2,7 @@
 layout: post
 title:  "PhD / Postdoc positions on Symbolic Verification for Micro-architectural Attacks"
 supervisors: Sébastien Bardin
-categories: jobs open
+categories: jobs closed
 date: 2023-05-25
 ---
 We have <strong>fully funded</strong> open positions for a <strong>3 years PhD student and a 3 years Postdoc, to work on symbolic verification for micro-architectural attacks</strong>.

@@ -2,7 +2,7 @@
 layout: post
 title:  "PhD position on software vulnerability detection and fuzzing"
 supervisors: Michaël Marcozzi, Hélène Waeselynck
-categories: jobs open
+categories: jobs closed
 date: 2023-10-04
 ---
 We have one open position to <strong>work for 3 years as a PhD student on artful vulnerability detection with fuzzing</strong>.

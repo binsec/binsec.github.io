@@ -2,7 +2,7 @@
 layout: post
 title:  "PhD position on Security-oriented program analysis"
 supervisors: Sébastien Bardin
-categories: jobs open
+categories: jobs closed
 date: 2023-05-25
 ---
 We have a <strong>fully funded</strong> open position for a <strong>3 years PhD student, to work on security-oriented binary-level symbolic execution</strong>.
