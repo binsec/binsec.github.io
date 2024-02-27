@@ -2,7 +2,7 @@
 layout: person # Do not modify
 title: "Yanis Sellami"  # Your full name
 picture: "sellami1" # The name of your picture file without the .jpg extension
-position: "Tenured Researcher" # Your position, i.e. either "Intern", "PhD Student", "Postdoc" or "Tenured Researcher"
+position: "Tenured Engineer/Researcher" # Your position, i.e. either "Intern", "PhD Student", "Postdoc" or "Tenured Researcher"
 # topic: "" # For interns, PhD students and postdocs, briefly describe your research topic (tenured researchers should remove this line)
 mail: "yanis.sellami" # The first part of yor @cea.fr address
 # website: "" # The URL of your personal website if you have one, otherwise remove the line
