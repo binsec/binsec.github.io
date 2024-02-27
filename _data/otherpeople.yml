@@ -33,6 +33,12 @@
 
 # FORMER JUNIORS
 
+- id: sducousso
+  firstname: Soline
+  lastname: Ducousso (PhD, to Systerel)
+  position: alumnus-temporary
+  www: https://www.linkedin.com/in/soline-ducousso/
+
 - id: kziadeh
   firstname: Kevin 
   lastname: Ziadeh (Intern)
@@ -53,7 +59,7 @@
 
 - id: rbenabidallah
   firstname: Raounak
-  lastname: Benabidallah (Postdoc, to private company)
+  lastname: Benabidallah (Postdoc, to Expleo Group)
   position: alumnus-temporary
   www: "https://www.linkedin.com/in/raounak-benabidallah-73707b130/"
 

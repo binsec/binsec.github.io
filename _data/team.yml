@@ -29,6 +29,12 @@
   lastname : Menguy 
   position : researcher  
   www: "people/menguy.html"
+
+- id: sellami
+  firstname: Yanis
+  lastname : Sellami 
+  position : researcher  
+  www: "people/sellami.html"
   
 # POSTDOCS
 
@@ -73,13 +79,7 @@
   lastname : Combette 
   position : phd
   www: "people/combette.html"
-
-- id: sducousso
-  firstname: Soline
-  lastname: Ducousso
-  position: phd
-  www: "people/ducousso.html"
-  
+ 
 - id: cbmamidisetti
   firstname: Charles B
   lastname: Mamidisetti
@@ -103,7 +103,6 @@
   lastname: Kokkonis
   position: phd
   www: "people/kokkonis.html"  
-
 
 - id: lesbre
   firstname: Dorian
