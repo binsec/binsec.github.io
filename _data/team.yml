@@ -56,6 +56,12 @@
 
 # PHD STUDENTS
 
+- id: djebour
+  firstname: Sarra
+  lastname: Djebour
+  position: phd
+  www: "people/djebour.html"
+
 - id: boukhari
   firstname: Aicha
   lastname: Boukhari
