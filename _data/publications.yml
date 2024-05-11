@@ -1,6 +1,18 @@
 ---
 - year: 2024
   publications:
+        - title: "Compiling with Abstract Interpretation"
+          authors:
+            - name: Dorian Lesbre
+            - name: Matthieu Lemerre
+          venue: 45th ACM-SIGPLAN Symposium on Programming Language Design and Implementation
+          venue-acronym: PLDI
+          ranking: A*
+          doi: 10.1145/3656392
+          artefact: https://doi.org/10.5281/zenodo.10895582
+          easy-summary: nutshells/pldi-24.html
+          pdf: /assets/publications/papers/2024-pldi.pdf
+          bibtex: /assets/publications/bibtexs/2024-pldi.bib
         - title: "Inference of Robust Reachability Constraints"
           authors:
                - name: Yanis Sellami
