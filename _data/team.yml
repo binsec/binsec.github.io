@@ -118,7 +118,11 @@
 
 # INTERNS
 
-
+- id: edecoux
+  firstname: Decoux
+  lastname: Emilien
+  position: intern
+  www: "people/decoux.html"
 
 #- id: nobodyeither
 #  lastname: Contact us to join
