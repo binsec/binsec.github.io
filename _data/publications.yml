@@ -9,6 +9,9 @@
           venue: 45th ACM-SIGPLAN Symposium on Programming Language Design and Implementation
           venue-acronym: PLDI
           ranking: A*
+          artifact-custom-image: "/assets/img/artefact_pldi2024.png"
+          artifact-custom-image-width: "185"
+          artifact-custom-image-height: "100"
           easy-summary: nutshells/pldi-24-qrse.html
           pdf: /assets/publications/papers/2024-pldi-qrse.pdf
         - title: "Compiling with Abstract Interpretation"
@@ -34,6 +37,9 @@
           easy-summary: "nutshells/popl-24.html"
           venue: "51st ACM SIGPLAN Symposium on Principles of Programming Languages"
           ranking: "A*"
+          artifact-custom-image: "/assets/img/artefact_popl2024.png"
+          artifact-custom-image-width: "149"
+          artifact-custom-image-height: "75"
           pdf: "/assets/publications/papers/2024-popl.pdf"
           talk-slides: "/assets/publications/slides/2024-popl.pdf"
           bibtex: "/assets/publications/bibtexs/2024-popl.bib"
