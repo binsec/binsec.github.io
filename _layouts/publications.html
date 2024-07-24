@@ -33,17 +33,14 @@ title: Publications
         <img src="{{ p.artifact-custom-image }}" width="{{ p.artifact-custom-image-width }}" height="{{ p.artifact-custom-image-height }}">  
         &nbsp;
         {% endif %} 
-		{% if p.artifact-evaluated-functional %} 
+		{% if p.artifact-available %} 
+        <img src="/assets/img/artifacts_available.png" alt="ACM Badge Artifact Available" width="70" height="70">  
+        {% endif %}
+    {% if p.artifact-evaluated-functional %} 
         <img src="/assets/img/artifacts_evaluated_functional.png" alt="ACM Badge Artifact Functional" width="70" height="70">  
-        &nbsp;
         {% endif %} 
 		{% if p.artifact-evaluated-reusable %} 
         <img src="/assets/img/artifacts_evaluated_reusable.png" alt="ACM Badge Artifact Reusable" width="70" height="70">  
-        &nbsp;
-        {% endif %} 
-		{% if p.artifact-available %} 
-        <img src="/assets/img/artifacts_available.png" alt="ACM Badge Artifact Available" width="70" height="70">  
-        &nbsp;
         {% endif %} 
 		{% if p.results-replicated %} 
         <img src="/assets/img/results_replicated.png" alt="ACM Badge Results Replicated" width="70" height="70">  
