@@ -9,6 +9,8 @@ date: 2021-11-24
 redirect_from: /new/publication/1970/01/01/nutshell-vmcai-22.html
 ---
 
+## Context
+
 Memory errors are the source of the most pervasive and critical
 security vulnerabilities.  Programs written in low-level systems
 languages, like C/C++ and assembly, perform low-level pointer and
@@ -70,7 +72,6 @@ fragment of the memory often entails no information can be recovered
 about that region. Another limitation is that such analyses are difficult to apply to low-level
 code, like low-level C or binary code. On the contrary, our technique scales less due to being mostly a storeless abstraction, and was made to handle the low-level type-punning code patterns typical of low-level systems programs.
 
-
 ## Contributions
 
 To achieve this, we propose:
@@ -85,10 +86,10 @@ To achieve this, we propose:
   the combination naturally deals with both C and binary code manipulating
   dynamic data structures.
 
+## Further information
 
-# Further information
 - Read the
-  [**paper**](/assets/publications/papers/2022-vmcai.pdf). 
+  [**paper**](/assets/publications/papers/2022-vmcai.pdf).
 - To appear at the [23rd International Conference on Verification, Model Checking, and Abstract Interpretation
   (VMCAI'22)](https://popl22.sigplan.org/home/VMCAI-2022#About)
 - Download the [tool and benchmark](https://doi.org/10.5281/zenodo.5589489).

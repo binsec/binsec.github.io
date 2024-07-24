@@ -10,6 +10,7 @@ redirect_from: /new/publication/1970/01/01/nutshell-rtas-21.html
 ---
 
 
+## Context
 
 # Context
 <img src="/assets/publications/pictures/rtas21.png" width="250" height="300"
@@ -32,27 +33,27 @@ contain such loops.
 Another difficulty of analyzing embedded kernels is that they are usually
 *parameterized*: values such as task priorities, or task memory region begin and
 end addresses, may be constant throughout execution of the system, but are not
-hardcoded in the kernel; instead, they are written in a special zone of memory
+hard-coded in the kernel; instead, they are written in a special zone of memory
 called the *interface* between kernel and tasks. The memory structure of this
 zone is known but the precise values and addresses are not, which forces the
 code analysis to step up in terms of complexity.
 
+## Contributions
 
-
-# Contributions
 - A new method for verifying absence of privilege escalation and absence
   of crash in an embedded kernel, based on abstract interpretation (handles
-  loops and verifies kernels independently from the application).
+  loops and verifies kernels independently of the application).
 - A new abstraction of memory based on types, handling parameterization and
   improving scalability precision of the analysis.
 - We applied the technique to two embedded kernels (including an industrial
   one), demonstrating that our method can verify kernels with less than 58 lines
   of manual annotations (in some cases, requiring 0 lines of annotations, i.e.
-  the kernel is verified without human intervervention).
-  
-# Further information
+  the kernel is verified without human intervention).
+
+## Further information
+
 - Read the
-  [**paper**](/assets/publications/papers/2021-rtas.pdf) and [extended technical report](/assets/publications/papers/2021-rtas-technical-report-analysis.pdf). 
+  [**paper**](/assets/publications/papers/2021-rtas.pdf) and [extended technical report](/assets/publications/papers/2021-rtas-technical-report-analysis.pdf).
 - To appear at the [Real-Time and Embedded Technology and Applications Symposium
   (RTAS'21)](http://2021.rtas.org/)
 - Download the [tool and benchmark](https://github.com/binsec/rtas2021_artifact).
