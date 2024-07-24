@@ -26,6 +26,11 @@
           easy-summary: nutshells/pldi-24.html
           pdf: /assets/publications/papers/2024-pldi.pdf
           bibtex: /assets/publications/bibtexs/2024-pldi.bib
+          artifact-available: true
+          artifact-evaluated-reusable: true
+          talk-video: "https://www.youtube.com/watch?v=2Btkn9AvM8o"
+          talk-slides: "/assets/publications/slides/2024-pldi.pdf"
+          comment: "Also presented at AFADL 2024"
         - title: "Inference of Robust Reachability Constraints"
           authors:
                - name: Yanis Sellami
