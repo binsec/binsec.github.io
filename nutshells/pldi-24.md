@@ -52,8 +52,8 @@ Our paper shows the following novel results:
 - A standard abstract interpretation framework can be turned into a
   compiler: create a domain that is a **free-algebra** of the domain signature (i.e.
   a domain where each domain operation is a constructor creating an expression), then the analysis
-  result **can be used to construct a new program**.
-- **Functors can mimic compiler passes**.
+  result **can be used to construct a new program**. Different abstract domain signatures correspond to different languages: the classical domain signature correspond to imperative programs expressed as a control-flow graph, and we provide a SSA domain signature corresponding to programs in SSA form.
+- **Functors can implement compiler passes**.
   A functor is just a function that builds a new abstract domain on top of abstract
   domains received as arguments. Functors are modular, they can be proved independently
   and then combined in a full compilation chain. Functor soundness and completeness
@@ -104,6 +104,6 @@ Our paper shows the following novel results:
 ## Further information
 
 - Read the [**paper**](/assets/publications/papers/2024-pldi.pdf)
-- Download the [software artifact](https://doi.org/10.5281/zenodo.10895582) from
+- Presented at the [Programming Language Design and Implementation (PLDI) 2024 conference](https://pldi24.sigplan.org/). Watch the [**talk video**](https://www.youtube.com/watch?v=2Btkn9AvM8o) or look at the [**slides**](/assets/publications/slides/2024-pldi.pdf)
+- Download the [**software artifact**](https://doi.org/10.5281/zenodo.10895582) from
   Zenodo to try out our example analyzer and explore the code.
-- To appear at the [Programming Language Design and Implementation (PLDI) 2024 conference](https://pldi24.sigplan.org/)

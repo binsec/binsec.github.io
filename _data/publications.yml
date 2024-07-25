@@ -26,6 +26,11 @@
           easy-summary: nutshells/pldi-24.html
           pdf: /assets/publications/papers/2024-pldi.pdf
           bibtex: /assets/publications/bibtexs/2024-pldi.bib
+          artifact-available: true
+          artifact-evaluated-reusable: true
+          talk-video: "https://www.youtube.com/watch?v=2Btkn9AvM8o"
+          talk-slides: "/assets/publications/slides/2024-pldi.pdf"
+          comment: "Also presented at AFADL 2024"
         - title: "Inference of Robust Reachability Constraints"
           authors:
                - name: Yanis Sellami
@@ -146,6 +151,11 @@
           award: "Distinguished Paper Award"
           pdf: "/assets/publications/papers/2023-popl-full-with-appendices.pdf"
           talk-slides: "/assets/publications/slides/2023-popl.pdf"
+          talk-video: "https://www.youtube.com/watch?v=wkIfcN3Ipd4"
+          easy-summary: nutshells/popl-23.html
+          artefact: https://dl.acm.org/do/10.1145/3554341/full/
+          artifact-evaluated-reusable: true
+          artifact-available: true
 - year: 2022
   publications:
         - title: "Automated Program Analysis: Revisiting Precondition Inference through Constraint Acquisition"
