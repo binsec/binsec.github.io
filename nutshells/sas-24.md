@@ -2,7 +2,7 @@
 layout: post
 title:  "SAS'24: research paper"
 categories: new publication
-paper-title: "Trace Partitioning is an Optimization Problem"
+paper-title: "Trace Partitioning as an Optimization Problem"
 topic: "Static Analysis; Abstract interpretation; Trace Partitioning"
 pdf: "/assets/publications/papers/2024-sas-tpop.pdf"
 date: 2024-08-12
