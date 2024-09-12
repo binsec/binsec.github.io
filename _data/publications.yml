@@ -1,6 +1,20 @@
 ---
 - year: 2024
   publications:
+        - title: "Trace Partitioning as an Optimization Problem"
+          authors:
+            - name: Charles Babu M
+            - name: Matthieu Lemerre
+            - name: Sébastien Bardin
+            - name: Jean-Yves Marion
+          venue: 31st Static Analysis Symposium (SAS 2024)
+          venue-acronym: SAS
+          ranking: A
+          artifact-custom-image: "/assets/img/artifact_sas2024.png"
+          artifact-custom-image-width: "245"
+          artifact-custom-image-height: "140"
+          easy-summary: nutshells/sas-24.html
+          pdf: /assets/publications/papers/2024-sas-tpop.pdf
         - title: "Quantitative Robustness for Vulnerability Assessment"
           authors:
             - name: Guillaume Girol
