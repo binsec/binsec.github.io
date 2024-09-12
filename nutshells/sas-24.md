@@ -24,7 +24,7 @@ In the top left corner of the picture, we present an example program where, acco
 For any given program, the search space of refinements is created by partitioning the control flow of the original program, and in the example, we show 3 such refinements. The largest and most precise refinement in this space is one that separates all execution traces, and this corresponds to maximal trace partitioning, which often leads to path explosion.
 
 <img src="/assets/publications/pictures/2024-sas-example-tpop.png"
-style="width:1000px; display:block; margin-left:auto; margin-right:auto">
+style="width:700px; display:block; margin-left:auto; margin-right:auto">
 
 ## Goal
 
