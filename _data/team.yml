@@ -79,12 +79,6 @@
   lastname: Doyen
   position: phd
   www: "people/doyen.html"
-
-- id: gcombette
-  firstname: Guillaume
-  lastname : Combette 
-  position : phd
-  www: "people/combette.html"
  
 - id: cbmamidisetti
   firstname: Charles B
@@ -116,13 +110,13 @@
   position: phd
   www: "people/lesbre.html"
 
-# INTERNS
+- id: azalcman
+  firstname: Andy
+  lastname: Zalcman
+  position: phd
+  www: "people/zalcman.html"
 
-- id: edecoux
-  firstname: Decoux
-  lastname: Emilien
-  position: intern
-  www: "people/decoux.html"
+# INTERNS
 
 #- id: nobodyeither
 #  lastname: Contact us to join

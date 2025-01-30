@@ -187,3 +187,14 @@
   lastname: Canut (Intern)
   position: alumnus-temporary
   www: https://github.com/ikercanut
+
+- id: gcombette
+  firstname: Guillaume
+  lastname : Combette (PhD Student)
+  position : alumnus-temporary
+
+- id: edecoux
+  firstname: Decoux
+  lastname: Emilien (Intern)
+  position: alumnus-temporary
+
