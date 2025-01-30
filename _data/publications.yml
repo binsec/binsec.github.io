@@ -1,4 +1,18 @@
 ---
+- year: 2025
+  publications:
+        - title: "ROSA: Finding Backdoors with Fuzzing"
+          authors:
+            - name: Dimitri Kokkonis
+            - name: Michaël Marcozzi
+            - name: Emilien Decoux
+            - name: Stefano Zacchiroli
+          venue: 47th International Conference on Software Engineering
+          venue-acronym: ICSE
+          ranking: A*
+          artefact: https://zenodo.org/records/14724251
+          # TODO[Dimitri]: add `easy-summary` (nutshell), artifact image (`artifact-custom-image`),
+          # preprint (`pdf`).
 - year: 2024
   publications:
         - title: "Trace Partitioning as an Optimization Problem"
