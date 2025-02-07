@@ -11,8 +11,8 @@
           venue-acronym: ICSE
           ranking: A*
           artefact: https://zenodo.org/records/14724251
-          # TODO[Dimitri]: add `easy-summary` (nutshell), artifact image (`artifact-custom-image`),
-          # preprint (`pdf`).
+          easy-summary: nutshells/icse-25.html
+          # TODO[Dimitri]: add artifact image (`artifact-custom-image`), preprint (`pdf`).
 - year: 2024
   publications:
         - title: "Trace Partitioning as an Optimization Problem"
