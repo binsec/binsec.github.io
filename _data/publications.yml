@@ -11,6 +11,7 @@
           venue-acronym: ICSE
           ranking: A*
           artefact: https://zenodo.org/records/14724251
+          benchmark: "https://github.com/binsec/rosarum"
           easy-summary: nutshells/icse-25.html
           # TODO[Dimitri]: add artifact image (`artifact-custom-image`), preprint (`pdf`).
 - year: 2024
