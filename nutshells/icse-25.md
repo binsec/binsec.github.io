@@ -4,7 +4,7 @@ title:  "ICSE'25: research paper"
 categories: new publication
 paper-title: "ROSA: Finding Backdoors with Fuzzing"
 topic: "fuzzing, dynamic analysis, metamorphic testing, backdoors, vulnerability detection"
-# TODO[Dimitri]: add preprint (`pdf`) here.
+pdf: "/assets/publications/papers/2025-icse.pdf"
 date: 2025-01-29
 ---
 
@@ -139,11 +139,10 @@ since it provides the full inputs which trigger the suspicious behavior as well 
 system calls, there is **no need** for manual reverse-engineering.
 
 ## Further information
-{% comment %}
-    TODO[Dimitri]: link to paper (for the "paper" word in the following sentence).
-{% endcomment %}
-- Read the paper, download the [artifact](https://zenodo.org/records/14724251), try out [ROSA](
-  https://hub.docker.com/r/plumtrie/rosa) and [ROSARUM](https://hub.docker.com/r/plumtrie/rosarum).
+- Read the [paper](/assets/publications/papers/2025-icse.pdf), download the
+  [artifact](https://zenodo.org/records/14724251), try out
+  [ROSA](https://hub.docker.com/r/plumtrie/rosa) and
+  [ROSARUM](https://hub.docker.com/r/plumtrie/rosarum).
 {% comment %}
     TODO[Dimitri]: link to paper (for the "Published" word in the following sentence).
 {% endcomment %}
