@@ -18,6 +18,18 @@
           # TODO[Dimitri]: add artifact image (`artifact-custom-image`).
 - year: 2024
   publications:
+        - title: "A Dependent Nominal Physical Type System for Static Analysis of Memory in Low Level Code"
+          authors:
+            - name: Julien Simmonet
+            - name: Matthieu Lemerre
+            - name: Mihaela Sighireanu
+          venue: The Object-Oriented Programming, Systems, Languages, and Applications 2024
+          venue-acronym: OOPSLA
+          easy-summary: nutshells/oopsla-24.html
+          artefact: https://zenodo.org/records/13383433
+          pdf: /assets/publications/papers/2024-oopsla.pdf
+          bibtex: /assets/publications/bibtexs/2024-oopsla.bib
+          talk-slides: "/assets/publications/slides/2024-oopsla.pdf"
         - title: "Trace Partitioning as an Optimization Problem"
           authors:
             - name: Charles Babu M
