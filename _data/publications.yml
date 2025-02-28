@@ -15,7 +15,8 @@
           easy-summary: nutshells/icse-25.html
           pdf: /assets/publications/papers/2025-icse.pdf
           bibtex: /assets/publications/bibtexs/2025-icse.bib
-          # TODO[Dimitri]: add artifact image (`artifact-custom-image`).
+          artifact-available: true
+          artifact-evaluated-reusable: true
 - year: 2024
   publications:
         - title: "A Dependent Nominal Physical Type System for Static Analysis of Memory in Low Level Code"
