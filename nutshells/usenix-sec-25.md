@@ -101,3 +101,9 @@ In particular, Shrink and Split allows to extract domains of control in an analy
 * We evaluated our approach on real-world vulnerabilities and showed its effectiveness.
 We also showed its practicality in a realistic scenario through our automatic end-to-end analysis of the MAGMA fuzzing benchmark.
 
+## Further information
+
+* Read the [paper](/assets/publications/papers/2025-usenix-sec.pdf)
+* To appear at [34th USENIX Security Symposium](https://www.usenix.org/conference/usenixsecurity25) 
+* [Artifact](https://zenodo.org/records/14995650)
+

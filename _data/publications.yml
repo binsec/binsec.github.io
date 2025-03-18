@@ -7,6 +7,7 @@
             - name: Sébastien Bardin
           venue: 34th USENIX Security Symposium
           venue-acronym: Usenix Security
+          artefact: https://doi.org/10.5281/zenodo.14699098
           artifact-custom-image: "/assets/img/usenixbadges-available.png"
           artifact-custom-image-width: "70"
           ranking: A*
