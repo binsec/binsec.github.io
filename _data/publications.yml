@@ -1,6 +1,17 @@
 ---
 - year: 2025
   publications:
+        - title: "Attacker Control and Bug Prioritization"
+          authors:
+            - name: Guilhem Lacombe
+            - name: Sébastien Bardin
+          venue: 34th USENIX Security Symposium
+          venue-acronym: Usenix Security
+          artifact-custom-image: "/assets/img/usenixbadges-available.png"
+          artifact-custom-image-width: "70"
+          ranking: A*
+          easy-summary: nutshells/usenix-sec-25.html
+          pdf: /assets/publications/papers/2025-usenix-sec.pdf
         - title: "ROSA: Finding Backdoors with Fuzzing"
           authors:
             - name: Dimitri Kokkonis
