@@ -11,7 +11,6 @@
           artifact-custom-image: "/assets/img/usenixbadges-available.png"
           artifact-custom-image-width: "70"
           ranking: A*
-          talk-slides: "/assets/publications/slides/2025-usenix-sec.pdf"
           easy-summary: nutshells/usenix-sec-25.html
           pdf: /assets/publications/papers/2025-usenix-sec.pdf
         - title: "ROSA: Finding Backdoors with Fuzzing"
@@ -71,6 +70,7 @@
           artifact-custom-image-height: "100"
           easy-summary: nutshells/pldi-24-qrse.html
           pdf: /assets/publications/papers/2024-pldi-qrse.pdf
+          talk-slides: "/assets/publications/slides/2024-pldi-qrse.pdf"
         - title: "Compiling with Abstract Interpretation"
           authors:
             - name: Dorian Lesbre
