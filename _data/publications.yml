@@ -11,6 +11,7 @@
           artifact-custom-image: "/assets/img/usenixbadges-available.png"
           artifact-custom-image-width: "70"
           ranking: A*
+          talk-slides: "/assets/publications/slides/2025-usenix-sec.pdf"
           easy-summary: nutshells/usenix-sec-25.html
           pdf: /assets/publications/papers/2025-usenix-sec.pdf
         - title: "ROSA: Finding Backdoors with Fuzzing"
