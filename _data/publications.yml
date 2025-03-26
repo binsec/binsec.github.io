@@ -28,7 +28,9 @@
           pdf: /assets/publications/papers/2025-icse.pdf
           bibtex: /assets/publications/bibtexs/2025-icse.bib
           artifact-available: true
+          artifact-evaluated-functional: true
           artifact-evaluated-reusable: true
+          award: "Best Artifact Award"
 - year: 2024
   publications:
         - title: "A Dependent Nominal Physical Type System for Static Analysis of Memory in Low Level Code"
