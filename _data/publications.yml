@@ -8,8 +8,8 @@
           venue: 34th USENIX Security Symposium
           venue-acronym: Usenix Security
           artefact: https://doi.org/10.5281/zenodo.14699098
-          artifact-custom-image: "/assets/img/usenixbadges-available.png"
-          artifact-custom-image-width: "70"
+          artifact-custom-image: "/assets/img/usenixbadges-allbadges.png"
+          artifact-custom-image-width: "200"
           ranking: A*
           easy-summary: nutshells/usenix-sec-25.html
           pdf: /assets/publications/papers/2025-usenix-sec.pdf
