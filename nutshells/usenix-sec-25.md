@@ -105,5 +105,5 @@ We also showed its practicality in a realistic scenario through our automatic en
 
 * Read the [paper](/assets/publications/papers/2025-usenix-sec.pdf)
 * To appear at [34th USENIX Security Symposium](https://www.usenix.org/conference/usenixsecurity25) 
-* [Artifact](https://zenodo.org/records/14995650)
+* [Artifact](https://zenodo.org/records/15075966)
 
