@@ -27,6 +27,7 @@
           easy-summary: nutshells/icse-25.html
           pdf: /assets/publications/papers/2025-icse.pdf
           bibtex: /assets/publications/bibtexs/2025-icse.bib
+          talk-slides: /assets/publications/slides/2025-icse.pdf
           artifact-available: true
           artifact-evaluated-functional: true
           artifact-evaluated-reusable: true
