@@ -1,0 +1,17 @@
+@article{DBLP:journals/jair/MenguyBGL25,
+  author       = {Gr{\'{e}}goire Menguy and
+                  S{\'{e}}bastien Bardin and
+                  Arnaud Gotlieb and
+                  Nadjib Lazaar},
+  title        = {A Query-Based Constraint Acquisition Approach for Enhanced Precision
+                  in Program Precondition Inference},
+  journal      = {J. Artif. Intell. Res.},
+  volume       = {82},
+  pages        = {901--936},
+  year         = {2025},
+  url          = {https://doi.org/10.1613/jair.1.16206},
+  doi          = {10.1613/JAIR.1.16206},
+  timestamp    = {Mon, 03 Mar 2025 22:15:31 +0100},
+  biburl       = {https://dblp.org/rec/journals/jair/MenguyBGL25.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}

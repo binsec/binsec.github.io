@@ -1,6 +1,18 @@
 ---
 - year: 2025
   publications:
+        - title: "A Query-Based Constraint Acquisition Approach for Enhanced Precision in Program Precondition Inference"
+          authors:
+            - name: Grégoire Menguy
+            - name: Sébastien Bardin
+            - name: Arnaud Gotlieb
+            - name: Nadjib Lazaar
+          venue: Journal of Artificial Intelligence Research
+          venue-acronym: JAIR
+          ranking: A
+          easy-summary: nutshells/jair-25.html
+          pdf: /assets/publications/papers/2025-jair.pdf
+          bibtex: /assets/publications/bibtexs/2025-jair.bib
         - title: "Attacker Control and Bug Prioritization"
           authors:
             - name: Guilhem Lacombe
