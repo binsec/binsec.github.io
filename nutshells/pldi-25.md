@@ -7,6 +7,7 @@ pdf: "/assets/publications/papers/2025-pldi.pdf"
 redirect_from: /new/publication/1970/01/01/nutshell-pldi-25.html
 categories: new publication
 date: 2025-06-15
+katex: true
 ---
 
 
