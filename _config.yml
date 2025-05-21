@@ -23,6 +23,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: katex
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
@@ -34,5 +36,5 @@ exclude:
 
 sass:
   sass_dir: _sass
-  
+
 future: true

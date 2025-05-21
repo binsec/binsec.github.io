@@ -71,7 +71,7 @@ Our paper shows the following novel results:
   variable immutability to store information on expressions.
   This is always more precise than direct numerical analysis, while just adding a constant overhead.
 
-  In particular, this domain car analyze compiled code with the same precision as source
+  In particular, this domain can analyze compiled code with the same precision as source
   (when compilation corresponds, e.g., to transformation into three-address code).
   The usual precision loss resulting from compiling large expressions into
   instruction sequences with multiple intermediate variables is recovered thanks to our SSA-based analysis.

@@ -1,6 +1,23 @@
 ---
 - year: 2025
   publications:
+        - title: Relational Abstractions Based on Labeled Union-Find
+          authors:
+            - name: Dorian Lesbre
+            - name: Matthieu Lemerre
+            - name: Hichem Rami Ait-El-Hara
+            - name: François Bobot
+          venue: 46th ACM-SIGPLAN Symposium on Programming Language Design and Implementation
+          venue-acronym: PLDI
+          ranking: A*
+          doi: 10.1145/3729298
+          artefact: https://zenodo.org/records/15261356
+          artifact-evaluated-reusable: true
+          artifact-available: true
+          bibtex: /assets/publications/bibtexs/2025-pldi.bib
+          easy-summary: nutshells/pldi-25.html
+          pdf: /assets/publications/papers/2025-pldi.pdf
+
         - title: "A Query-Based Constraint Acquisition Approach for Enhanced Precision in Program Precondition Inference"
           authors:
             - name: Grégoire Menguy
