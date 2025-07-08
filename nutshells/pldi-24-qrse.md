@@ -1,11 +1,12 @@
 ---
- layout: post
- title:  "PLDI'24, research paper"
- categories: new publication
- paper-title: "Quantitative Robustness for Vulnerability Assessment"
- topic: "program reliability and security; reachability; symbolic execution;"
- pdf: "/assets/publications/papers/2024-pldi-qrse.pdf"
- date: 2024-05-31
+layout: post
+title:  "PLDI'24, research paper"
+categories: new publication
+paper-title: "Quantitative Robustness for Vulnerability Assessment"
+topic: "program reliability and security; reachability; symbolic execution;"
+pdf: "/assets/publications/papers/2024-pldi-qrse.pdf"
+date: 2024-05-31
+katex: true
 ---
 
 
@@ -72,7 +73,7 @@ void prog2 ( uint32_t command , uint32_t argument ) {
 }
 ```
 
-In prog1, when attackers play perfectly by choosing command = 1, they need to be lucky to : only one value of uninit out of $2^{32}$ grants them admin privileges. 
+In prog1, when attackers play perfectly by choosing command = 1, they need to be lucky to: only one value of uninit out of $$2^{32}$$ grants them admin privileges. 
 However in prog2, for command = 1 and argument = 9000 over 99% of the values that uninit can take will let attackers achieve their goal.
 
 ## Quantitative Robustness

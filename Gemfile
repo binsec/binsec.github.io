@@ -36,3 +36,7 @@ gem 'jekyll-redirect-from'
 
 gem "kramdown-parser-gfm", "~> 1.1"
 gem "webrick"
+
+# Latex in Markdown - compile locally using katex
+gem "kramdown-math-katex"
+gem "therubyracer" # JS engine to run katex
