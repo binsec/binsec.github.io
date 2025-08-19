@@ -1,6 +1,24 @@
 ---
 - year: 2025
   publications:
+        - title: "Exploring the Potential of LLMs for Code Deobfuscation"
+          authors:
+            - name: David Beste
+            - name: Grégoire Menguy
+            - name: Hossein Hajipour
+            - name: Mario Fritz
+            - name: Antonio Emanuele Cinà
+            - name: Sébastien Bardin
+            - name: Thorsten Holz
+            - name: Thorsten Eisenhofer
+            - name: Lea Schönherr
+          venue: Detection of Intrusions and Malware & Vulnerability Assessment
+          venue-acronym: DIMVA
+          easy-summary: nutshells/dimva-25.html
+          pdf: /assets/publications/papers/2025-dimva.pdf
+          talk-slides: /assets/publications/slides/2025-dimva.pdf
+          bibtex: /assets/publications/bibtexs/2025-dimva.bib
+          benchmark: "https://github.com/DavidBeste/llm-code-deobfuscation"
         - title: Relational Abstractions Based on Labeled Union-Find
           authors:
             - name: Dorian Lesbre
