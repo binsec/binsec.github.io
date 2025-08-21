@@ -78,7 +78,11 @@ title: Publications
         {% if p.talk-slides %} 
         <a href="{{ p.talk-slides }}" style="text-decoration: none" target="_blank"> <i class="fas fa-file-powerpoint"></i> <b>Slides</b></a>  
         &nbsp;
-        {% endif %} 
+        {% endif %}
+        {% if p.poster %}
+        <a href="{{ p.poster }}" style="text-decoration: none" target="_blank"> <i class="fas fa-panorama"></i> <b>Poster</b></a>
+        &nbsp;
+        {% endif %}
 		{% if p.award %} 
 		<br>
         <i class="fas fa-award"></i> <b>{{ p.award }}</b></a> 

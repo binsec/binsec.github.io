@@ -62,6 +62,8 @@
           ranking: A*
           easy-summary: nutshells/usenix-sec-25.html
           pdf: /assets/publications/papers/2025-usenix-sec.pdf
+          talk-slides: /assets/publications/slides/2025-usenix.pdf
+          poster: /assets/publications/posters/2025-usenix.pdf
         - title: "ROSA: Finding Backdoors with Fuzzing"
           authors:
             - name: Dimitri Kokkonis
