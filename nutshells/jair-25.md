@@ -59,6 +59,17 @@ In summary, this paper makes the following major contributions:
 * We describe a specialization of *PreCA* to the important case of memory-related preconditions;
 * We experimentally evaluate the benefit of our technique on several benchmark functions. The results show that *PreCA* significantly outperforms prior precondition learners, be it black-boxes or white-boxes.
 
+----------------------
+
+*This paper is an extension of our [IJCAI'22 paper](/nutshells/ijcai-22.html). It extends it in five main ways:*
+* *We provide a revised version of the PreCA algorithm;*
+* *We give a detailed presentation of each component of PreCA (description of the memory representation and how it impacts the oracle);*
+* *We extend the constraint language by introducing new constraints related to strings;*
+* *We explore new research questions in our experimental evaluation;*
+* *We present two use-cases from the libc and the mbedtls libraries to highlight its practical utility.*
+
+----------------------
+
 ## Further information
 
 * Read the [paper](/assets/publications/papers/2025-jair.pdf)
