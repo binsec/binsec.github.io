@@ -19,7 +19,7 @@ However, this approach is not ideal for security evaluation as it does not take 
 Indeed, some inputs may not be easily controlled by an attacker in practice, such as sources of randomness for instance.
 
 **Robust reachability.** 
-To tackle this issue, we introduced the notion of *robust reachability* in a previous paper (*put link here*).
+To tackle this issue, we introduced the notion of *robust reachability* in a previous paper ([Not All Bugs Are Created Equal, But Robust Reachability Can Tell the Difference](https://binsec.github.io/nutshells/cav-21.html)).
 Given a partition of inputs between *controlled* and *uncontrolled* ones, a program location is *robustly reachable* if and only if it can always be reached regardless of the value of uncontrolled inputs.
 
 While robust reachability is a strong indicator of reliability, it suffers from its lack of nuance.
