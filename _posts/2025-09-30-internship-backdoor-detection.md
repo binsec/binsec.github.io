@@ -23,7 +23,7 @@ At the forefront of cybersecurity research, our team is developing cutting-edge 
 🎯 **Who We’re Looking For**
 
 * Passionate about cybersecurity, software engineering, or code analysis.
-* Familiar with code reverse engineering, vulnerability detection, or fuzzing (languages: x86/ARM assembly, C/C++, Linux scripting).
+* Familiar with code reverse engineering, vulnerability detection, or fuzzing.
 * Curious, analytical, and eager to make an impact.
 
 🌱 **What You’ll Gain**
@@ -33,6 +33,8 @@ At the forefront of cybersecurity research, our team is developing cutting-edge 
 * A chance to contribute to published research and real-world tools.
 
 <strong>KEYWORDS</strong> - software security, reverse engineering, backdoors, fuzzing
+
+<strong>LANGUAGES</strong> - x86/ARM assembly, C/C++, Linux scripting
 
 <strong>SUPERVISION</strong> - Supervision will be provided by [Michaël Marcozzi][marcozzi], with some help from [Dimitri Kokkonis][kokkonis].
 
