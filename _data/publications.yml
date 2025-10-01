@@ -266,6 +266,8 @@
           venue: "The 32nd USENIX Security Symposium"
           pdf: "/assets/publications/papers/2023-usenix.pdf"
           ranking: "A*"
+          artifact-custom-image: "/assets/img/usenixbadges-allbadges.png"
+          artifact-custom-image-width: "200"
         - title: "SSA Translation Is an Abstract Interpretation"
           authors:
                - name: Matthieu Lemerre
