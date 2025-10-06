@@ -11,9 +11,12 @@
           venue: ACM Conference on Computer and Communications Security 2025
           venue-acronym: CCS
           easy-summary: nutshells/ccs-25.html
+          ranking: A*
           pdf: /assets/publications/papers/2025-ccs.pdf
           artefact: "https://zenodo.org/records/17036259"
           benchmark: "https://github.com/binsec/xyntia"
+          artifact-custom-image: "/assets/img/ccs-allbadges.png"
+          artifact-custom-image-width: "240"
         - title: "Exploring the Potential of LLMs for Code Deobfuscation"
           authors:
             - name: David Beste
