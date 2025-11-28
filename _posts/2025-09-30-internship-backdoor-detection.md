@@ -2,7 +2,7 @@
 layout: post
 title:  "Internship on uncovering backdoors in real-world software"
 supervisors: Michaël Marcozzi (with the help of Dimitri Kokkonis)
-categories: jobs open
+categories: jobs closed
 date: 2025-09-30
 ---
 We have one open position to <strong>work for 4-6 months as an intern on uncovering backdoors in real-world software</strong>.
