@@ -55,7 +55,9 @@ layout: default
     our <a href="https://github.com/binsec/binsec/tree/master/doc">tutorials</a>. Further examples are bundled in our <a href="https://hub.docker.com/r/binsec/binsec">Docker image</a> and <a href="https://opam.ocaml.org/packages/binsec/">OPAM package</a>. 
     </p> 
     
-    <b>Current release is version 0.10 from 02/2025.</b>
+    {% assign release = site.posts | where_exp:"p", "p.categories contains 'releases'" | where_exp:"p", "p.categories contains 'binsec'" | sort: "date" | last %}
+
+    <b>Current release is version {{ release.url | split: "/" | last | replace: "binsec-", "" | split: "." | pop | pop | join: '.' }} from {{ release.date | date: '%m/%Y' }}.</b>
 
     <p>We have frequent <b>job openings</b> for postdoc, PhD student and intern positions. Check up <a href="/#news">the news</a> for ongoing calls or <a href="/people/binsec.html">contact us</a> if you believe that you could be a good match.</p>
   </div>
