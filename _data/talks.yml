@@ -1,5 +1,15 @@
 ---
-
+- year: 2025
+  publications:
+        - title: "Finding backdoors with fuzzing"
+          authors: 
+               - name: Michaël Marcozzi
+               - name: Dimitri Kokkonis
+               - name: Stefano Zacchiroli
+          venue-acronym: "FOSDEM"
+          venue: "Free and Open Source Software Developers’ European Meeting"
+          talk-video: "https://video.fosdem.org/2026/ub5132/BHNWLN-rosa-backdoor-detector.av1.webm"
+          talk-slides: "https://kokkonisd.github.io/assets/talks/2026-01-31__fosdem-rosa.pdf"
 - year: 2021
   publications:
         - title: "Getting an Academic Position in France/Belgium and at CEA List"
