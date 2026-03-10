@@ -9,6 +9,15 @@
           venue-acronym: "POPL Tutorials"
           venue: "Tutorials track of the 53rd ACM SIGPLAN Symposium on Principles of Programming Languages"
           artefact: "https://binsec.github.io/binsec-tutorial/"
+        - title: "Finding backdoors with fuzzing"
+          authors: 
+               - name: Michaël Marcozzi
+               - name: Dimitri Kokkonis
+               - name: Stefano Zacchiroli
+          venue-acronym: "FOSDEM"
+          venue: "Free and Open Source Software Developers’ European Meeting"
+          talk-video: "https://video.fosdem.org/2026/ub5132/BHNWLN-rosa-backdoor-detector.av1.webm"
+          talk-slides: "https://kokkonisd.github.io/assets/talks/2026-01-31__fosdem-rosa.pdf"
 - year: 2025
   publications:
         - title: "Xyntia: Toward Bridging The Gap Between Black-box Deobfuscation and Program Synthesis"
@@ -28,15 +37,6 @@
                - name: Sébastien Bardin
           venue-acronym: "CheckMATE @CCS'25"
           venue: "CheckMATE workshop (Research on offensive and defensive techniques in the context of Man At The End attacks)"
-        - title: "Finding backdoors with fuzzing"
-          authors: 
-               - name: Michaël Marcozzi
-               - name: Dimitri Kokkonis
-               - name: Stefano Zacchiroli
-          venue-acronym: "FOSDEM"
-          venue: "Free and Open Source Software Developers’ European Meeting"
-          talk-video: "https://video.fosdem.org/2026/ub5132/BHNWLN-rosa-backdoor-detector.av1.webm"
-          talk-slides: "https://kokkonisd.github.io/assets/talks/2026-01-31__fosdem-rosa.pdf"
 - year: 2024
   publications:
         - title: "What’s Up from Below? An Overview of Recent Advances in BINSEC"
