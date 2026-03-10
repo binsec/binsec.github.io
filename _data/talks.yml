@@ -1,4 +1,14 @@
 ---
+- year: 2026
+  publications:
+        - title: "BINSEC: Adapting Symbolic Execution for Binary-level Security"
+          authors: 
+               - name: Sébastien Bardin
+               - name: Frederic Recoules
+               - name: Yanis Sellami
+          venue-acronym: "POPL Tutorials"
+          venue: "Tutorials track of the 53rd ACM SIGPLAN Symposium on Principles of Programming Languages"
+          artefact: "https://binsec.github.io/binsec-tutorial/"
 - year: 2025
   publications:
         - title: "Xyntia: Toward Bridging The Gap Between Black-box Deobfuscation and Program Synthesis"
