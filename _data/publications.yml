@@ -101,6 +101,7 @@
           artifact-evaluated-functional: true
           artifact-evaluated-reusable: true
           award: "Best Artifact Award"
+          talk-video: https://mirrors.dotsrc.org/fosdem/2026/ub5132/BHNWLN-rosa-backdoor-detector.mp4
 - year: 2024
   publications:
         - title: "A Dependent Nominal Physical Type System for Static Analysis of Memory in Low Level Code"
