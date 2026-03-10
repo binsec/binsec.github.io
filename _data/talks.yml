@@ -37,6 +37,27 @@
           venue: "Free and Open Source Software Developers’ European Meeting"
           talk-video: "https://video.fosdem.org/2026/ub5132/BHNWLN-rosa-backdoor-detector.av1.webm"
           talk-slides: "https://kokkonisd.github.io/assets/talks/2026-01-31__fosdem-rosa.pdf"
+- year: 2024
+  publications:
+        - title: "What’s Up from Below? An Overview of Recent Advances in BINSEC"
+          authors:
+               - name: Frédéric Recoules
+               - name: Sebastien Bardin
+          venue-acronym: "KLEE workshop"
+          venue: "4th International KLEE Workshop on Symbolic Execution"
+          talk-video: "https://www.youtube.com/watch?v=DFdKHwprBf0"
+          talk-slides: "https://srg.doc.ic.ac.uk/klee24/talks/Recoules-Binsec.pdf"
+- year: 2022
+  publications:
+        - title: "Automated Program Analysis: Revisiting Precondition Inference through Constraint Acquisition"
+          authors:
+               - name: Grégoire Menguy
+               - name: Sebastien Bardin
+               - name: Nadjib Lazaar
+               - name: Arnaud Gotlieb
+          venue-acronym: "KLEE workshop"
+          venue: "3rd International KLEE Workshop on Symbolic Execution"
+          talk-slides: "/assets/publications/slides/2022-klee.pdf"
 - year: 2021
   publications:
         - title: "Getting an Academic Position in France/Belgium and at CEA List"
