@@ -1,6 +1,17 @@
 ---
 - year: 2026
   publications:
+        - title: "Black-box deobfuscation: reverse engineering binaries with your eyes closed (or almost)"
+          authors: 
+            - name: Grégoire Menguy
+            - name: Vidal Attias
+            - name: Nicolas Bellec
+            - name: Sébastien Bardin
+            - name: Jean-Yves Marion
+          venue-acronym: "Recon"
+          venue: "Recon 2026"
+          artefact: "https://github.com/binsec/xyntia"
+          talk-slides: "assets/publications/slides/2026-recon.pdf"
         - title: "BINSEC: Adapting Symbolic Execution for Binary-level Security"
           authors: 
                - name: Sébastien Bardin
