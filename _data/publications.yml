@@ -1,6 +1,21 @@
 ---
 - year: 2026
   publications:
+        - title: A Lattice of Union-Finds
+          authors:
+            - name: Dorian Lesbre
+            - name: Matthieu Lemerre
+          venue: 33rd Static Analysis Symposium
+          venue-acronym: SAS
+          ranking: B
+          artefact: https://zenodo.org/records/21217874
+          artifact-custom-image: "/assets/img/artifact_sas2024.png"
+          artifact-custom-image-width: "245"
+          artifact-custom-image-height: "140"
+          easy-summary: nutshells/sas-26.html
+          pdf: /assets/publications/papers/2026-sas.pdf
+          bibtex: /assets/publications/bibtexs/2026-sas.bib
+          talk-slides: /assets/publications/slides/2026-sas.pdf
         - title: "Not In My Git Yard: Catching Backdoors at Commit and Release Time"
           authors:
             - name: Dimitri Kokkonis
