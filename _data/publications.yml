@@ -1,6 +1,47 @@
 ---
 - year: 2026
   publications:
+        - title: "Redefining Grey-Box Deobfuscation through Context-Aware Program Synthesis, and Application to MBA"
+          authors:
+            - name: Vidal Attias
+            - name: Grégoire Menguy
+            - name: Nicolas Bellec
+            - name: Sébastien Bardin
+            - name: Jean-Yves Marion
+          venue:  ACM Conference on Computer and Communications Security 2026
+          venue-acronym: CCS
+          ranking: A*
+          artefact: https://doi.org/10.5281/zenodo.22649859
+          easy-summary: nutshells/ccs-26.html
+          pdf: /assets/publications/papers/2026-ccs.pdf
+          artifact-available: true
+          artifact-evaluated-functional: true
+          artifact-evaluated-reusable: true
+
+        - title: "Towards Anytime Constraint Acquisition"
+          authors:
+            - name: Aicha Boukhari
+            - name: Sébastien Bardin
+            - name: Arnaud Gotlieb
+            - name: Nadjib Lazaar
+            - name: Grégoire Menguy
+          venue: The International Joint Conference on Rules and Reasoning 2026
+          venue-acronym: RuleML+RR
+          easy-summary: nutshells/ruleml-26.html
+          pdf: /assets/publications/papers/2026-ruleml.pdf
+
+        - title: "Precondition Constraint Acquisition Through Explanatory Queries"
+          authors:
+            - name: Sarra Djebour
+            - name: Sébastien Bardin
+            - name: Arnaud Gotlieb
+            - name: Nadjib Lazaar
+            - name: Grégoire Menguy
+          venue: The International Joint Conference on Rules and Reasoning 2026
+          venue-acronym: RuleML+RR
+          easy-summary: nutshells/rulemlrr-26.html
+          pdf: /assets/publications/papers/2026-rulemlrr.pdf
+
         - title: "Not In My Git Yard: Catching Backdoors at Commit and Release Time"
           authors:
             - name: Dimitri Kokkonis
