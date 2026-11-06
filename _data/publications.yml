@@ -54,8 +54,7 @@
           easy-summary: nutshells/ase-26.html
           pdf: /assets/publications/papers/2026-ase.pdf
           bibtex: /assets/publications/bibtexs/2026-ase.bib
-          # TODO[Dimitri]: add slides when available
-          #talk-slides: /assets/publications/slides/2026-ase.pdf
+          talk-slides: /assets/publications/slides/2026-ase.pdf
           artifact-available: true
           artifact-evaluated-functional: true
           artifact-evaluated-reusable: true
